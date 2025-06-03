@@ -1,0 +1,2114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logs - task_e_682fe77556a88323ae4617370c6b1f8d</title>
+    
+        <style>
+            body {
+                font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+                margin: 20px;
+                line-height: 1.4;
+            }
+
+            .dark {
+                background-color: #1e1e1e;
+                color: #d4d4d4;
+            }
+            
+            .whitespace-pre-wrap {
+                white-space: pre-wrap;
+                word-break: break-word;
+            }
+            
+            .whitespace-pre {
+                white-space: pre;
+            }
+            
+            /* ANSI colors */
+            .ansi-black-fg { color: #000000; }
+            .ansi-red-fg { color: #cd3131; }
+            .ansi-green-fg { color: #0dbc79; }
+            .ansi-yellow-fg { color: #e5e510; }
+            .ansi-blue-fg { color: #2472c8; }
+            .ansi-magenta-fg { color: #bc3fbc; }
+            .ansi-cyan-fg { color: #11a8cd; }
+            .ansi-white-fg { color: #e5e5e5; }
+            
+            .ansi-bright-black-fg { color: #666666; }
+            .ansi-bright-red-fg { color: #f14c4c; }
+            .ansi-bright-green-fg { color: #23d18b; }
+            .ansi-bright-yellow-fg { color: #f5f543; }
+            .ansi-bright-blue-fg { color: #3b8eea; }
+            .ansi-bright-magenta-fg { color: #d670d6; }
+            .ansi-bright-cyan-fg { color: #29b8db; }
+            .ansi-bright-white-fg { color: #e5e5e5; }
+            
+            /* ANSI backgrounds */
+            .ansi-black-bg { background-color: #000000; }
+            .ansi-red-bg { background-color: #cd3131; }
+            .ansi-green-bg { background-color: #0dbc79; }
+            .ansi-yellow-bg { background-color: #e5e510; }
+            .ansi-blue-bg { background-color: #2472c8; }
+            .ansi-magenta-bg { background-color: #bc3fbc; }
+            .ansi-cyan-bg { background-color: #11a8cd; }
+            .ansi-white-bg { background-color: #e5e5e5; }
+            
+            /* ANSI styles */
+            .ansi-bold { font-weight: bold; }
+            .ansi-dim { opacity: 0.7; }
+            .ansi-italic { font-style: italic; }
+            .ansi-underline { text-decoration: underline; }
+            .ansi-strikethrough { text-decoration: line-through; }
+            
+            /* Progress bars and other common elements */
+            .progress-bar {
+                display: inline-block;
+                background-color: #333;
+                border: 1px solid #555;
+            }
+            
+            pre {
+                background-color: #2d2d2d;
+                padding: 15px;
+                border-radius: 5px;
+                overflow-x: auto;
+                border: 1px solid #404040;
+            }
+            
+            .header {
+                background-color: #252526;
+                padding: 10px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+                border: 1px solid #404040;
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="header">
+        <h1>Codex Task Logs</h1>
+        <p>Task ID: task_e_682fe77556a88323ae4617370c6b1f8d</p>
+    </div>
+    <div class="logs-content">
+        <div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu"><div class="mx-auto h-full w-full px-4 py-6 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem]"><div class="flex flex-col pb-32"><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-xs"><path d="M18 4C19.6569 4 21 5.34315 21 7V14.5H21.5L21.6025 14.5049C22.1067 14.5562 22.5 14.9823 22.5 15.5V17C22.5 18.6569 21.1569 20 19.5 20H4.5C2.89489 20 1.58421 18.7394 1.50391 17.1543L1.5 17V15.5L1.50488 15.3975C1.55621 14.8933 1.98232 14.5 2.5 14.5H3V7C3 5.34315 4.34315 4 6 4H18ZM3.5 17L3.50488 17.1025C3.55621 17.6067 3.98232 18 4.5 18H19.5C20.0523 18 20.5 17.5523 20.5 17V16.5H3.5V17ZM6 6C5.44772 6 5 6.44772 5 7V14.5H19V7C19 6.44772 18.5523 6 18 6H6Z" fill="currentColor"></path></svg>Environment setup</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><div class="whitespace-pre"><code><span>Configuring language runtimes...
++ rm -- /tmp/5XyqqT-setup_script.sh
++ source ./codex_setup.sh
+++ uv sync --frozen
+Using CPython 3.12.3 interpreter at: </span><span class="ansi-cyan-fg">/usr/bin/python3.12</span><span>
+Creating virtual environment at: </span><span class="ansi-cyan-fg">.venv</span><span>
+   </span><span class="ansi-cyan-fg ansi-bold">Building</span><span> scubaduck</span><span class="ansi-dim"> @ file:///workspace/scubaduck</span><span>
+</span><span class="ansi-cyan-fg ansi-bold">Downloading</span><span> ruff </span><span class="ansi-dim">(11.0MiB)</span><span>
+</span><span class="ansi-cyan-fg ansi-bold">Downloading</span><span> pyright </span><span class="ansi-dim">(5.3MiB)</span><span>
+</span><span class="ansi-cyan-fg ansi-bold">Downloading</span><span> playwright </span><span class="ansi-dim">(43.1MiB)</span><span>
+</span><span class="ansi-cyan-fg ansi-bold">Downloading</span><span> duckdb </span><span class="ansi-dim">(19.3MiB)</span><span>
+      </span><span class="ansi-green-fg ansi-bold">Built</span><span> scubaduck</span><span class="ansi-dim"> @ file:///workspace/scubaduck</span><span>
+ </span><span class="ansi-green-fg ansi-bold">Downloading</span><span> ruff
+ </span><span class="ansi-green-fg ansi-bold">Downloading</span><span> duckdb
+ </span><span class="ansi-green-fg ansi-bold">Downloading</span><span> playwright
+ </span><span class="ansi-green-fg ansi-bold">Downloading</span><span> pyright
+</span><span class="ansi-dim">Prepared </span><span class="ansi-bold">33 packages</span><span> </span><span class="ansi-dim">in 3.21s</span><span>
+</span><span class="ansi-dim">Installed </span><span class="ansi-bold">33 packages</span><span> </span><span class="ansi-dim">in 109ms</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">blinker</span><span class="ansi-dim">==1.9.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">certifi</span><span class="ansi-dim">==2025.4.26</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">charset-normalizer</span><span class="ansi-dim">==3.4.2</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">click</span><span class="ansi-dim">==8.2.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">duckdb</span><span class="ansi-dim">==1.2.2</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">execnet</span><span class="ansi-dim">==2.1.1</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">flask</span><span class="ansi-dim">==3.1.1</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">greenlet</span><span class="ansi-dim">==3.2.2</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">idna</span><span class="ansi-dim">==3.10</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">iniconfig</span><span class="ansi-dim">==2.1.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">itsdangerous</span><span class="ansi-dim">==2.2.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">jinja2</span><span class="ansi-dim">==3.1.6</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">markupsafe</span><span class="ansi-dim">==3.0.2</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">nodeenv</span><span class="ansi-dim">==1.9.1</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">packaging</span><span class="ansi-dim">==25.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">playwright</span><span class="ansi-dim">==1.52.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pluggy</span><span class="ansi-dim">==1.6.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pyee</span><span class="ansi-dim">==13.0.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pyright</span><span class="ansi-dim">==1.1.400</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pytest</span><span class="ansi-dim">==8.3.5</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pytest-base-url</span><span class="ansi-dim">==2.1.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pytest-playwright</span><span class="ansi-dim">==0.7.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pytest-xdist</span><span class="ansi-dim">==3.6.1</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">python-dateutil</span><span class="ansi-dim">==2.9.0.post0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">python-slugify</span><span class="ansi-dim">==8.0.4</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">requests</span><span class="ansi-dim">==2.32.3</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">ruff</span><span class="ansi-dim">==0.11.10</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">scubaduck</span><span class="ansi-dim">==0.1.0 (from file:///workspace/scubaduck)</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">six</span><span class="ansi-dim">==1.17.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">text-unidecode</span><span class="ansi-dim">==1.3</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">typing-extensions</span><span class="ansi-dim">==4.13.2</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">urllib3</span><span class="ansi-dim">==2.4.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">werkzeug</span><span class="ansi-dim">==3.1.3</span><span>
+++ source .venv/bin/activate
++++ '[' -z '' ']'
++++ '[' -n x ']'
++++ SCRIPT_PATH=.venv/bin/activate
++++ '[' .venv/bin/activate = /tmp/5XyqqT-setup_script.sh ']'
++++ deactivate nondestructive
++++ unset -f pydoc
++++ '[' -z '' ']'
++++ '[' -z '' ']'
++++ hash -r
++++ '[' -z '' ']'
++++ unset VIRTUAL_ENV
++++ unset VIRTUAL_ENV_PROMPT
++++ '[' '!' nondestructive = nondestructive ']'
++++ VIRTUAL_ENV=/workspace/scubaduck/.venv
++++ '[' linux-gnu = cygwin ']'
++++ '[' linux-gnu = msys ']'
++++ export VIRTUAL_ENV
++++ '[' -z '' ']'
++++ unset SCRIPT_PATH
++++ _OLD_VIRTUAL_PATH=/root/.cargo/bin:/root/.rbenv/shims:/root/.rbenv/bin:/root/.rbenv/shims:/root/.local/share/swiftly/bin:/root/.bun/bin:/root/.nvm/versions/node/v22.16.0/bin:/root/.pyenv/shims:3441PYENV_ROOT/shims:/root/.pyenv/bin:/usr/local/go/bin:/root/go/bin:/root/.rbenv/bin:/root/.rbenv/shims:/root/.bun/bin:/root/.local/bin:/root/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/workspace/scubaduck/.venv/bin:/root/.cargo/bin:/root/.rbenv/shims:/root/.rbenv/bin:/root/.rbenv/shims:/root/.local/share/swiftly/bin:/root/.bun/bin:/root/.nvm/versions/node/v22.16.0/bin:/root/.pyenv/shims:3441PYENV_ROOT/shims:/root/.pyenv/bin:/usr/local/go/bin:/root/go/bin:/root/.rbenv/bin:/root/.rbenv/shims:/root/.bun/bin:/root/.local/bin:/root/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' xscubaduck '!=' x ']'
++++ VIRTUAL_ENV_PROMPT=scubaduck
++++ export VIRTUAL_ENV_PROMPT
++++ '[' -z '' ']'
++++ '[' -z '' ']'
++++ _OLD_VIRTUAL_PS1=
++++ PS1='(scubaduck) '
++++ export PS1
++++ alias pydoc
++++ true
++++ hash -r
+++ python -c 'import os; import duckdb; con = duckdb.connect(); con.execute(f"SET http_proxy = '\''{os.getenv("HTTP_PROXY")}'\''"); con.execute("INSTALL '\''sqlite'\'';")'
+++ playwright install chromium
+Downloading Chromium 136.0.7103.25 (playwright build v1169)</span><span class="ansi-dim"> from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1169/chromium-linux.zip</span><span>
+</span><span>167.7 MiB [] 0% 0.0s</span><span>167.7 MiB [] 0% 42.3s</span><span>167.7 MiB [] 0% 33.1s</span><span>167.7 MiB [] 0% 38.1s</span><span>167.7 MiB [] 0% 26.2s</span><span>167.7 MiB [] 0% 19.6s</span><span>167.7 MiB [] 0% 15.3s</span><span>167.7 MiB [] 1% 11.8s</span><span>167.7 MiB [] 1% 10.7s</span><span>167.7 MiB [] 1% 9.9s</span><span>167.7 MiB [] 1% 8.9s</span><span>167.7 MiB [] 2% 7.3s</span><span>167.7 MiB [] 3% 5.8s</span><span>167.7 MiB [] 3% 5.9s</span><span>167.7 MiB [] 4% 5.5s</span><span>167.7 MiB [] 4% 5.0s</span><span>167.7 MiB [] 5% 5.0s</span><span>167.7 MiB [] 5% 4.9s</span><span>167.7 MiB [] 6% 4.8s</span><span>167.7 MiB [] 6% 4.5s</span><span>167.7 MiB [] 7% 4.4s</span><span>167.7 MiB [] 9% 3.9s</span><span>167.7 MiB [] 10% 3.7s</span><span>167.7 MiB [] 11% 3.4s</span><span>167.7 MiB [] 12% 3.2s</span><span>167.7 MiB [] 13% 3.0s</span><span>167.7 MiB [] 14% 2.9s</span><span>167.7 MiB [] 15% 2.8s</span><span>167.7 MiB [] 16% 2.7s</span><span>167.7 MiB [] 17% 2.6s</span><span>167.7 MiB [] 18% 2.4s</span><span>167.7 MiB [] 20% 2.3s</span><span>167.7 MiB [] 21% 2.2s</span><span>167.7 MiB [] 22% 2.1s</span><span>167.7 MiB [] 24% 2.0s</span><span>167.7 MiB [] 25% 1.9s</span><span>167.7 MiB [] 26% 1.9s</span><span>167.7 MiB [] 27% 1.8s</span><span>167.7 MiB [] 28% 1.8s</span><span>167.7 MiB [] 29% 1.8s</span><span>167.7 MiB [] 30% 1.8s</span><span>167.7 MiB [] 31% 1.7s</span><span>167.7 MiB [] 32% 1.7s</span><span>167.7 MiB [] 33% 1.6s</span><span>167.7 MiB [] 35% 1.6s</span><span>167.7 MiB [] 36% 1.6s</span><span>167.7 MiB [] 36% 1.5s</span><span>167.7 MiB [] 38% 1.5s</span><span>167.7 MiB [] 39% 1.4s</span><span>167.7 MiB [] 41% 1.4s</span><span>167.7 MiB [] 42% 1.3s</span><span>167.7 MiB [] 43% 1.3s</span><span>167.7 MiB [] 44% 1.3s</span><span>167.7 MiB [] 45% 1.2s</span><span>167.7 MiB [] 46% 1.2s</span><span>167.7 MiB [] 47% 1.2s</span><span>167.7 MiB [] 48% 1.2s</span><span>167.7 MiB [] 49% 1.2s</span><span>167.7 MiB [] 50% 1.1s</span><span>167.7 MiB [] 50% 1.2s</span><span>167.7 MiB [] 51% 1.1s</span><span>167.7 MiB [] 52% 1.1s</span><span>167.7 MiB [] 53% 1.1s</span><span>167.7 MiB [] 54% 1.0s</span><span>167.7 MiB [] 55% 1.0s</span><span>167.7 MiB [] 56% 1.0s</span><span>167.7 MiB [] 57% 1.0s</span><span>167.7 MiB [] 58% 0.9s</span><span>167.7 MiB [] 60% 0.9s</span><span>167.7 MiB [] 61% 0.8s</span><span>167.7 MiB [] 62% 0.8s</span><span>167.7 MiB [] 63% 0.8s</span><span>167.7 MiB [] 64% 0.8s</span><span>167.7 MiB [] 65% 0.8s</span><span>167.7 MiB [] 66% 0.7s</span><span>167.7 MiB [] 67% 0.7s</span><span>167.7 MiB [] 68% 0.7s</span><span>167.7 MiB [] 69% 0.7s</span><span>167.7 MiB [] 70% 0.6s</span><span>167.7 MiB [] 71% 0.6s</span><span>167.7 MiB [] 72% 0.6s</span><span>167.7 MiB [] 73% 0.6s</span><span>167.7 MiB [] 74% 0.6s</span><span>167.7 MiB [] 74% 0.5s</span><span>167.7 MiB [] 75% 0.5s</span><span>167.7 MiB [] 76% 0.5s</span><span>167.7 MiB [] 77% 0.5s</span><span>167.7 MiB [] 78% 0.5s</span><span>167.7 MiB [] 79% 0.4s</span><span>167.7 MiB [] 80% 0.4s</span><span>167.7 MiB [] 81% 0.4s</span><span>167.7 MiB [] 83% 0.4s</span><span>167.7 MiB [] 83% 0.3s</span><span>167.7 MiB [] 84% 0.3s</span><span>167.7 MiB [] 86% 0.3s</span><span>167.7 MiB [] 87% 0.3s</span><span>167.7 MiB [] 88% 0.2s</span><span>167.7 MiB [] 89% 0.2s</span><span>167.7 MiB [] 90% 0.2s</span><span>167.7 MiB [] 91% 0.2s</span><span>167.7 MiB [] 92% 0.1s</span><span>167.7 MiB [] 94% 0.1s</span><span>167.7 MiB [] 95% 0.1s</span><span>167.7 MiB [] 96% 0.1s</span><span>167.7 MiB [] 97% 0.0s</span><span>167.7 MiB [] 99% 0.0s</span><span>167.7 MiB [] 100% 0.0s</span><span>
+Chromium 136.0.7103.25 (playwright build v1169) downloaded to /root/.cache/ms-playwright/chromium-1169
+Downloading FFMPEG playwright build v1011</span><span class="ansi-dim"> from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip</span><span>
+</span><span>2.3 MiB [] 0% 0.0s</span><span>2.3 MiB [] 4% 0.4s</span><span>2.3 MiB [] 7% 0.4s</span><span>2.3 MiB [] 11% 0.4s</span><span>2.3 MiB [] 21% 0.3s</span><span>2.3 MiB [] 36% 0.2s</span><span>2.3 MiB [] 45% 0.1s</span><span>2.3 MiB [] 70% 0.1s</span><span>2.3 MiB [] 100% 0.0s</span><span>
+FFMPEG playwright build v1011 downloaded to /root/.cache/ms-playwright/ffmpeg-1011
+Downloading Chromium Headless Shell 136.0.7103.25 (playwright build v1169)</span><span class="ansi-dim"> from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1169/chromium-headless-shell-linux.zip</span><span>
+</span><span>101.4 MiB [] 0% 0.0s</span><span>101.4 MiB [] 0% 12.8s</span><span>101.4 MiB [] 0% 16.3s</span><span>101.4 MiB [] 0% 20.5s</span><span>101.4 MiB [] 0% 12.4s</span><span>101.4 MiB [] 0% 10.6s</span><span>101.4 MiB [] 1% 8.1s</span><span>101.4 MiB [] 1% 7.6s</span><span>101.4 MiB [] 2% 5.6s</span><span>101.4 MiB [] 3% 3.9s</span><span>101.4 MiB [] 4% 3.9s</span><span>101.4 MiB [] 5% 3.5s</span><span>101.4 MiB [] 6% 3.0s</span><span>101.4 MiB [] 7% 2.6s</span><span>101.4 MiB [] 9% 2.4s</span><span>101.4 MiB [] 10% 2.3s</span><span>101.4 MiB [] 11% 2.1s</span><span>101.4 MiB [] 13% 1.8s</span><span>101.4 MiB [] 14% 1.8s</span><span>101.4 MiB [] 16% 1.7s</span><span>101.4 MiB [] 17% 1.7s</span><span>101.4 MiB [] 19% 1.6s</span><span>101.4 MiB [] 20% 1.7s</span><span>101.4 MiB [] 22% 1.5s</span><span>101.4 MiB [] 23% 1.5s</span><span>101.4 MiB [] 25% 1.5s</span><span>101.4 MiB [] 27% 1.3s</span><span>101.4 MiB [] 29% 1.3s</span><span>101.4 MiB [] 31% 1.2s</span><span>101.4 MiB [] 34% 1.1s</span><span>101.4 MiB [] 36% 1.0s</span><span>101.4 MiB [] 39% 1.0s</span><span>101.4 MiB [] 40% 0.9s</span><span>101.4 MiB [] 42% 0.9s</span><span>101.4 MiB [] 43% 0.9s</span><span>101.4 MiB [] 45% 0.8s</span><span>101.4 MiB [] 47% 0.8s</span><span>101.4 MiB [] 50% 0.7s</span><span>101.4 MiB [] 53% 0.6s</span><span>101.4 MiB [] 55% 0.6s</span><span>101.4 MiB [] 57% 0.6s</span><span>101.4 MiB [] 59% 0.5s</span><span>101.4 MiB [] 62% 0.5s</span><span>101.4 MiB [] 64% 0.5s</span><span>101.4 MiB [] 65% 0.4s</span><span>101.4 MiB [] 66% 0.4s</span><span>101.4 MiB [] 69% 0.4s</span><span>101.4 MiB [] 70% 0.4s</span><span>101.4 MiB [] 71% 0.4s</span><span>101.4 MiB [] 72% 0.3s</span><span>101.4 MiB [] 73% 0.3s</span><span>101.4 MiB [] 76% 0.3s</span><span>101.4 MiB [] 78% 0.3s</span><span>101.4 MiB [] 81% 0.2s</span><span>101.4 MiB [] 85% 0.2s</span><span>101.4 MiB [] 87% 0.1s</span><span>101.4 MiB [] 89% 0.1s</span><span>101.4 MiB [] 91% 0.1s</span><span>101.4 MiB [] 92% 0.1s</span><span>101.4 MiB [] 93% 0.1s</span><span>101.4 MiB [] 96% 0.0s</span><span>101.4 MiB [] 97% 0.0s</span><span>101.4 MiB [] 98% 0.0s</span><span>101.4 MiB [] 99% 0.0s</span><span>101.4 MiB [] 100% 0.0s</span><span>
+Chromium Headless Shell 136.0.7103.25 (playwright build v1169) downloaded to /root/.cache/ms-playwright/chromium_headless_shell-1169
+++ echo 'source .venv/bin/activate'</span></code></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="text-token-text-tertiary mb-8 flex w-full items-center gap-2.5"><div class="bg-token-border-light h-[1px] flex-1 dark:bg-white/20"></div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-xs"><path d="M4.06189 11C4.43722 7.9901 6.48461 5.49947 9.24521 4.48695C9.13134 4.7517 9.02641 5.03057 8.93 5.31981C8.42177 6.84448 8.09487 8.8263 8.01766 11H4.06189ZM12 2C6.47715 2 2 6.47715 2 12C2 17.148 5.88912 21.3862 10.8901 21.939C11.2795 21.9821 11.6582 21.7938 11.8588 21.4573C12.0595 21.1208 12.0452 20.6982 11.8223 20.376C11.425 19.8019 10.9607 18.6839 10.5975 17.1672C10.3041 15.9422 10.0898 14.5119 10.0224 13H21C21.5523 13 22 12.5523 22 12C22 6.47715 17.5228 2 12 2ZM12 4C11.9999 4 12.0001 4 12 4C12.0012 4.00001 12.0058 4.00018 12.0153 4.00305C12.0264 4.00645 12.0485 4.01483 12.0814 4.03507C12.1506 4.07752 12.2545 4.16408 12.3823 4.32624C12.6425 4.65642 12.9206 5.19616 13.1726 5.95227C13.6027 7.24257 13.9045 9.00275 13.981 11H10.019C10.0955 9.00275 10.3973 7.24257 10.8274 5.95227C11.0794 5.19616 11.3575 4.65642 11.6177 4.32624C11.7455 4.16408 11.8494 4.07752 11.9186 4.03507C11.9515 4.01483 11.9736 4.00645 11.9847 4.00305C11.9951 3.9999 11.9993 4 12 4ZM15.9823 11C15.9051 8.8263 15.5782 6.84448 15.07 5.31981C14.9736 5.03058 14.8687 4.7517 14.7548 4.48695C17.5154 5.49947 19.5628 7.9901 19.9381 11H15.9823ZM8.02058 13C8.0892 14.6754 8.32456 16.2637 8.6525 17.633C8.81194 18.2988 8.99671 18.9272 9.20105 19.4969C6.46303 18.4743 4.43529 15.9937 4.06191 13H8.02058ZM14.2929 16.7071C13.9024 16.3166 13.9024 15.6834 14.2929 15.2929C14.6834 14.9024 15.3166 14.9024 15.7071 15.2929L17.5 17.0858L19.2929 15.2929C19.6834 14.9024 20.3166 14.9024 20.7071 15.2929C21.0976 15.6834 21.0976 16.3166 20.7071 16.7071L18.9142 18.5L20.7071 20.2929C21.0976 20.6834 21.0976 21.3166 20.7071 21.7071C20.3166 22.0976 19.6834 22.0976 19.2929 21.7071L17.5 19.9142L15.7071 21.7071C15.3166 22.0976 14.6834 22.0976 14.2929 21.7071C13.9024 21.3166 13.9024 20.6834 14.2929 20.2929L16.0858 18.5L14.2929 16.7071Z" fill="currentColor"></path></svg><span class="flex" data-state="closed"><span class="text-xs font-medium select-none">Internet turned off</span></span><div class="bg-token-border-light h-[1px] flex-1 dark:bg-white/20"></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="ms-24 flex w-fit min-w-0 flex-col items-end gap-2 justify-self-end"><div class="bg-token-bg-secondary mb-8 w-fit max-w-full min-w-0 justify-self-end rounded-xl px-6 py-4 text-sm break-all whitespace-pre-wrap">Add a test showing that SCUBADUCK_DB can be used with a parquet file. Add any missing functionality if needed.</div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="62" data-is-last-node="" data-is-only-node="">I'll locate and open the AGENTS.md file in the root directory.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-3b690b="" data-chunk-id-wrapper-fa129e=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>ls</span></code><br data-chunk-id-3b690b=""><code class="whitespace-pre-wrap"><span>bash: .venv/bin/activate: No such file or directory
+root@f39a1dc6c281:/workspace# ls
+scubaduck</span></code><br data-chunk-id-fa129e=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="74" data-is-last-node="" data-is-only-node="">I mistakenly ran <code data-start="17" data-end="21">ls</code> on the root directory; I need to move into the repo.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-ea3d21=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace# cd scubaduck
+root@f39a1dc6c281:/workspace/scubaduck# ls
+AGENTS.md  codex_setup.sh  scubaduck  tests
+README.md  pyproject.toml  stubs      uv.lock</span></code><br data-chunk-id-ea3d21=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="64" data-is-last-node="" data-is-only-node="">Let's check out the AGENTS.md file to see relevant instructions.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-2ff5ac=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# cat AGENTS.md
+- Use "source .venv/bin/activate" to activate the virtual environment before
+  running any commands
+- ONLY use non-interactive commands like cat, sed, apply_patch to do edits.
+  Do NOT use interactive editors.
+- Do NOT attempt to install packages.  Only the packages specified in
+  pyproject.toml are available.  You cannot add new packages.  If you
+  desperately want another package, make a note of it in the final PR
+  description.
+- Use conventional commits to format PR title
+- There are no nested AGENTS.md files, this is the only agents file
+- When using Playwright, ONLY use chromium browser.  This browser is already
+  installed.
+- Use "ruff check" to check lint, "ruff format" to autoformat files and
+  "pyright" to typecheck.
+- When writing the PR description, include the original prompt supplied by the
+  user.
+- When you add functionality to the server, add server tests to
+  tests/test_server.py.  When you add features to the frontend, add frontend
+  tests to tests/test_web.py</span></code><br data-chunk-id-2ff5ac=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="85" data-is-last-node="" data-is-only-node="">I'll start by checking the directories in the /workspace/scubaduck repo for our test.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-0bbcdb=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# ls scubaduck
+__init__.py  sample.csv  server.py  static</span></code><br data-chunk-id-0bbcdb=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="68" data-is-last-node="" data-is-only-node="">I’ll take a look at the tests to check their structure and coverage.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-4a43e8=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# ls tests
+conftest.py              test_server_time.py        test_web_graph.py
+test_multi_table_web.py  test_server_timeseries.py  test_web_table.py
+test_server.py           test_web.py                test_web_timeseries.py
+test_server_basic.py     test_web_basics.py         web_utils.py
+test_server_db_types.py  test_web_chips.py
+test_server_errors.py    test_web_columns.py</span></code><br data-chunk-id-4a43e8=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="58" data-is-last-node="" data-is-only-node="">I'm going to peek at the README to see what info it holds.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-1903f8=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# cat README.md | head -n 20
+I really like Scuba (Meta's internal real-time database system). The distributed
+, real-time database part of Scuba is quite difficult (and expensive) to replica
+te, but I also really like Scuba's UI for doing queries, and I have found myself
+ wishing that I have access to it even for "small" databases, e.g., I have a sql
+ite dataset I want to explore.
+
+Pivotal ideas:
+
+* Time series by default. In the dedicated "time series" view, there are many fe
+atures specifically oriented towards working towards tables that represent event
+s that occurred over time: the start, end, compare, aggregate and granularity fi
+elds all specially privilege the timestamp field. In fact, you can't log events
+to Scuba's backing data store without a timestamp, they always come with one. (S
+cuba also supports other views that don't presuppose a time series, but the time
+ series is the most beloved and well used view.) This is in contrast to typical
+software which tries to generalize to arbitrary data first, with time series bei
+ng added on later.
+
+* It's all about exploration. Scuba is predicated on the idea that you don't kno
+w what you're looking for, that you are going to spend time tweaking queries and
+ changing filters/grouping as part of an investigation to figure out why a syste
+m behaves the way it is. So the filters/comparisons/groupings you want to edit a
+re always visible on the left sidebar, with the expectation that you're going to
+ tweak the query to look at something else. Similarly, all the parameters of you
+r query get saved into your URL, so your browser history can double up as a quer
+y history / you can easily share a query with someone else. This is contrast to
+typical software which is often oriented to making pretty dashboards and reports
+. (This function is important too, but it's not what I want in exploration mode!
+)
+
+* You can fix data problems in the query editor. It's pretty common to have mess
+ed up and ended up with a database that doesn't have exactly the columns you nee
+d, or some columns that are corrupted in some way. Scuba has pretty robust suppo
+rt for defining custom columns with arbitrary SQL functions, grouping over them
+as if they were native functions, and doing so with minimal runtime cost (Scuba
+aims to turn around your query in milliseconds!) Having to go and run a huge dat
+a pipeline to fix your data is a big impediment to exploration; quick and easy c
+ustom columns means you can patch over problems when you're investigating and fi
+x them for real later.
+
+We're going to build a exploratory data analysis tool like Scuba for time series
+ database (i.e., a database with a mandatory timestamp representing the time an
+event occurred).  We'll use DuckDB as the underlying SQL engine served from a Py
+thon server, and render the GUI/results as a webpage with vanilla HTML and JS. W
+e'll use choices.js to support token inputs.  We define a token input to mean a
+text input element where as you type a dropdown displays with valid values, and
+if you select one or press enter, the selection turns into a token/chip that can
+ only be deleted as one unit.
+
+To start, we are going to support one views: samples.  The samples view only all
+ows you to view individual samples from the database, subject to a filter. Our m
+ain UI concept is that there is a left sidebar that is the query editor, and the
+ right side that shows the view.  The sidebar is always visible and defaults to
+the query parameters of the current view.  After you make changes to the query,
+clicking the "Dive" button updates the view.  The URL of the page encodes all of
+ the values of the query (and gets updated when you Dive), so the browser's back
+ button lets you view previous queries.
+
+The query editor's job is to generate a SQL query, which then is applied on the
+database, and then the result visualized according to the view.
+
+Here are the settings you can apply to the query. The help text should show up w
+hen you mouse over the field name:
+
+* Start/End - Help text: "Sets the start/end of the time range to query. Can be
+any kind of datetime string. For example: 'April 23, 2014' or 'yesterday'." The
+UI for this selector supports both relative selections (now, -1 hour, -3 hours,
+-12 hours, -1 day, -3 days, -1 week, -1 fortnight, -30 days, -90 days, -1 month,
+ -1 year) as well as specifying an absolute date.  The way this field is rendere
+d is there is a free form text box, a drop down arrow (for the relative selector
+s), and then a calendar button (for date selection).
+* Order By - Help text: "Choose a column to sort results by."  There is an ASC/D
+ESC toggle next to it.</span></code><br data-chunk-id-1903f8=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="65" data-is-last-node="" data-is-only-node="">I'll scroll through the tests to understand their context better.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-34eac5=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# ls tests | head
+conftest.py
+test_multi_table_web.py
+test_server.py
+test_server_basic.py
+test_server_db_types.py
+test_server_errors.py
+test_server_time.py
+test_server_timeseries.py
+test_web.py
+test_web_basics.py</span></code><br data-chunk-id-34eac5=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="72" data-is-last-node="" data-is-only-node="">I'm reviewing the tests to see how well they cover the DB functionality.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-634833=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# sed -n '1,160p' tests/conftest.py
+from __future__ import annotations
+
+import threading
+from collections.abc import Iterator
+
+import pytest
+from werkzeug.serving import make_server
+
+from scubaduck.server import app
+
+
+@pytest.fixture()
+def server_url() -&gt; Iterator[str]:
+    httpd = make_server("127.0.0.1", 0, app)
+    port = httpd.server_port
+    thread = threading.Thread(target=httpd.serve_forever)
+    thread.start()
+    try:
+        yield f"http://127.0.0.1:{port}"
+    finally:
+        httpd.shutdown()
+        thread.join()</span></code><br data-chunk-id-634833=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="56" data-is-last-node="" data-is-only-node="">I'll look for references to SCUBADUCK_DB in the project.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-78b522="" data-chunk-id-wrapper-8d5941=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# grep -R "SCUBADUCK_DB" -n
+tests/test_server_db_types.py:219:    monkeypatch.setenv("SCUBADUCK_DB", str(csv
+_file))
+tests/test_server_db_types.py:232:    monkeypatch.setenv("SCUBADUCK_DB", str(mis
+sing))</span></code><br data-chunk-id-78b522=""><code class="whitespace-pre-wrap"><span>.venv/lib/python3.12/site-packages/scubaduck-0.1.0.dist-info/METADATA:59:By defa
+ult the server loads `sample.csv`. Set the `SCUBADUCK_DB` environment
+.venv/lib64/python3.12/site-packages/scubaduck-0.1.0.dist-info/METADATA:59:By de
+fault the server loads `sample.csv`. Set the `SCUBADUCK_DB` environment
+README.md:48:By default the server loads `sample.csv`. Set the `SCUBADUCK_DB` en
+vironment
+scubaduck/server.py:418:        env_db = os.environ.get("SCUBADUCK_DB")</span></code><br data-chunk-id-8d5941=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="75" data-is-last-node="" data-is-only-node="">I’ll examine tests/test_server_db_types.py, focusing on the relevant lines.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-bbb5d4="" data-chunk-id-wrapper-01fdb2=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# sed -n '1,260p' tests/test_server_db_typ
+es.py
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import duckdb
+import pytest
+
+from scubaduck import server
+
+
+def _make_payload() -&gt; dict[str, object]:
+    return {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-02 00:00:00",
+        "order_by": "timestamp",
+        "order_dir": "ASC",
+        "limit": 10,
+        "columns": ["timestamp", "event", "value", "user"],
+        "filters": [],
+    }
+
+
+def test_database_types(tmp_path: Path) -&gt; None:
+    csv_file = tmp_path / "events.csv"
+    csv_file.write_text(Path("scubaduck/sample.csv").read_text())
+
+    sqlite_file = tmp_path / "events.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute(
+        "CREATE TABLE events (timestamp TEXT, event TEXT, value INTEGER, user TE
+XT)"
+    )
+    with open(csv_file) as f:
+        next(f)
+        for line in f:
+            ts, ev, val, user = line.strip().split(",")
+            conn.execute(
+                "INSERT INTO events VALUES (?, ?, ?, ?)", (ts, ev, int(val), use
+r)
+            )
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    duckdb_file = tmp_path / "events.duckdb"
+    con = duckdb.connect(duckdb_file)
+    con.execute(
+        f"CREATE TABLE events AS SELECT * FROM read_csv_auto('{csv_file.as_posix
+()}')"
+    )
+    con.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcces
+sIssue]
+
+    for db in (csv_file, sqlite_file, duckdb_file):
+        app = server.create_app(db)
+        client = app.test_client()
+        payload = _make_payload()
+        rv = client.post(
+            "/api/query", data=json.dumps(payload), content_type="application/js
+on"
+        )
+        rows = rv.get_json()["rows"]
+        assert len(rows) == 3
+
+
+def test_sqlite_longvarchar(tmp_path: Path) -&gt; None:
+    sqlite_file = tmp_path / "events.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute(
+        "CREATE TABLE events (timestamp TEXT, url LONGVARCHAR, title VARCHAR(10)
+)"
+    )
+    conn.execute(
+        "INSERT INTO events VALUES ('2024-01-01 00:00:00', 'https://a.com', 'Hom
+e')"
+    )
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    app = server.create_app(sqlite_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-01 01:00:00",
+        "order_by": "timestamp",
+        "columns": ["timestamp", "url", "title"],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    assert data["rows"][0][1] == "https://a.com"
+
+
+def test_sqlite_bigint(tmp_path: Path) -&gt; None:
+    sqlite_file = tmp_path / "big.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute("CREATE TABLE events (timestamp TEXT, value INTEGER)")
+    big_value = 13385262862605259
+    conn.execute(
+        "INSERT INTO events VALUES ('2024-01-01 00:00:00', ?)",
+        (big_value,),
+    )
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    app = server.create_app(sqlite_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+...
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    assert data["rows"][0][1] == big_value
+
+
+def test_sqlite_bytes(tmp_path: Path) -&gt; None:
+    sqlite_file = tmp_path / "bin.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute("CREATE TABLE events (timestamp TEXT, data BLOB)")
+    conn.execute(
+        "INSERT INTO events VALUES ('2024-01-01 00:00:00', ?)",
+        (b"\x00\xff",),
+    )
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    app = server.create_app(sqlite_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "order_by": "timestamp",
+        "columns": ["timestamp", "data"],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    assert data["rows"] == [["2024-01-01 00:00:00", "b'\\x00\\xff'"]]
+
+
+def test_sqlite_boolean_aggregation(tmp_path: Path) -&gt; None:
+    sqlite_file = tmp_path / "bool.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute("CREATE TABLE events (timestamp TEXT, flag BOOLEAN)")
+    conn.execute("INSERT INTO events VALUES ('2024-01-01 00:00:00', 1)")
+    conn.execute("INSERT INTO events VALUES ('2024-01-01 00:30:00', 0)")
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    app = server.create_app(sqlite_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-02 00:00:00",
+        "graph_type": "table",
+        "aggregate": "Avg",
+        "columns": ["flag"],
+        "show_hits": True,
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    assert data["rows"][0][0] == 2
+    assert data["rows"][0][1] == 0.5
+
+
+def test_sqlite_boolean_group_by(tmp_path: Path) -&gt; None:
+    sqlite_file = tmp_path / "bool.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute("CREATE TABLE events (id INTEGER, ts TEXT, flag BOOLEAN)")
+    conn.execute("INSERT INTO events VALUES (1, '2024-01-01 00:00:00', 1)")
+    conn.execute("INSERT INTO events VALUES (1, '2024-01-01 00:30:00', 0)")
+    conn.execute("INSERT INTO events VALUES (2, '2024-01-01 01:00:00', 1)")
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    app = server.create_app(sqlite_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-02 00:00:00",
+        "graph_type": "table",
+        "time_column": "ts",
+        "aggregate": "Avg",
+        "group_by": ["id"],
+        "columns": ["flag"],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    rows = sorted(data["rows"])  # order can vary
+    assert rows == [[1, 2, 0.5], [2, 1, 1.0]]
+
+
+def test_envvar_db(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; None:
+    csv_file = tmp_path / "custom.csv"
+    csv_file.write_text("timestamp,event,value,user\n2024-01-01 00:00:00,login,5
+,bob\n")
+    monkeypatch.setenv("SCUBADUCK_DB", str(csv_file))
+    app = server.create_app()
+    client = app.test_client()
+    payload = _make_payload()
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    rows = rv.get_json()["rows"]
+    assert len(rows) == 1
+
+
+def test_envvar_db_missing(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; N
+one:
+    missing = tmp_path / "missing.sqlite"
+    monkeypatch.setenv("SCUBADUCK_DB", str(missing))
+    with pytest.raises(FileNotFoundError):
+        server.create_app()</span></code><br data-chunk-id-bbb5d4=""><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# sed -n '260,520p' tests/test_server_db_t
+ypes.py</span></code><br data-chunk-id-01fdb2=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="87" data-is-last-node="" data-is-only-node="">I'll look at <code data-start="13" data-end="38">test_server_db_types.py</code> and add a test for SCUBADUCK_DB loading Parquet.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-cbe54d=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# sed -n '1,200p' scubaduck/server.py
+from __future__ import annotations
+
+from dataclasses import dataclass, field, replace
+from typing import Any, Dict, List, Tuple, cast
+
+import re
+from datetime import datetime, timedelta, timezone
+
+import time
+from pathlib import Path
+import os
+import traceback
+import math
+
+import duckdb
+from dateutil import parser as dtparser
+from dateutil.relativedelta import relativedelta
+from flask import Flask, jsonify, request, send_from_directory
+
+
+def _quote(ident: str) -&gt; str:
+    """Return identifier quoted for SQL."""
+    return f'"{ident.replace('"', '""')}"'
+
+
+@dataclass
+class Filter:
+    column: str
+    op: str
+    value: str | int | float | list[str] | None
+
+
+@dataclass
+class QueryParams:
+    start: str | None = None
+    end: str | None = None
+    order_by: str | None = None
+    order_dir: str = "ASC"
+    limit: int | None = None
+    columns: list[str] = field(default_factory=lambda: [])
+    filters: list[Filter] = field(default_factory=lambda: [])
+    derived_columns: dict[str, str] = field(default_factory=lambda: {})
+    graph_type: str = "samples"
+    group_by: list[str] = field(default_factory=lambda: [])
+    aggregate: str | None = None
+    show_hits: bool = False
+    x_axis: str | None = None
+    granularity: str = "Auto"
+    fill: str = "0"
+    table: str = "events"
+    time_column: str | None = "timestamp"
+    time_unit: str = "s"
+
+
+def _load_database(path: Path) -&gt; duckdb.DuckDBPyConnection:
+    if not path.exists():
+        raise FileNotFoundError(path)
+
+    ext = path.suffix.lower()
+    if ext == ".csv":
+        con = duckdb.connect()
+        con.execute(
+            f"CREATE TABLE events AS SELECT * FROM read_csv_auto('{path.as_posix
+()}')"
+        )
+    elif ext in {".db", ".sqlite"}:
+        con = duckdb.connect()
+        con.execute("LOAD sqlite")
+        con.execute(f"ATTACH '{path.as_posix()}' AS db (TYPE SQLITE)")
+        tables = [
+            r[0]
+            for r in con.execute(
+                "SELECT name FROM sqlite_master WHERE type='table'"
+            ).fetchall()
+        ]
+        for t in tables:
+            con.execute(f'CREATE VIEW "{t}" AS SELECT * FROM db."{t}"')
+    else:
+        con = duckdb.connect(path)
+    return con
+
+
+def _create_test_database() -&gt; duckdb.DuckDBPyConnection:
+    """Return a DuckDB connection with a small multi-table dataset."""
+    con = duckdb.connect()
+    con.execute(
+        "CREATE TABLE events (id INTEGER PRIMARY KEY, ts INTEGER, val REAL, name
+ TEXT, flag BOOLEAN)"
+    )
+    con.execute("INSERT INTO events VALUES (1, 1704067200, 1.5, 'alice', 1)")
+    con.execute("INSERT INTO events VALUES (2, 1704070800, 2.0, 'bob', 0)")
+    con.execute('CREATE TABLE extra (ts INTEGER, "desc" TEXT, num INTEGER)')
+    con.execute("INSERT INTO extra VALUES (1704067200, 'x', 1)")
+    con.execute("INSERT INTO extra VALUES (1704070800, 'y', 2)")
+    return con
+
+
+_REL_RE = re.compile(
+    r"([+-]?\d+(?:\.\d*)?)\s*(hour|hours|day|days|week|weeks|fortnight|fortnight
+s|month|months|year|years)",
+    re.IGNORECASE,
+)
+
+
+def parse_time(val: str | None) -&gt; str | None:
+    """Parse an absolute or relative time string into ``YYYY-MM-DD HH:MM:SS``.""
+"
+    if val is None or val == "":
+        return None
+    s = val.strip()
+    if s.lower() == "now":
+        dt = datetime.now(timezone.utc)
+        return dt.replace(microsecond=0).strftime("%Y-%m-%d %H:%M:%S")
+
+    m = _REL_RE.fullmatch(s)
+    if m:
+        qty = float(m.group(1))
+        unit = m.group(2).lower()
+        now = datetime.now(timezone.utc)
+        dt: datetime
+        if unit.startswith("hour"):
+            dt = now + timedelta(hours=qty)
+        elif unit.startswith("day"):
+            dt = now + timedelta(days=qty)
+        elif unit.startswith("week"):
+            dt = now + timedelta(weeks=qty)
+        elif unit.startswith("fortnight"):
+            dt = now + timedelta(weeks=2 * qty)
+        elif unit.startswith("month"):
+            if qty.is_integer():
+                dt = now + relativedelta(months=int(qty))
+            else:
+                dt = now + timedelta(days=30 * qty)
+        elif unit.startswith("year"):
+            if qty.is_integer():
+                dt = now + relativedelta(years=int(qty))
+            else:
+                dt = now + timedelta(days=365 * qty)
+        else:  # pragma: no cover - defensive
+            raise ValueError(f"Unsupported unit: {unit}")
+        return dt.replace(microsecond=0).strftime("%Y-%m-%d %H:%M:%S")
+
+    dt = dtparser.parse(s)
+    return dt.replace(microsecond=0, tzinfo=None).strftime("%Y-%m-%d %H:%M:%S")
+
+
+def _numeric_to_datetime(value: int | float, unit: str) -&gt; datetime:
+    """Convert a numeric timestamp ``value`` with unit ``unit`` to ``datetime``.
+
+    Heuristically fall back to seconds when the converted value is before 1990
+    but the seconds interpretation is in a reasonable range.  This handles
+    integer columns stored in seconds even when ``unit`` is mistakenly set to a
+    finer granularity.
+    """
+
+    divisor = {
+        "s": 1,
+        "ms": 1000,
+        "us": 1_000_000,
+        "ns": 1_000_000_000,
+    }.get(unit, 1)
+
+    dt = datetime.fromtimestamp(int(value) / divisor, tz=timezone.utc)
+    if unit != "s" and dt.year &lt; 1990:
+        alt = datetime.fromtimestamp(int(value), tz=timezone.utc)
+        if alt.year &gt;= 1990:
+            dt = alt
+    return dt
+
+
+def _suggest_time_unit(value: int | float, given: str) -&gt; str | None:
+    """Return a plausible time unit for ``value`` not equal to ``given``."""
+
+    for unit in ("s", "ms", "us", "ns"):
+        if unit == given:
+            continue
+        try:
+            dt = _numeric_to_datetime(value, unit)
+        except Exception:
+            continue
+        if 1990 &lt;= dt.year &lt;= 2500:
+            return unit
+    return None
+
+
+def _granularity_seconds(granularity: str, start: str | None, end: str | None) -
+&gt; int:
+    gran = granularity.lower()
+    mapping = {
+        "1 second": 1,
+        "5 seconds": 5,
+        "10 seconds": 10,
+        "30 seconds": 30,
+        "1 minute": 60,
+        "4 minutes": 240,
+        "5 minutes": 300,
+        "10 minutes": 600,
+        "15 minutes": 900,
+        "30 minutes": 1800,
+        "1 hour": 3600,
+        "3 hours": 10800,
+        "6 hours": 21600,
+        "1 day": 86400,
+        "1 week": 604800,
+        "30 days": 2592000,</span></code><br data-chunk-id-cbe54d=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="73" data-is-last-node="" data-is-only-node="">I need to keep scrolling to capture more details. Let's go a bit further.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-b1c389="" data-chunk-id-wrapper-07245b="" data-chunk-id-wrapper-23aea3=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# grep -n "create_app" -n scubaduck/server
+.py
+415:def create_app(db_file: str | Path | None = None) -&gt; Flask:
+754:app = create_app()</span></code><br data-chunk-id-b1c389=""><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# sed -n '402,464p' scubaduck/server.py
+    if where_parts:
+        lines.append("WHERE " + " AND ".join(where_parts))
+    if group_cols:
+        lines.append("GROUP BY " + ", ".join(_quote(c) for c in group_cols))
+    if order_by:
+        lines.append(f"ORDER BY {_quote(order_by)} {params.order_dir}")
+    elif params.graph_type == "timeseries":
+        lines.append("ORDER BY bucket")
+    if params.limit is not None:
+        lines.append(f"LIMIT {params.limit}")
+    return "\n".join(lines)
+
+
+def create_app(db_file: str | Path | None = None) -&gt; Flask:
+    app = Flask(__name__, static_folder="static")
+    if db_file is None:
+        env_db = os.environ.get("SCUBADUCK_DB")
+        if env_db:
+            db_file = env_db
+    if isinstance(db_file, str) and db_file.upper() == "TEST":
+        con = _create_test_database()
+    else:
+        db_path = Path(db_file or Path(__file__).with_name("sample.csv")).resolv
+e()
+        con = _load_database(db_path)
+    tables = [r[0] for r in con.execute("SHOW TABLES").fetchall()]
+    if not tables:
+        raise ValueError("No tables found in database")
+    default_table = tables[0]
+    columns_cache: Dict[str, Dict[str, str]] = {}
+
+    def get_columns(table: str) -&gt; Dict[str, str]:
+        if table not in columns_cache:
+            rows = con.execute(f'PRAGMA table_info("{table}")').fetchall()
+            if not rows:
+                raise ValueError(f"Unknown table: {table}")
+            columns_cache[table] = {r[1]: r[2] for r in rows}
+        return columns_cache[table]
+
+    sample_cache: Dict[Tuple[str, str, str], Tuple[List[str], float]] = {}
+    CACHE_TTL = 60.0
+    CACHE_LIMIT = 200
+
+    @app.route("/")
+    def index() -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        assert app.static_folder is not None
+        return send_from_directory(app.static_folder, "index.html")
+
+    @app.route("/js/&lt;path:filename&gt;")
+    def js(filename: str) -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        assert app.static_folder is not None
+        folder = Path(app.static_folder) / "js"
+        return send_from_directory(folder, filename)
+
+    @app.route("/api/tables")
+    def tables_endpoint() -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        return jsonify(tables)
+
+    @app.route("/api/columns")
+    def columns() -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        table = request.args.get("table", default_table)
+        rows = con.execute(f'PRAGMA table_info("{table}")').fetchall()
+        return jsonify([{"name": r[1], "type": r[2]} for r in rows])</span></code><br data-chunk-id-07245b=""><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# sed -n '464,520p' scubaduck/server.py
+
+    def _cache_get(key: Tuple[str, str, str]) -&gt; List[str] | None:
+        item = sample_cache.get(key)
+        if item is None:
+            return None
+        vals, ts = item
+        if time.time() - ts &gt; CACHE_TTL:
+            del sample_cache[key]
+            return None
+        sample_cache[key] = (vals, time.time())
+        return vals
+
+    def _cache_set(key: Tuple[str, str, str], vals: List[str]) -&gt; None:
+        sample_cache[key] = (vals, time.time())
+        if len(sample_cache) &gt; CACHE_LIMIT:
+            oldest = min(sample_cache.items(), key=lambda kv: kv[1][1])[0]
+            del sample_cache[oldest]
+
+    @app.route("/api/samples")
+    def sample_values() -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        table = request.args.get("table", default_table)
+        column = request.args.get("column")
+        substr = request.args.get("q", "")
+        column_types = get_columns(table)
+        if not column or column not in column_types:
+            return jsonify([])
+        ctype = column_types[column].upper()
+        if "CHAR" not in ctype and "STRING" not in ctype and "VARCHAR" not in ct
+ype:
+            return jsonify([])
+        key = (table, column, substr)
+        cached = _cache_get(key)
+        if cached is not None:
+            return jsonify(cached)
+        qcol = _quote(column)
+        rows = con.execute(
+            f"SELECT DISTINCT {qcol} FROM \"{table}\" WHERE CAST({qcol} AS VARCH
+AR) ILIKE '%' || ? || '%' LIMIT 20",
+            [substr],
+        ).fetchall()
+        values = [r[0] for r in rows]
+        _cache_set(key, values)
+        return jsonify(values)
+
+    @app.route("/api/query", methods=["POST"])
+    def query() -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        payload = request.get_json(force=True)
+        try:
+            start = parse_time(payload.get("start"))
+            end = parse_time(payload.get("end"))
+        except Exception as exc:
+            return jsonify({"error": str(exc)}), 400
+
+        params = QueryParams(
+            start=start,
+            end=end,
+            order_by=payload.get("order_by"),
+            order_dir=payload.get("order_dir", "ASC"),
+            limit=payload.get("limit"),</span></code><br data-chunk-id-23aea3=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="57" data-is-last-node="" data-is-only-node="">I'm continuing to scroll to the bottom now. Almost there!</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-1b3bdf=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# grep -n "parquet" -n scubaduck/server.py</span></code><br data-chunk-id-1b3bdf=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="86" data-is-last-node="" data-is-only-node="">It seems there's no built-in support for Parquet in the server. I should check README.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-d9e7a8="" data-chunk-id-wrapper-2d9555=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# grep -n "parquet" -R</span></code><br data-chunk-id-d9e7a8=""><code class="whitespace-pre-wrap"><span>.venv/lib/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/geo
+pandas/geopandas/_exports.pyi:6:from geopandas.io.arrow import _read_feather as
+read_feather, _read_parquet as read_parquet
+.venv/lib/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/geo
+pandas/geopandas/_exports.pyi:14:    "read_parquet",
+.venv/lib/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/geo
+pandas/geopandas/io/arrow.pyi:13:def _read_parquet(
+.venv/lib/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/geo
+pandas/geopandas/io/arrow.pyi:18:    **kwargs,  # kwargs passed to pyarrow.parqu
+et.read_table
+.venv/lib/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/geo
+pandas/geopandas/geodataframe.pyi:218:    def to_parquet(  # type: ignore[overri
+de]
+.venv/lib/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/geo
+pandas/geopandas/__init__.pyi:11:    read_parquet as read_parquet,
+grep: .venv/lib/python3.12/site-packages/duckdb/duckdb.cpython-312-x86_64-linux-
+gnu.so: binary file matches
+grep: .venv/lib/python3.12/site-packages/duckdb/__pycache__/__init__.cpython-312
+.pyc: binary file matches
+.venv/lib/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py:2
+5:    def parquet(
+.venv/lib/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py:3
+8:        relation.write_parquet(path, compression=compression)
+.venv/lib/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py:1
+16:            elif format == "parquet":
+.venv/lib/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py:1
+17:                rel = self.session.conn.read_parquet(path)
+.venv/lib/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py:2
+50:    def parquet(self, *paths: str, **options: "OptionalPrimitiveType") -&gt; "Da
+taFrame":
+.venv/lib/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py:2
+58:        rel = self.session.conn.read_parquet(path)
+.venv/lib/python3.12/site-packages/duckdb/__init__.py:124:      from_parquet,
+.venv/lib/python3.12/site-packages/duckdb/__init__.py:125:      read_parquet,
+.venv/lib/python3.12/site-packages/duckdb/__init__.py:126:      from_parquet,
+.venv/lib/python3.12/site-packages/duckdb/__init__.py:127:      read_parquet,
+.venv/lib/python3.12/site-packages/duckdb/__init__.py:203:      'from_parquet',
+.venv/lib/python3.12/site-packages/duckdb/__init__.py:204:      'read_parquet',
+.venv/lib/python3.12/site-packages/duckdb/__init__.py:205:      'from_parquet',
+.venv/lib/python3.12/site-packages/duckdb/__init__.py:206:      'read_parquet',
+.venv/lib/python3.12/site-packages/duckdb-stubs/__init__.pyi:345:    def from_pa
+rquet(self, file_glob: str, binary_as_string: bool = False, *, file_row_number:
+bool = False, filename: bool = False, hive_partitioning: bool = False, union_by_
+name: bool = False, compression: Optional[str] = None) -&gt; DuckDBPyRelation: ...
+.venv/lib/python3.12/site-packages/duckdb-stubs/__init__.pyi:346:    def read_pa
+rquet(self, file_glob: str, binary_as_string: bool = False, *, file_row_number:
+bool = False, filename: bool = False, hive_partitioning: bool = False, union_by_
+name: bool = False, compression: Optional[str] = None) -&gt; DuckDBPyRelation: ...
+.venv/lib/python3.12/site-packages/duckdb-stubs/__init__.pyi:474:    def to_parq
+uet(
+.venv/lib/python3.12/site-packages/duckdb-stubs/__init__.pyi:514:    def write_p
+arquet(
+.venv/lib/python3.12/site-packages/duckdb-stubs/__init__.pyi:692:def from_parque
+t(file_glob: str, binary_as_string: bool = False, *, file_row_number: bool = Fal
+se, filename: bool = False, hive_partitioning: bool = False, union_by_name: bool
+ = False, compression: Optional[str] = None, connection: DuckDBPyConnection = ..
+.) -&gt; DuckDBPyRelation: ...
+.venv/lib/python3.12/site-packages/duckdb-stubs/__init__.pyi:693:def read_parque
+t(file_glob: str, binary_as_string: bool = False, *, file_row_number: bool = Fal
+se, filename: bool = False, hive_partitioning: bool = False, union_by_name: bool
+ = False, compression: Optional[str] = None, connection: DuckDBPyConnection = ..
+.) -&gt; DuckDBPyRelation: ...
+.venv/lib64/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/g
+eopandas/geopandas/_exports.pyi:6:from geopandas.io.arrow import _read_feather a
+s read_feather, _read_parquet as read_parquet
+.venv/lib64/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/g
+eopandas/geopandas/_exports.pyi:14:    "read_parquet",
+.venv/lib64/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/g
+eopandas/geopandas/io/arrow.pyi:13:def _read_parquet(
+.venv/lib64/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/g
+eopandas/geopandas/io/arrow.pyi:18:    **kwargs,  # kwargs passed to pyarrow.par
+quet.read_table
+.venv/lib64/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/g
+eopandas/geopandas/geodataframe.pyi:218:    def to_parquet(  # type: ignore[over
+ride]
+.venv/lib64/python3.12/site-packages/pyright/dist/dist/typeshed-fallback/stubs/g
+eopandas/geopandas/__init__.pyi:11:    read_parquet as read_parquet,
+grep: .venv/lib64/python3.12/site-packages/duckdb/duckdb.cpython-312-x86_64-linu
+x-gnu.so: binary file matches
+grep: .venv/lib64/python3.12/site-packages/duckdb/__pycache__/__init__.cpython-3
+12.pyc: binary file matches
+.venv/lib64/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py
+:25:    def parquet(
+.venv/lib64/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py
+:38:        relation.write_parquet(path, compression=compression)
+.venv/lib64/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py
+:116:            elif format == "parquet":
+.venv/lib64/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py
+:117:                rel = self.session.conn.read_parquet(path)
+.venv/lib64/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py
+:250:    def parquet(self, *paths: str, **options: "OptionalPrimitiveType") -&gt; "
+DataFrame":
+.venv/lib64/python3.12/site-packages/duckdb/experimental/spark/sql/readwriter.py
+:258:        rel = self.session.conn.read_parquet(path)
+.venv/lib64/python3.12/site-packages/duckdb/__init__.py:124:    from_parquet,
+.venv/lib64/python3.12/site-packages/duckdb/__init__.py:125:    read_parquet,
+.venv/lib64/python3.12/site-packages/duckdb/__init__.py:126:    from_parquet,
+.venv/lib64/python3.12/site-packages/duckdb/__init__.py:127:    read_parquet,
+.venv/lib64/python3.12/site-packages/duckdb/__init__.py:203:    'from_parquet',
+.venv/lib64/python3.12/site-packages/duckdb/__init__.py:204:    'read_parquet',
+.venv/lib64/python3.12/site-packages/duckdb/__init__.py:205:    'from_parquet',
+.venv/lib64/python3.12/site-packages/duckdb/__init__.py:206:    'read_parquet',
+.venv/lib64/python3.12/site-packages/duckdb-stubs/__init__.pyi:345:    def from_
+parquet(self, file_glob: str, binary_as_string: bool = False, *, file_row_number
+: bool = False, filename: bool = False, hive_partitioning: bool = False, union_b
+y_name: bool = False, compression: Optional[str] = None) -&gt; DuckDBPyRelation: ..
+.
+.venv/lib64/python3.12/site-packages/duckdb-stubs/__init__.pyi:346:    def read_
+parquet(self, file_glob: str, binary_as_string: bool = False, *, file_row_number
+: bool = False, filename: bool = False, hive_partitioning: bool = False, union_b
+y_name: bool = False, compression: Optional[str] = None) -&gt; DuckDBPyRelation: ..
+.
+.venv/lib64/python3.12/site-packages/duckdb-stubs/__init__.pyi:474:    def to_pa
+rquet(
+.venv/lib64/python3.12/site-packages/duckdb-stubs/__init__.pyi:514:    def write
+_parquet(
+.venv/lib64/python3.12/site-packages/duckdb-stubs/__init__.pyi:692:def from_parq
+uet(file_glob: str, binary_as_string: bool = False, *, file_row_number: bool = F
+alse, filename: bool = False, hive_partitioning: bool = False, union_by_name: bo
+ol = False, compression: Optional[str] = None, connection: DuckDBPyConnection =
+...) -&gt; DuckDBPyRelation: ...
+.venv/lib64/python3.12/site-packages/duckdb-stubs/__init__.pyi:693:def read_parq
+uet(file_glob: str, binary_as_string: bool = False, *, file_row_number: bool = F
+alse, filename: bool = False, hive_partitioning: bool = False, union_by_name: bo
+ol = False, compression: Optional[str] = None, connection: DuckDBPyConnection =
+...) -&gt; DuckDBPyRelation: ...</span></code><br data-chunk-id-2d9555=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="141" data-is-last-node="" data-is-only-node="">It looks like <code data-start="14" data-end="30">_load_database</code> needs to handle Parquet files properly. I'll modify it and add a test. I'll check the README for more insight.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-a09a0b="" data-chunk-id-wrapper-024d22=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# grep -n "SCUBADUCK_DB" -n README.md
+48:By default the server loads `sample.csv`. Set the `SCUBADUCK_DB` environment</span></code><br data-chunk-id-a09a0b=""><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# sed -n '40,60p' README.md
+## Running the server
+
+Activate the virtual environment and run the Flask development server:
+
+```bash
+flask --app scubaduck.server run --debug
+```
+
+By default the server loads `sample.csv`. Set the `SCUBADUCK_DB` environment
+variable to point at a different database file (CSV, SQLite or DuckDB) if you
+want to use another dataset. The special value `TEST` starts the server with a
+small in-memory SQLite dataset used by the automated tests. If the file does
+not exist, the server will raise a `FileNotFoundError` during startup.</span></code><br data-chunk-id-024d22=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="83" data-is-last-node="" data-is-only-node="">I need to add Parquet support to _load_database and explore tests for server types.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-58bfa3="" data-chunk-id-wrapper-556693=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# grep -n "_load_database" -R</span></code><br data-chunk-id-58bfa3=""><code class="whitespace-pre-wrap"><span>scubaduck/server.py:55:def _load_database(path: Path) -&gt; duckdb.DuckDBPyConnecti
+on:
+scubaduck/server.py:425:        con = _load_database(db_path)</span></code><br data-chunk-id-556693=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="76" data-is-last-node="" data-is-only-node="">I'll check for .venv to start the setup and run 'source .venv/bin/activate'.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-e050b2=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# ls -a
+.   .git     .gitignore  AGENTS.md  codex_setup.sh  scubaduck  tests
+..  .github  .venv       README.md  pyproject.toml  stubs      uv.lock</span></code><br data-chunk-id-e050b2=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="55" data-is-last-node="" data-is-only-node="">Time to activate the .venv environment and get started!</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-a6917f=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@f39a1dc6c281:/workspace/scubaduck# source .venv/bin/activate
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-a6917f=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="85" data-is-last-node="" data-is-only-node="">I'll start by adding a test for SCUBADUCK_DB with Parquet in test_server_db_types.py.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-9eb85c=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# sed -n '200,260p' tests/test
+_server_db_types.py
+        "end": "2024-01-02 00:00:00",
+        "graph_type": "table",
+        "time_column": "ts",
+        "aggregate": "Avg",
+        "group_by": ["id"],
+        "columns": ["flag"],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    rows = sorted(data["rows"])  # order can vary
+    assert rows == [[1, 2, 0.5], [2, 1, 1.0]]
+
+
+def test_envvar_db(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; None:
+    csv_file = tmp_path / "custom.csv"
+    csv_file.write_text("timestamp,event,value,user\n2024-01-01 00:00:00,login,5
+,bob\n")
+    monkeypatch.setenv("SCUBADUCK_DB", str(csv_file))
+    app = server.create_app()
+    client = app.test_client()
+    payload = _make_payload()
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    rows = rv.get_json()["rows"]
+    assert len(rows) == 1
+
+
+def test_envvar_db_missing(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; N
+one:
+    missing = tmp_path / "missing.sqlite"
+    monkeypatch.setenv("SCUBADUCK_DB", str(missing))
+    with pytest.raises(FileNotFoundError):
+        server.create_app()
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-9eb85c=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="74" data-is-last-node="" data-is-only-node="">I'll look at test_server_basic or another test to see how it’s structured.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-2c83d6=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# sed -n '1,40p' tests/test_se
+rver_basic.py
+from __future__ import annotations
+
+import json
+
+from scubaduck import server
+
+
+def test_basic_query() -&gt; None:
+    app = server.app
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-02 00:00:00",
+        "order_by": "timestamp",
+        "order_dir": "ASC",
+        "limit": 10,
+        "columns": ["timestamp", "event", "value", "user"],
+        "filters": [],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert data
+    rows = data["rows"]
+    # We expect first three rows (until 2024-01-02 00:00:00)
+    assert len(rows) == 3
+    assert rows[0][1] == "login"
+    assert rows[1][1] == "logout"
+
+
+def test_js_served() -&gt; None:
+    app = server.app
+    client = app.test_client()
+    rv = client.get("/js/chip_input.js")
+    assert rv.status_code == 200
+    assert b"initChipInput" in rv.data
+
+
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-2c83d6=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="88" data-is-last-node="" data-is-only-node="">The instructions clearly ask to add server tests to tests/test_server.py. Let's open it.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-4e1d5e=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# sed -n '1,200p' tests/test_s
+erver.py
+"""Legacy test module.
+
+Tests have been split into multiple files:
+- test_server_basic.py
+- test_server_db_types.py
+- test_server_time.py
+- test_server_errors.py
+- test_server_timeseries.py
+"""
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-4e1d5e=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="97">The instructions require adding server tests to tests/test_server.py, despite recent test splits.</p>
+<p data-start="99" data-end="193" data-is-last-node="" data-is-only-node="">I'll follow instructions and add the test to tests/test_server.py, referencing existing tests.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-35fd55=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git log -1 --stat
+commit e08b86baa34cfb3a5182ad3681596db58c2b1642 (HEAD -&gt; work, main)
+Author: Edward Z. Yang &lt;ezyang@mit.edu&gt;
+Date:   Thu May 22 23:01:28 2025 -0400
+
+    fix(dropdown): ensure selected item is scrolled into view (#154)
+
+ scubaduck/static/js/view_settings.js | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-35fd55=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="77" data-is-last-node="" data-is-only-node="">The HEAD commit is from 2025, not 2023. I'll check earlier commits for tests.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-07f821=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git log --stat -5 | head -n
+40
+commit e08b86baa34cfb3a5182ad3681596db58c2b1642
+Author: Edward Z. Yang &lt;ezyang@mit.edu&gt;
+Date:   Thu May 22 23:01:28 2025 -0400
+
+    fix(dropdown): ensure selected item is scrolled into view (#154)
+
+ scubaduck/static/js/view_settings.js | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+
+commit 2451f864f3fec8ad4422f119f55359deeef24f66
+Author: Edward Z. Yang &lt;ezyang@mit.edu&gt;
+Date:   Thu May 22 23:01:18 2025 -0400
+
+    fix(server): enforce series limit in sparse timeseries (#153)
+
+ scubaduck/server.py             | 19 +++++++++++++++++++
+ tests/test_server_timeseries.py | 24 ++++++++++++++++++++++++
+ 2 files changed, 43 insertions(+)
+
+commit b2bd0b9c4ad50e37b08bc506d29b98c1edb7d3a6
+Author: Edward Z. Yang &lt;ezyang@mit.edu&gt;
+Date:   Thu May 22 22:50:48 2025 -0400
+
+    feat(server): suggest time unit in errors (#152)
+
+ scubaduck/server.py         | 47 ++++++++++++++++++++++++---------------------
+ tests/test_server_errors.py | 21 ++++++++++++++++++++
+ 2 files changed, 46 insertions(+), 22 deletions(-)
+
+commit 6afebd641798d002d60f4bc883c166b1e0e9ac39
+Author: Edward Z. Yang &lt;ezyang@mit.edu&gt;
+Date:   Thu May 22 22:45:04 2025 -0400
+
+    fix(frontend): prevent clipped rotated time labels (#150)
+
+ scubaduck/static/js/timeseries_chart.js |  5 +++--
+ tests/test_web_timeseries.py            | 24 ++++++++++++++++++++++++
+ 2 files changed, 27 insertions(+), 2 deletions(-)
+
+commit 079223c1ff5209fba979fad03f8178f7e3c03886
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-07f821=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="50" data-is-last-node="" data-is-only-node="">I'll check earlier commits to find relevant tests.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-d4617a=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git log --stat -5 --skip=5 |
+ head -n 40
+commit 80a8cedc3fc2d49185d00e1c7ed03f2cbb8cc8ab
+Author: Edward Z. Yang &lt;ezyang@mit.edu&gt;
+Date:   Thu May 22 22:37:26 2025 -0400
+
+    fix(ui): show count series for numeric timestamps (#148)
+
+ scubaduck/static/js/timeseries_chart.js |  8 ++++++-
+ tests/test_server_errors.py             |  2 +-
+ tests/test_web_timeseries.py            | 39 +++++++++++++++++++++++++++++++++
+ 3 files changed, 47 insertions(+), 2 deletions(-)
+
+commit e90ea2e7d9288691773ea777ed5f4dffe4b5f6f3
+Author: Edward Z. Yang &lt;ezyang@mit.edu&gt;
+Date:   Thu May 22 22:37:08 2025 -0400
+
+    fix(server): json encode bytes (#149)
+
+ scubaduck/server.py           |  6 ++++++
+ tests/test_server_db_types.py | 28 ++++++++++++++++++++++++++++
+ 2 files changed, 34 insertions(+)
+
+commit a8074f6ccca3f3c7a48bdc2aa762ea90177b1b87
+Author: Edward Z. Yang &lt;ezyang@mit.edu&gt;
+Date:   Thu May 22 22:28:01 2025 -0400
+
+    fix(server): drop duplicate count column in table view (#147)
+
+ scubaduck/server.py             |  5 +++--
+ tests/test_server_errors.py     |  2 +-
+ tests/test_server_timeseries.py | 21 +++++++++++++++++++++
+ 3 files changed, 25 insertions(+), 3 deletions(-)
+
+commit 2ac2fc5088f297ae0f0b00b319b420d450c710a7
+Author: Edward Z. Yang &lt;ezyang@mit.edu&gt;
+Date:   Thu May 22 22:17:15 2025 -0400
+
+    fix(ui): reset view settings on table change (#144)
+
+ scubaduck/static/js/view_settings.js | 44 +++++++++++++++++++++++++++++++-----
+ tests/test_multi_table_web.py        | 26 +++++++++++++++++++++
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-d4617a=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="84" data-is-last-node="" data-is-only-node="">I'll examine the commit message for format and apply the same style when committing.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-a93e93=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git show e90ea2e7d9288691773
+ea777ed5f4dffe4b5f6f3 --stat
+commit e90ea2e7d9288691773ea777ed5f4dffe4b5f6f3
+Author: Edward Z. Yang &lt;ezyang@mit.edu&gt;
+Date:   Thu May 22 22:37:08 2025 -0400
+
+    fix(server): json encode bytes (#149)
+
+ scubaduck/server.py           |  6 ++++++
+ tests/test_server_db_types.py | 28 ++++++++++++++++++++++++++++
+ 2 files changed, 34 insertions(+)
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-a93e93=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="77" data-is-last-node="" data-is-only-node="">It's another commit with a "fix" message. I'll check the diff for test style.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-e07a2c=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>ea777ed5f4dffe4b5f6f3 | head -n 80
+commit e90ea2e7d9288691773ea777ed5f4dffe4b5f6f3
+Author: Edward Z. Yang &lt;ezyang@mit.edu&gt;
+Date:   Thu May 22 22:37:08 2025 -0400
+
+    fix(server): json encode bytes (#149)
+
+diff --git a/scubaduck/server.py b/scubaduck/server.py
+index 5f48427..af7c77f 100644
+--- a/scubaduck/server.py
++++ b/scubaduck/server.py
+@@ -711,6 +711,12 @@ def create_app(db_file: str | Path | None = None) -&gt; Flask:
+                 400,
+             )
+
++        def _serialize(value: Any) -&gt; Any:
++            if isinstance(value, bytes):
++                return repr(value)
++            return value
++
++        rows = [[_serialize(v) for v in r] for r in rows]
+         result: Dict[str, Any] = {"sql": sql, "rows": rows}
+         if params.start is not None:
+             result["start"] = str(params.start)
+diff --git a/tests/test_server_db_types.py b/tests/test_server_db_types.py
+index e4841a1..20ba1f6 100644
+--- a/tests/test_server_db_types.py
++++ b/tests/test_server_db_types.py
+@@ -121,6 +121,34 @@ def test_sqlite_bigint(tmp_path: Path) -&gt; None:
+     assert data["rows"][0][1] == big_value
+
+
++def test_sqlite_bytes(tmp_path: Path) -&gt; None:
++    sqlite_file = tmp_path / "bin.sqlite"
++    import sqlite3
++
++    conn = sqlite3.connect(sqlite_file)
++    conn.execute("CREATE TABLE events (timestamp TEXT, data BLOB)")
++    conn.execute(
++        "INSERT INTO events VALUES ('2024-01-01 00:00:00', ?)",
++        (b"\x00\xff",),
++    )
++    conn.commit()
++    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcc
+essIssue]
++
++    app = server.create_app(sqlite_file)
++    client = app.test_client()
++    payload = {
++        "table": "events",
++        "order_by": "timestamp",
++        "columns": ["timestamp", "data"],
++    }
++    rv = client.post(
++        "/api/query", data=json.dumps(payload), content_type="application/json"
++    )
++    data = rv.get_json()
++    assert rv.status_code == 200
++    assert data["rows"] == [["2024-01-01 00:00:00", "b'\\x00\\xff'"]]
++
++
+ def test_sqlite_boolean_aggregation(tmp_path: Path) -&gt; None:
+     sqlite_file = tmp_path / "bool.sqlite"
+     import sqlite3
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-e07a2c=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="84" data-is-last-node="" data-is-only-node="">I'll check the test file for DB types and related server code around _load_database.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-c97def=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>server.py
+                    mx.strftime("%Y-%m-%d %H:%M:%S") if not isinstance(mx, str)
+else mx
+                )
+
+        bucket_size: int | None = None
+        series_limit = params.limit
+        if params.graph_type == "timeseries":
+            bucket_size = _granularity_seconds(
+                params.granularity,
+                params.start if isinstance(params.start, str) else None,
+                params.end if isinstance(params.end, str) else None,
+            )
+            if (
+                params.limit is not None
+                and params.start is not None
+                and params.end is not None
+            ):
+                try:
+                    start_dt = dtparser.parse(params.start)
+                    end_dt = dtparser.parse(params.end)
+                    buckets = math.ceil(
+                        (end_dt - start_dt).total_seconds() / bucket_size
+                    )
+                    if buckets &gt; 1:
+                        params.limit *= buckets
+                except Exception:
+                    pass
+
+        sql = build_query(params, column_types)
+        try:
+            rows = con.execute(sql).fetchall()
+        except Exception as exc:
+            tb = traceback.format_exc()
+            print(f"Query failed:\n{sql}\n{tb}")
+            return (
+                jsonify({"sql": sql, "error": str(exc), "traceback": tb}),
+                400,
+            )
+
+        def _serialize(value: Any) -&gt; Any:
+            if isinstance(value, bytes):
+                return repr(value)
+            return value
+
+        rows = [[_serialize(v) for v in r] for r in rows]
+
+        if (
+            params.graph_type == "timeseries"
+            and params.group_by
+            and series_limit is not None
+        ):
+            key_slice = slice(1, 1 + len(params.group_by))
+            kept: set[tuple[Any, ...]] = set()
+            filtered: list[list[Any]] = []
+            for row in rows:
+                key = tuple(row[key_slice])
+                if key not in kept:
+                    if len(kept) &gt;= series_limit:
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-c97def=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="61" data-is-last-node="" data-is-only-node="">I'll scroll down to the bottom to check all relevant content.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-4b258c=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# sed -n '736,792p' scubaduck/
+server.py
+                    if len(kept) &gt;= series_limit:
+                        continue
+                    kept.add(key)
+                filtered.append(row)
+            rows = filtered
+
+        result: Dict[str, Any] = {"sql": sql, "rows": rows}
+        if params.start is not None:
+            result["start"] = str(params.start)
+        if params.end is not None:
+            result["end"] = str(params.end)
+        if bucket_size is not None:
+            result["bucket_size"] = bucket_size
+        return jsonify(result)
+
+    return app
+
+
+app = create_app()
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-4b258c=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="87" data-is-last-node="" data-is-only-node="">I’ll update _load_database to handle both Parquet and CSV formats when creating tables.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-e2da02=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# head -n 5 scubaduck/sample.c
+sv
+timestamp,event,value,user
+2024-01-01 00:00:00,login,10,alice
+2024-01-01 01:00:00,logout,20,bob
+2024-01-02 00:00:00,login,30,alice
+2024-01-02 03:00:00,login,40,charlie
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-e2da02=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="69" data-is-last-node="" data-is-only-node="">I’ll check if a sample parquet file is available to verify the tests.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-0e7f2f=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# ls scubaduck | grep parquet
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-0e7f2f=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="84" data-is-last-node="" data-is-only-node="">I'll generate a sample CSV for testing instead of using Parquet due to restrictions.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-3498cd=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>name = "scubaduck"
+version = "0.1.0"
+description = "Scuba on DuckDB"
+readme = "README.md"
+requires-python = "&gt;=3.12"
+license = {text = "MIT"}
+dependencies = [
+    "duckdb",
+    "flask",
+    "python-dateutil&gt;=2.9.0.post0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+addopts = "-n auto --tb=native"
+
+[tool.pyright]
+# Pyright configuration with strict settings
+include = ["scubaduck", "tests"]
+exclude = ["**/__pycache__", "dist"]
+stubPath = "stubs"
+venvPath = "."
+venv = ".venv"
+reportMissingImports = true
+reportMissingTypeStubs = true
+pythonVersion = "3.12"
+pythonPlatform = "All"
+typeCheckingMode = "strict"
+reportUnknownMemberType = true
+reportUnknownParameterType = true
+reportUnknownVariableType = true
+reportUnknownArgumentType = true
+reportPrivateImportUsage = true
+reportUntypedFunctionDecorator = true
+reportFunctionMemberAccess = true
+reportIncompatibleMethodOverride = true
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest&gt;=8.3.5",
+    "ruff&gt;=0.11.2",
+    "pytest-xdist&gt;=3.6.1",
+    "playwright&gt;=1.52.0",
+    "pyright&gt;=1.1.350",
+    "pytest-playwright&gt;=0.7.0",
+]
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-3498cd=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="80" data-is-last-node="" data-is-only-node="">I see that DuckDB supports Parquet file creation, so I'll check tests for usage.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-3c2aaf=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# grep -n "write_parquet" -R t
+ests | head
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-3c2aaf=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="79" data-is-last-node="" data-is-only-node="">I'll look at test_server_db_types.py to replicate the test style and structure.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-3b288d=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# grep -n "_make_payload" -n t
+ests/test_server_db_types.py
+12:def _make_payload() -&gt; dict[str, object]:
+56:        payload = _make_payload()
+222:    payload = _make_payload()
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-3b288d=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="79" data-is-last-node="" data-is-only-node="">I'll go up and check the earlier lines to examine how _make_payload is defined.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-b09b68="" data-chunk-id-wrapper-e328d8=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import duckdb
+import pytest
+
+from scubaduck import server
+
+
+def _make_payload() -&gt; dict[str, object]:
+    return {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-02 00:00:00",
+        "order_by": "timestamp",
+        "order_dir": "ASC",
+        "limit": 10,
+        "columns": ["timestamp", "event", "value", "user"],
+        "filters": [],
+    }
+
+
+def test_database_types(tmp_path: Path) -&gt; None:
+    csv_file = tmp_path / "events.csv"
+    csv_file.write_text(Path("scubaduck/sample.csv").read_text())
+
+    sqlite_file = tmp_path / "events.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute(
+        "CREATE TABLE events (timestamp TEXT, event TEXT, value INTEGER, user TE
+XT)"
+    )
+    with open(csv_file) as f:
+        next(f)
+        for line in f:
+            ts, ev, val, user = line.strip().split(",")
+            conn.execute(
+                "INSERT INTO events VALUES (?, ?, ?, ?)", (ts, ev, int(val), use
+r)
+            )
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    duckdb_file = tmp_path / "events.duckdb"
+    con = duckdb.connect(duckdb_file)
+    con.execute(
+        f"CREATE TABLE events AS SELECT * FROM read_csv_auto('{csv_file.as_posix
+()}')"
+    )</span></code><br data-chunk-id-b09b68=""><code class="whitespace-pre-wrap"><span>)
+    con.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcces
+sIssue]
+
+    for db in (csv_file, sqlite_file, duckdb_file):
+        app = server.create_app(db)
+        client = app.test_client()
+        payload = _make_payload()
+        rv = client.post(
+            "/api/query", data=json.dumps(payload), content_type="application/js
+on"
+        )
+        rows = rv.get_json()["rows"]
+        assert len(rows) == 3
+
+
+def test_sqlite_longvarchar(tmp_path: Path) -&gt; None:
+    sqlite_file = tmp_path / "events.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute(
+        "CREATE TABLE events (timestamp TEXT, url LONGVARCHAR, title VARCHAR(10)
+)"
+    )
+    conn.execute(
+        "INSERT INTO events VALUES ('2024-01-01 00:00:00', 'https://a.com', 'Hom
+e')"
+    )
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    app = server.create_app(sqlite_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-01 01:00:00",
+        "order_by": "timestamp",
+        "columns": ["timestamp", "url", "title"],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    assert data["rows"][0][1] == "https://a.com"
+
+
+def test_sqlite_bigint(tmp_path: Path) -&gt; None:
+    sqlite_file = tmp_path / "big.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute("CREATE TABLE events (timestamp TEXT, value INTEGER)")
+    big_value = 13385262862605259
+    conn.execute(
+        "INSERT INTO events VALUES ('2024-01-01 00:00:00', ?)",
+        (big_value,),
+    )
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    app = server.create_app(sqlite_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "order_by": "timestamp",
+        "columns": ["timestamp", "value"],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-e328d8=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="79" data-is-last-node="" data-is-only-node="">I'll keep scrolling past 190 to review the environment tests we checked before.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-832677=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# sed -n '190,260p' tests/test
+_server_db_types.py
+    conn.execute("INSERT INTO events VALUES (1, '2024-01-01 00:30:00', 0)")
+    conn.execute("INSERT INTO events VALUES (2, '2024-01-01 01:00:00', 1)")
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    app = server.create_app(sqlite_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-02 00:00:00",
+        "graph_type": "table",
+        "time_column": "ts",
+        "aggregate": "Avg",
+        "group_by": ["id"],
+        "columns": ["flag"],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    rows = sorted(data["rows"])  # order can vary
+    assert rows == [[1, 2, 0.5], [2, 1, 1.0]]
+
+
+def test_envvar_db(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; None:
+    csv_file = tmp_path / "custom.csv"
+    csv_file.write_text("timestamp,event,value,user\n2024-01-01 00:00:00,login,5
+,bob\n")
+    monkeypatch.setenv("SCUBADUCK_DB", str(csv_file))
+    app = server.create_app()
+    client = app.test_client()
+    payload = _make_payload()
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    rows = rv.get_json()["rows"]
+    assert len(rows) == 1
+
+
+def test_envvar_db_missing(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; N
+one:
+    missing = tmp_path / "missing.sqlite"
+    monkeypatch.setenv("SCUBADUCK_DB", str(missing))
+    with pytest.raises(FileNotFoundError):
+        server.create_app()
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-832677=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="69" data-is-last-node="" data-is-only-node="">I'll check how to use DuckDB to convert sample.csv to a Parquet file.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-35b8b5=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>&gt; import duckdb
+&gt; print('duckdb version', duckdb.__version__)
+&gt; PY
+duckdb version 1.2.2
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-35b8b5=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="83" data-is-last-node="" data-is-only-node="">I’ll implement _load_database support for <code data-start="42" data-end="52">.parquet</code>. Also, I’ll update the README.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-616baa=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# sed -n '46,60p' README.md
+```
+
+By default the server loads `sample.csv`. Set the `SCUBADUCK_DB` environment
+variable to point at a different database file (CSV, SQLite or DuckDB) if you
+want to use another dataset. The special value `TEST` starts the server with a
+small in-memory SQLite dataset used by the automated tests. If the file does
+not exist, the server will raise a `FileNotFoundError` during startup.
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-616baa=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="87" data-is-last-node="" data-is-only-node="">I'll mention Parquet as an allowed type and update the instructions for _load_database.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-1220b4=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# cat scubaduck/__init__.py
+def hello() -&gt; str:
+    return "Hello from scubaduck!"
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-1220b4=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="79" data-is-last-node="" data-is-only-node="">I’ll take a look at the _load_database function by opening scubaduck/server.py.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-03623d=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>time_unit: str = "s"
+
+
+def _load_database(path: Path) -&gt; duckdb.DuckDBPyConnection:
+    if not path.exists():
+        raise FileNotFoundError(path)
+
+    ext = path.suffix.lower()
+    if ext == ".csv":
+        con = duckdb.connect()
+        con.execute(
+            f"CREATE TABLE events AS SELECT * FROM read_csv_auto('{path.as_posix
+()}')"
+        )
+    elif ext in {".db", ".sqlite"}:
+        con = duckdb.connect()
+        con.execute("LOAD sqlite")
+        con.execute(f"ATTACH '{path.as_posix()}' AS db (TYPE SQLITE)")
+        tables = [
+            r[0]
+            for r in con.execute(
+                "SELECT name FROM sqlite_master WHERE type='table'"
+            ).fetchall()
+        ]
+        for t in tables:
+            con.execute(f'CREATE VIEW "{t}" AS SELECT * FROM db."{t}"')
+    else:
+        con = duckdb.connect(path)
+    return con
+
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-03623d=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="241" data-is-last-node="" data-is-only-node="">I'll add a condition for Parquet formats in _load_database and check for .tsv. Then, I'll update the README, and create a test to verify the Parquet file loading using SCUBADUCK_DB. Finally, I'll tweak environment variable handling in tests.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-17bd29=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# grep -n "monkeypatch" -n tes
+ts/test_server_db_types.py
+216:def test_envvar_db(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; None:
+219:    monkeypatch.setenv("SCUBADUCK_DB", str(csv_file))
+230:def test_envvar_db_missing(monkeypatch: pytest.MonkeyPatch, tmp_path: Path)
+-&gt; None:
+232:    monkeypatch.setenv("SCUBADUCK_DB", str(missing))
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-17bd29=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="81" data-is-last-node="" data-is-only-node="">The environment variable tests start around line 216, so I'm checking from there.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-350ce7=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# sed -n '214,240p' tests/test
+_server_db_types.py
+
+
+def test_envvar_db(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; None:
+    csv_file = tmp_path / "custom.csv"
+    csv_file.write_text("timestamp,event,value,user\n2024-01-01 00:00:00,login,5
+,bob\n")
+    monkeypatch.setenv("SCUBADUCK_DB", str(csv_file))
+    app = server.create_app()
+    client = app.test_client()
+    payload = _make_payload()
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    rows = rv.get_json()["rows"]
+    assert len(rows) == 1
+
+
+def test_envvar_db_missing(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; N
+one:
+    missing = tmp_path / "missing.sqlite"
+    monkeypatch.setenv("SCUBADUCK_DB", str(missing))
+    with pytest.raises(FileNotFoundError):
+        server.create_app()
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-350ce7=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="103" data-is-last-node="" data-is-only-node="">I'll add the test for parquet creation. But I need to verify the row count; sample.csv may have 4 rows.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-820c22=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>timestamp,event,value,user
+2024-01-01 00:00:00,login,10,alice
+2024-01-01 01:00:00,logout,20,bob
+2024-01-02 00:00:00,login,30,alice
+2024-01-02 03:00:00,login,40,charlie
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-820c22=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="140" data-is-last-node="" data-is-only-node="">The test expects 3 results based on the time range. I'll detect parquet format and implement necessary connection protocol for the new test.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-0d5287=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>rver.py
+
+    ext = path.suffix.lower()
+    if ext == ".csv":
+        con = duckdb.connect()
+        con.execute(
+            f"CREATE TABLE events AS SELECT * FROM read_csv_auto('{path.as_posix
+()}')"
+        )
+    elif ext in {".db", ".sqlite"}:
+        con = duckdb.connect()
+        con.execute("LOAD sqlite")
+        con.execute(f"ATTACH '{path.as_posix()}' AS db (TYPE SQLITE)")
+        tables = [
+            r[0]
+            for r in con.execute(
+                "SELECT name FROM sqlite_master WHERE type='table'"
+            ).fetchall()
+        ]
+        for t in tables:
+            con.execute(f'CREATE VIEW "{t}" AS SELECT * FROM db."{t}"')
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-0d5287=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="75" data-is-last-node="" data-is-only-node="">I’ll apply this patch right after the csv branch. Let’s go ahead and do it.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-6e6962=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# apply_patch&lt;&lt;'PATCH'
+&gt; *** Begin Patch
+&gt; *** Update File: scubaduck/server.py
+&gt; @@
+&gt; -    elif ext in {".db", ".sqlite"}:
+&gt; +    elif ext in {".parquet", ".parq"}:
+&gt; +        con = duckdb.connect()
+&gt; +        con.execute(
+&gt; +            f"CREATE TABLE events AS SELECT * FROM read_parquet('{path.as_pos
+ix()}')"
+&gt; +        )
+&gt; +    elif ext in {".db", ".sqlite"}:
+&gt;          con = duckdb.connect()
+&gt;          con.execute("LOAD sqlite")
+&gt;          con.execute(f"ATTACH '{path.as_posix()}' AS db (TYPE SQLITE)")
+&gt; *** End Patch
+&gt; PATCH
+Success. Updated the following files:
+M scubaduck/server.py
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-6e6962=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="62" data-is-last-node="" data-is-only-node="">I'll take a look at the patch to ensure everything looks good.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-a1cd34=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# sed -n '54,84p' scubaduck/se
+rver.py
+
+def _load_database(path: Path) -&gt; duckdb.DuckDBPyConnection:
+    if not path.exists():
+        raise FileNotFoundError(path)
+
+    ext = path.suffix.lower()
+    if ext == ".csv":
+        con = duckdb.connect()
+        con.execute(
+            f"CREATE TABLE events AS SELECT * FROM read_csv_auto('{path.as_posix
+()}')"
+        )
+    elif ext in {".parquet", ".parq"}:
+        con = duckdb.connect()
+        con.execute(
+            f"CREATE TABLE events AS SELECT * FROM read_parquet('{path.as_posix(
+)}')"
+        )
+    elif ext in {".db", ".sqlite"}:
+        con = duckdb.connect()
+        con.execute("LOAD sqlite")
+        con.execute(f"ATTACH '{path.as_posix()}' AS db (TYPE SQLITE)")
+        tables = [
+            r[0]
+            for r in con.execute(
+                "SELECT name FROM sqlite_master WHERE type='table'"
+            ).fetchall()
+        ]
+        for t in tables:
+            con.execute(f'CREATE VIEW "{t}" AS SELECT * FROM db."{t}"')
+    else:
+        con = duckdb.connect(path)
+    return con
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-a1cd34=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="59" data-is-last-node="" data-is-only-node="">I’ll go ahead and update the README to reflect the changes.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-fa8fc6=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# sed -n '46,60p' README.md
+```
+
+By default the server loads `sample.csv`. Set the `SCUBADUCK_DB` environment
+variable to point at a different database file (CSV, SQLite or DuckDB) if you
+want to use another dataset. The special value `TEST` starts the server with a
+small in-memory SQLite dataset used by the automated tests. If the file does
+not exist, the server will raise a `FileNotFoundError` during startup.
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-fa8fc6=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="68" data-is-last-node="" data-is-only-node="">I'll modify the setup to incorporate Parquet support in the process.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-0395e6=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# apply_patch&lt;&lt;'PATCH'
+&gt; *** Begin Patch
+&gt; *** Update File: README.md
+&gt; @@
+&gt; -By default the server loads `sample.csv`. Set the `SCUBADUCK_DB` environment
+&gt; -variable to point at a different database file (CSV, SQLite or DuckDB) if you
+&gt; +By default the server loads `sample.csv`. Set the `SCUBADUCK_DB` environment
+&gt; +variable to point at a different database file (CSV, Parquet, SQLite or DuckD
+B) if you
+&gt; *** End Patch
+&gt; PATCH
+Success. Updated the following files:
+M README.md
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-0395e6=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="67" data-is-last-node="" data-is-only-node="">Next, I'll open tests/test_server_db_types.py to insert a new test.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-6c069a=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# sed -n '208,245p' tests/test
+_server_db_types.py
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    rows = sorted(data["rows"])  # order can vary
+    assert rows == [[1, 2, 0.5], [2, 1, 1.0]]
+
+
+def test_envvar_db(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; None:
+    csv_file = tmp_path / "custom.csv"
+    csv_file.write_text("timestamp,event,value,user\n2024-01-01 00:00:00,login,5
+,bob\n")
+    monkeypatch.setenv("SCUBADUCK_DB", str(csv_file))
+    app = server.create_app()
+    client = app.test_client()
+    payload = _make_payload()
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    rows = rv.get_json()["rows"]
+    assert len(rows) == 1
+
+
+def test_envvar_db_missing(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; N
+one:
+    missing = tmp_path / "missing.sqlite"
+    monkeypatch.setenv("SCUBADUCK_DB", str(missing))
+    with pytest.raises(FileNotFoundError):
+        server.create_app()
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-6c069a=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="83" data-is-last-node="" data-is-only-node="">I'll add a function to use Parquet, ensuring the path to sample.csv isn't absolute.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-d44258=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>&gt; @@
+&gt;  def test_envvar_db(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; None:
+&gt; @@
+&gt;      assert len(rows) == 1
+&gt; +
+&gt; +
+&gt; +def test_envvar_parquet(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; N
+one:
+&gt; +    parquet_file = tmp_path / "events.parquet"
+&gt; +    con = duckdb.connect()
+&gt; +    csv_path = Path("scubaduck/sample.csv").resolve()
+&gt; +    con.execute(
+&gt; +        f"COPY (SELECT * FROM read_csv_auto('{csv_path.as_posix()}')) TO '{pa
+rquet_file.as_posix()}' (FORMAT PARQUET)"
+&gt; +    )
+&gt; +    con.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAc
+cessIssue]
+&gt; +
+&gt; +    monkeypatch.setenv("SCUBADUCK_DB", str(parquet_file))
+&gt; +    app = server.create_app()
+&gt; +    client = app.test_client()
+&gt; +    payload = _make_payload()
+&gt; +    rv = client.post(
+&gt; +        "/api/query", data=json.dumps(payload), content_type="application/jso
+n"
+&gt; +    )
+&gt; +    rows = rv.get_json()["rows"]
+&gt; +    assert len(rows) == 3
+&gt; *** End Patch
+&gt; PATCH
+Success. Updated the following files:
+M tests/test_server_db_types.py
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-d44258=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="77" data-is-last-node="" data-is-only-node="">I'm going to open the patch so I can take a look at what needs to be changed.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-bba9e2=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>def test_envvar_db(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; None:
+    csv_file = tmp_path / "custom.csv"
+    csv_file.write_text("timestamp,event,value,user\n2024-01-01 00:00:00,login,5
+,bob\n")
+    monkeypatch.setenv("SCUBADUCK_DB", str(csv_file))
+    app = server.create_app()
+    client = app.test_client()
+    payload = _make_payload()
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    rows = rv.get_json()["rows"]
+    assert len(rows) == 1
+
+
+def test_envvar_parquet(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; None
+:
+    parquet_file = tmp_path / "events.parquet"
+    con = duckdb.connect()
+    csv_path = Path("scubaduck/sample.csv").resolve()
+    con.execute(
+        f"COPY (SELECT * FROM read_csv_auto('{csv_path.as_posix()}')) TO '{parqu
+et_file.as_posix()}' (FORMAT PARQUET)"
+    )
+    con.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcces
+sIssue]
+
+    monkeypatch.setenv("SCUBADUCK_DB", str(parquet_file))
+    app = server.create_app()
+    client = app.test_client()
+    payload = _make_payload()
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    rows = rv.get_json()["rows"]
+    assert len(rows) == 3
+
+
+def test_envvar_db_missing(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; N
+one:
+    missing = tmp_path / "missing.sqlite"
+    monkeypatch.setenv("SCUBADUCK_DB", str(missing))
+    with pytest.raises(FileNotFoundError):
+        server.create_app()
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-bba9e2=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="49" data-is-last-node="" data-is-only-node="">Time to run ruff format and check the code style.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-27ff79=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# ruff format README.md scubad
+uck/server.py tests/test_server_db_types.py
+error: Failed to parse README.md:1:3: Simple statements must be separated by new
+lines or semicolons
+2 files left unchanged
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-27ff79=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="72" data-is-last-node="" data-is-only-node="">Ruff works for Python, not README. I'll run it only on the Python files.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-867943=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# ruff format scubaduck/server
+.py tests/test_server_db_types.py
+2 files left unchanged
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-867943=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="65" data-is-last-node="" data-is-only-node="">I'll run a ruff check to ensure everything is properly formatted.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-f35a8c="" data-chunk-id-wrapper-029676="" data-chunk-id-wrapper-666aff="" data-chunk-id-wrapper-7d2a6a="" data-chunk-id-wrapper-6a582a="" data-chunk-id-wrapper-ed856e="" data-chunk-id-wrapper-56413d="" data-chunk-id-wrapper-2f0704="" data-chunk-id-wrapper-6b7767="" data-chunk-id-wrapper-83a377="" data-chunk-id-wrapper-1545e3="" data-chunk-id-wrapper-c49f4b="" data-chunk-id-wrapper-13bbb9="" data-chunk-id-wrapper-aed910="" data-chunk-id-wrapper-112d36="" data-chunk-id-wrapper-475a19="" data-chunk-id-wrapper-f73bfd="" data-chunk-id-wrapper-db962f="" data-chunk-id-wrapper-bf095c=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# ruff check scubaduck/server.
+py tests/test_server_db_types.py
+All checks passed!</span></code><br data-chunk-id-f35a8c=""><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# pyright</span></code><br data-chunk-id-029676=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-666aff=""><code class="whitespace-pre-wrap"><span>0 errors, 0 warnings, 0 informations</span></code><br data-chunk-id-7d2a6a=""><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# pytest -q</span></code><br data-chunk-id-6a582a=""><code class="whitespace-pre-wrap"><span>bringing up nodes...</span></code><br data-chunk-id-ed856e=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-56413d=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-2f0704=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-6b7767=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-83a377=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-1545e3=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-c49f4b=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-13bbb9=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-aed910=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-112d36=""><code class="whitespace-pre-wrap"><span>........................................................................ [ 56%]</span></code><br data-chunk-id-475a19=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-f73bfd=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-db962f=""><code class="whitespace-pre-wrap"><span>128 passed in 20.48s
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-bf095c=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="62" data-is-last-node="" data-is-only-node="">All tests passed, so I'll go ahead and commit the changes now.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-49f5c9=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git status --short
+ M README.md
+ M scubaduck/server.py
+ M tests/test_server_db_types.py
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-49f5c9=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="62" data-is-last-node="" data-is-only-node="">I’ll gather the line ranges for the changes before committing.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-699d6c=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git diff --stat
+ README.md                     |  2 +-
+ scubaduck/server.py           |  5 +++++
+ tests/test_server_db_types.py | 20 ++++++++++++++++++++
+ 3 files changed, 26 insertions(+), 1 deletion(-)
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-699d6c=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="50" data-is-last-node="" data-is-only-node="">I’ll open up the diff to double-check the changes.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-62c0bf=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git diff -U1 README.md
+diff --git a/README.md b/README.md
+index 2e53d8c..6a6381f 100644
+--- a/README.md
++++ b/README.md
+@@ -48,3 +48,3 @@ flask --app scubaduck.server run --debug
+ By default the server loads `sample.csv`. Set the `SCUBADUCK_DB` environment
+-variable to point at a different database file (CSV, SQLite or DuckDB) if you
++variable to point at a different database file (CSV, Parquet, SQLite or DuckDB)
+ if you
+ want to use another dataset. The special value `TEST` starts the server with a
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-62c0bf=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="54" data-is-last-node="" data-is-only-node="">I'll review the server diff to understand any changes.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-7d0015=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git diff -U3 scubaduck/serve
+r.py | sed -n '50,80p'
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-7d0015=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="64" data-is-last-node="" data-is-only-node="">I wonder if the patch is too small. I'll display the whole diff.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-19f749=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git diff scubaduck/server.py
+diff --git a/scubaduck/server.py b/scubaduck/server.py
+index d292c4a..65ae821 100644
+--- a/scubaduck/server.py
++++ b/scubaduck/server.py
+@@ -62,6 +62,11 @@ def _load_database(path: Path) -&gt; duckdb.DuckDBPyConnection:
+         con.execute(
+             f"CREATE TABLE events AS SELECT * FROM read_csv_auto('{path.as_posi
+x()}')"
+         )
++    elif ext in {".parquet", ".parq"}:
++        con = duckdb.connect()
++        con.execute(
++            f"CREATE TABLE events AS SELECT * FROM read_parquet('{path.as_posix
+()}')"
++        )
+     elif ext in {".db", ".sqlite"}:
+         con = duckdb.connect()
+         con.execute("LOAD sqlite")
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-19f749=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="55" data-is-last-node="" data-is-only-node="">I'll review the diff to see if any tests were modified.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-30de0f=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git diff tests/test_server_d
+b_types.py | sed -n '220,260p'
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-30de0f=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="81" data-is-last-node="" data-is-only-node="">I’m considering patching earlier lines instead of 220 since it's a relative path.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-51cd1e=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>b_types.py
+diff --git a/tests/test_server_db_types.py b/tests/test_server_db_types.py
+index 20ba1f6..61141b0 100644
+--- a/tests/test_server_db_types.py
++++ b/tests/test_server_db_types.py
+@@ -227,6 +227,26 @@ def test_envvar_db(monkeypatch: pytest.MonkeyPatch, tmp_pat
+h: Path) -&gt; None:
+     assert len(rows) == 1
+
+
++def test_envvar_parquet(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt; Non
+e:
++    parquet_file = tmp_path / "events.parquet"
++    con = duckdb.connect()
++    csv_path = Path("scubaduck/sample.csv").resolve()
++    con.execute(
++        f"COPY (SELECT * FROM read_csv_auto('{csv_path.as_posix()}')) TO '{parq
+uet_file.as_posix()}' (FORMAT PARQUET)"
++    )
++    con.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
++
++    monkeypatch.setenv("SCUBADUCK_DB", str(parquet_file))
++    app = server.create_app()
++    client = app.test_client()
++    payload = _make_payload()
++    rv = client.post(
++        "/api/query", data=json.dumps(payload), content_type="application/json"
++    )
++    rows = rv.get_json()["rows"]
++    assert len(rows) == 3
++
++
+ def test_envvar_db_missing(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -&gt;
+None:
+     missing = tmp_path / "missing.sqlite"
+     monkeypatch.setenv("SCUBADUCK_DB", str(missing))
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-51cd1e=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="58" data-is-last-node="" data-is-only-node="">The diff looks good, so I’m ready to commit these changes!</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-9c66d3="" data-chunk-id-wrapper-00a88a=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git add README.md scubaduck/
+server.py tests/test_server_db_types.py</span></code><br data-chunk-id-9c66d3=""><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git commit -m "feat(server):
+ support parquet databases" &amp;&amp; git status --short
+[work 38a1ca9] feat(server): support parquet databases
+ 3 files changed, 26 insertions(+), 1 deletion(-)
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-00a88a=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="56" data-is-last-node="" data-is-only-node="">I'll run git status to make sure everything is in order.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-03fd5c=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# git status --short
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-03fd5c=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="76" data-is-last-node="" data-is-only-node="">I'll reference the new features, and grab the server file lines we modified.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-bd7cee="" data-chunk-id-wrapper-3b30c9=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>sed -n '58,76p'
+    58
+    59      ext = path.suffix.lower()
+    60      if ext == ".csv":
+    61          con = duckdb.connect()
+    62          con.execute(
+    63              f"CREATE TABLE events AS SELECT * FROM read_csv_auto('{path.
+as_posix()}')"
+    64          )
+    65      elif ext in {".parquet", ".parq"}:
+    66          con = duckdb.connect()
+    67          con.execute(
+    68              f"CREATE TABLE events AS SELECT * FROM read_parquet('{path.a
+s_posix()}')"
+    69          )
+    70      elif ext in {".db", ".sqlite"}:
+    71          con = duckdb.connect()
+    72          con.execute("LOAD sqlite")
+    73          con.execute(f"ATTACH '{path.as_posix()}' AS db (TYPE SQLITE)")
+    74          tables = [
+    75              r[0]
+    76              for r in con.execute(</span></code><br data-chunk-id-bd7cee=""><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# nl -ba README.md | sed -n '4
+7,52p'
+    47
+    48  By default the server loads `sample.csv`. Set the `SCUBADUCK_DB` environ
+ment
+    49  variable to point at a different database file (CSV, Parquet, SQLite or
+DuckDB) if you
+    50  want to use another dataset. The special value `TEST` starts the server
+with a
+    51  small in-memory SQLite dataset used by the automated tests. If the file
+does
+    52  not exist, the server will raise a `FileNotFoundError` during startup.
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-3b30c9=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="46" data-is-last-node="" data-is-only-node="">I’ll grab the lines from the failed tests now.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-2a907a=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# nl -ba tests/test_server_db_
+types.py | sed -n '224,255p'
+   224          "/api/query", data=json.dumps(payload), content_type="applicatio
+n/json"
+   225      )
+   226      rows = rv.get_json()["rows"]
+   227      assert len(rows) == 1
+   228
+   229
+   230  def test_envvar_parquet(monkeypatch: pytest.MonkeyPatch, tmp_path: Path)
+ -&gt; None:
+   231      parquet_file = tmp_path / "events.parquet"
+   232      con = duckdb.connect()
+   233      csv_path = Path("scubaduck/sample.csv").resolve()
+   234      con.execute(
+   235          f"COPY (SELECT * FROM read_csv_auto('{csv_path.as_posix()}')) TO
+ '{parquet_file.as_posix()}' (FORMAT PARQUET)"
+   236      )
+   237      con.close()  # pyright: ignore[reportUnknownMemberType, reportAttrib
+uteAccessIssue]
+   238
+   239      monkeypatch.setenv("SCUBADUCK_DB", str(parquet_file))
+   240      app = server.create_app()
+   241      client = app.test_client()
+   242      payload = _make_payload()
+   243      rv = client.post(
+   244          "/api/query", data=json.dumps(payload), content_type="applicatio
+n/json"
+   245      )
+   246      rows = rv.get_json()["rows"]
+   247      assert len(rows) == 3
+   248
+   249
+   250  def test_envvar_db_missing(monkeypatch: pytest.MonkeyPatch, tmp_path: Pa
+th) -&gt; None:
+   251      missing = tmp_path / "missing.sqlite"
+   252      monkeypatch.setenv("SCUBADUCK_DB", str(missing))
+   253      with pytest.raises(FileNotFoundError):
+   254          server.create_app()
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-2a907a=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="55" data-is-last-node="" data-is-only-node="">Let's output the test results and check for any issues.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-1e7e9a=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-gvdmn-79elbk h-full"><div class="react-scroll-to-bottom--css-gvdmn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@f39a1dc6c281:/workspace/scubaduck# tail -n 2 &lt;&lt;'EOF'
+&gt; $(grep -n "128 passed" -n -R)
+&gt; EOF
+$(grep -n "128 passed" -n -R)
+(scubaduck) root@f39a1dc6c281:/workspace/scubaduck#</span></code><br data-chunk-id-1e7e9a=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="82" data-is-last-node="" data-is-only-node="">I can't get past test run output easily. I'll craft the PR with the chunk instead.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><span class="h-min w-min"></span></div></div></div></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,3244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logs - task_e_682fcc8bc8148323bbf3630fce099bbc</title>
+    
+        <style>
+            body {
+                font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+                margin: 20px;
+                line-height: 1.4;
+            }
+
+            .dark {
+                background-color: #1e1e1e;
+                color: #d4d4d4;
+            }
+            
+            .whitespace-pre-wrap {
+                white-space: pre-wrap;
+                word-break: break-word;
+            }
+            
+            .whitespace-pre {
+                white-space: pre;
+            }
+            
+            /* ANSI colors */
+            .ansi-black-fg { color: #000000; }
+            .ansi-red-fg { color: #cd3131; }
+            .ansi-green-fg { color: #0dbc79; }
+            .ansi-yellow-fg { color: #e5e510; }
+            .ansi-blue-fg { color: #2472c8; }
+            .ansi-magenta-fg { color: #bc3fbc; }
+            .ansi-cyan-fg { color: #11a8cd; }
+            .ansi-white-fg { color: #e5e5e5; }
+            
+            .ansi-bright-black-fg { color: #666666; }
+            .ansi-bright-red-fg { color: #f14c4c; }
+            .ansi-bright-green-fg { color: #23d18b; }
+            .ansi-bright-yellow-fg { color: #f5f543; }
+            .ansi-bright-blue-fg { color: #3b8eea; }
+            .ansi-bright-magenta-fg { color: #d670d6; }
+            .ansi-bright-cyan-fg { color: #29b8db; }
+            .ansi-bright-white-fg { color: #e5e5e5; }
+            
+            /* ANSI backgrounds */
+            .ansi-black-bg { background-color: #000000; }
+            .ansi-red-bg { background-color: #cd3131; }
+            .ansi-green-bg { background-color: #0dbc79; }
+            .ansi-yellow-bg { background-color: #e5e510; }
+            .ansi-blue-bg { background-color: #2472c8; }
+            .ansi-magenta-bg { background-color: #bc3fbc; }
+            .ansi-cyan-bg { background-color: #11a8cd; }
+            .ansi-white-bg { background-color: #e5e5e5; }
+            
+            /* ANSI styles */
+            .ansi-bold { font-weight: bold; }
+            .ansi-dim { opacity: 0.7; }
+            .ansi-italic { font-style: italic; }
+            .ansi-underline { text-decoration: underline; }
+            .ansi-strikethrough { text-decoration: line-through; }
+            
+            /* Progress bars and other common elements */
+            .progress-bar {
+                display: inline-block;
+                background-color: #333;
+                border: 1px solid #555;
+            }
+            
+            pre {
+                background-color: #2d2d2d;
+                padding: 15px;
+                border-radius: 5px;
+                overflow-x: auto;
+                border: 1px solid #404040;
+            }
+            
+            .header {
+                background-color: #252526;
+                padding: 10px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+                border: 1px solid #404040;
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="header">
+        <h1>Codex Task Logs</h1>
+        <p>Task ID: task_e_682fcc8bc8148323bbf3630fce099bbc</p>
+    </div>
+    <div class="logs-content">
+        <div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu"><div class="mx-auto h-full w-full px-4 py-6 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem]"><div class="flex flex-col pb-32"><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-xs"><path d="M18 4C19.6569 4 21 5.34315 21 7V14.5H21.5L21.6025 14.5049C22.1067 14.5562 22.5 14.9823 22.5 15.5V17C22.5 18.6569 21.1569 20 19.5 20H4.5C2.89489 20 1.58421 18.7394 1.50391 17.1543L1.5 17V15.5L1.50488 15.3975C1.55621 14.8933 1.98232 14.5 2.5 14.5H3V7C3 5.34315 4.34315 4 6 4H18ZM3.5 17L3.50488 17.1025C3.55621 17.6067 3.98232 18 4.5 18H19.5C20.0523 18 20.5 17.5523 20.5 17V16.5H3.5V17ZM6 6C5.44772 6 5 6.44772 5 7V14.5H19V7C19 6.44772 18.5523 6 18 6H6Z" fill="currentColor"></path></svg>Environment setup</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><div class="whitespace-pre"><code><span>Configuring language runtimes...
++ rm -- /tmp/405dtC-setup_script.sh
++ source ./codex_setup.sh
+++ uv sync --frozen
+Using CPython 3.12.3 interpreter at: </span><span class="ansi-cyan-fg">/usr/bin/python3.12</span><span>
+Creating virtual environment at: </span><span class="ansi-cyan-fg">.venv</span><span>
+   </span><span class="ansi-cyan-fg ansi-bold">Building</span><span> scubaduck</span><span class="ansi-dim"> @ file:///workspace/scubaduck</span><span>
+</span><span class="ansi-cyan-fg ansi-bold">Downloading</span><span> playwright </span><span class="ansi-dim">(43.1MiB)</span><span>
+</span><span class="ansi-cyan-fg ansi-bold">Downloading</span><span> ruff </span><span class="ansi-dim">(11.0MiB)</span><span>
+</span><span class="ansi-cyan-fg ansi-bold">Downloading</span><span> duckdb </span><span class="ansi-dim">(19.3MiB)</span><span>
+</span><span class="ansi-cyan-fg ansi-bold">Downloading</span><span> pyright </span><span class="ansi-dim">(5.3MiB)</span><span>
+ </span><span class="ansi-green-fg ansi-bold">Downloading</span><span> ruff
+      </span><span class="ansi-green-fg ansi-bold">Built</span><span> scubaduck</span><span class="ansi-dim"> @ file:///workspace/scubaduck</span><span>
+ </span><span class="ansi-green-fg ansi-bold">Downloading</span><span> duckdb
+ </span><span class="ansi-green-fg ansi-bold">Downloading</span><span> playwright
+ </span><span class="ansi-green-fg ansi-bold">Downloading</span><span> pyright
+</span><span class="ansi-dim">Prepared </span><span class="ansi-bold">33 packages</span><span> </span><span class="ansi-dim">in 1.60s</span><span>
+</span><span class="ansi-dim">Installed </span><span class="ansi-bold">33 packages</span><span> </span><span class="ansi-dim">in 88ms</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">blinker</span><span class="ansi-dim">==1.9.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">certifi</span><span class="ansi-dim">==2025.4.26</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">charset-normalizer</span><span class="ansi-dim">==3.4.2</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">click</span><span class="ansi-dim">==8.2.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">duckdb</span><span class="ansi-dim">==1.2.2</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">execnet</span><span class="ansi-dim">==2.1.1</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">flask</span><span class="ansi-dim">==3.1.1</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">greenlet</span><span class="ansi-dim">==3.2.2</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">idna</span><span class="ansi-dim">==3.10</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">iniconfig</span><span class="ansi-dim">==2.1.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">itsdangerous</span><span class="ansi-dim">==2.2.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">jinja2</span><span class="ansi-dim">==3.1.6</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">markupsafe</span><span class="ansi-dim">==3.0.2</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">nodeenv</span><span class="ansi-dim">==1.9.1</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">packaging</span><span class="ansi-dim">==25.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">playwright</span><span class="ansi-dim">==1.52.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pluggy</span><span class="ansi-dim">==1.6.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pyee</span><span class="ansi-dim">==13.0.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pyright</span><span class="ansi-dim">==1.1.400</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pytest</span><span class="ansi-dim">==8.3.5</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pytest-base-url</span><span class="ansi-dim">==2.1.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pytest-playwright</span><span class="ansi-dim">==0.7.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">pytest-xdist</span><span class="ansi-dim">==3.6.1</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">python-dateutil</span><span class="ansi-dim">==2.9.0.post0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">python-slugify</span><span class="ansi-dim">==8.0.4</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">requests</span><span class="ansi-dim">==2.32.3</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">ruff</span><span class="ansi-dim">==0.11.10</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">scubaduck</span><span class="ansi-dim">==0.1.0 (from file:///workspace/scubaduck)</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">six</span><span class="ansi-dim">==1.17.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">text-unidecode</span><span class="ansi-dim">==1.3</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">typing-extensions</span><span class="ansi-dim">==4.13.2</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">urllib3</span><span class="ansi-dim">==2.4.0</span><span>
+ </span><span class="ansi-green-fg">+</span><span> </span><span class="ansi-bold">werkzeug</span><span class="ansi-dim">==3.1.3</span><span>
+++ source .venv/bin/activate
++++ '[' -z '' ']'
++++ '[' -n x ']'
++++ SCRIPT_PATH=.venv/bin/activate
++++ '[' .venv/bin/activate = /tmp/405dtC-setup_script.sh ']'
++++ deactivate nondestructive
++++ unset -f pydoc
++++ '[' -z '' ']'
++++ '[' -z '' ']'
++++ hash -r
++++ '[' -z '' ']'
++++ unset VIRTUAL_ENV
++++ unset VIRTUAL_ENV_PROMPT
++++ '[' '!' nondestructive = nondestructive ']'
++++ VIRTUAL_ENV=/workspace/scubaduck/.venv
++++ '[' linux-gnu = cygwin ']'
++++ '[' linux-gnu = msys ']'
++++ export VIRTUAL_ENV
++++ '[' -z '' ']'
++++ unset SCRIPT_PATH
++++ _OLD_VIRTUAL_PATH=/root/.cargo/bin:/root/.rbenv/shims:/root/.rbenv/bin:/root/.rbenv/shims:/root/.local/share/swiftly/bin:/root/.bun/bin:/root/.nvm/versions/node/v22.16.0/bin:/root/.pyenv/shims:3441PYENV_ROOT/shims:/root/.pyenv/bin:/usr/local/go/bin:/root/go/bin:/root/.rbenv/bin:/root/.rbenv/shims:/root/.bun/bin:/root/.local/bin:/root/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/workspace/scubaduck/.venv/bin:/root/.cargo/bin:/root/.rbenv/shims:/root/.rbenv/bin:/root/.rbenv/shims:/root/.local/share/swiftly/bin:/root/.bun/bin:/root/.nvm/versions/node/v22.16.0/bin:/root/.pyenv/shims:3441PYENV_ROOT/shims:/root/.pyenv/bin:/usr/local/go/bin:/root/go/bin:/root/.rbenv/bin:/root/.rbenv/shims:/root/.bun/bin:/root/.local/bin:/root/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' xscubaduck '!=' x ']'
++++ VIRTUAL_ENV_PROMPT=scubaduck
++++ export VIRTUAL_ENV_PROMPT
++++ '[' -z '' ']'
++++ '[' -z '' ']'
++++ _OLD_VIRTUAL_PS1=
++++ PS1='(scubaduck) '
++++ export PS1
++++ alias pydoc
++++ true
++++ hash -r
+++ python -c 'import os; import duckdb; con = duckdb.connect(); con.execute(f"SET http_proxy = '\''{os.getenv("HTTP_PROXY")}'\''"); con.execute("INSTALL '\''sqlite'\'';")'
+++ playwright install chromium
+Downloading Chromium 136.0.7103.25 (playwright build v1169)</span><span class="ansi-dim"> from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1169/chromium-linux.zip</span><span>
+</span><span>167.7 MiB [] 0% 14.2s</span><span>167.7 MiB [] 0% 45.4s</span><span>167.7 MiB [] 0% 28.7s</span><span>167.7 MiB [] 0% 20.8s</span><span>167.7 MiB [] 0% 12.3s</span><span>167.7 MiB [] 1% 7.4s</span><span>167.7 MiB [] 2% 5.0s</span><span>167.7 MiB [] 3% 3.1s</span><span>167.7 MiB [] 5% 2.4s</span><span>167.7 MiB [] 6% 2.3s</span><span>167.7 MiB [] 7% 2.0s</span><span>167.7 MiB [] 9% 1.8s</span><span>167.7 MiB [] 10% 1.7s</span><span>167.7 MiB [] 12% 1.5s</span><span>167.7 MiB [] 14% 1.4s</span><span>167.7 MiB [] 15% 1.3s</span><span>167.7 MiB [] 17% 1.2s</span><span>167.7 MiB [] 20% 1.1s</span><span>167.7 MiB [] 22% 1.0s</span><span>167.7 MiB [] 24% 1.0s</span><span>167.7 MiB [] 26% 0.9s</span><span>167.7 MiB [] 27% 0.9s</span><span>167.7 MiB [] 30% 0.8s</span><span>167.7 MiB [] 32% 0.8s</span><span>167.7 MiB [] 34% 0.7s</span><span>167.7 MiB [] 35% 0.8s</span><span>167.7 MiB [] 36% 0.8s</span><span>167.7 MiB [] 37% 0.8s</span><span>167.7 MiB [] 38% 0.8s</span><span>167.7 MiB [] 39% 0.8s</span><span>167.7 MiB [] 40% 0.8s</span><span>167.7 MiB [] 42% 0.8s</span><span>167.7 MiB [] 43% 0.7s</span><span>167.7 MiB [] 45% 0.7s</span><span>167.7 MiB [] 47% 0.7s</span><span>167.7 MiB [] 49% 0.6s</span><span>167.7 MiB [] 50% 0.6s</span><span>167.7 MiB [] 52% 0.6s</span><span>167.7 MiB [] 54% 0.6s</span><span>167.7 MiB [] 56% 0.5s</span><span>167.7 MiB [] 57% 0.5s</span><span>167.7 MiB [] 58% 0.5s</span><span>167.7 MiB [] 60% 0.5s</span><span>167.7 MiB [] 62% 0.5s</span><span>167.7 MiB [] 63% 0.5s</span><span>167.7 MiB [] 64% 0.4s</span><span>167.7 MiB [] 66% 0.4s</span><span>167.7 MiB [] 68% 0.4s</span><span>167.7 MiB [] 69% 0.4s</span><span>167.7 MiB [] 71% 0.3s</span><span>167.7 MiB [] 72% 0.3s</span><span>167.7 MiB [] 74% 0.3s</span><span>167.7 MiB [] 76% 0.3s</span><span>167.7 MiB [] 78% 0.3s</span><span>167.7 MiB [] 80% 0.2s</span><span>167.7 MiB [] 82% 0.2s</span><span>167.7 MiB [] 84% 0.2s</span><span>167.7 MiB [] 85% 0.2s</span><span>167.7 MiB [] 87% 0.1s</span><span>167.7 MiB [] 89% 0.1s</span><span>167.7 MiB [] 91% 0.1s</span><span>167.7 MiB [] 93% 0.1s</span><span>167.7 MiB [] 94% 0.1s</span><span>167.7 MiB [] 96% 0.0s</span><span>167.7 MiB [] 98% 0.0s</span><span>167.7 MiB [] 99% 0.0s</span><span>167.7 MiB [] 100% 0.0s</span><span>
+Chromium 136.0.7103.25 (playwright build v1169) downloaded to /root/.cache/ms-playwright/chromium-1169
+Downloading FFMPEG playwright build v1011</span><span class="ansi-dim"> from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip</span><span>
+</span><span>2.3 MiB [] 0% 0.0s</span><span>2.3 MiB [] 4% 0.4s</span><span>2.3 MiB [] 13% 0.3s</span><span>2.3 MiB [] 27% 0.1s</span><span>2.3 MiB [] 58% 0.0s</span><span>2.3 MiB [] 100% 0.0s</span><span>
+FFMPEG playwright build v1011 downloaded to /root/.cache/ms-playwright/ffmpeg-1011
+Downloading Chromium Headless Shell 136.0.7103.25 (playwright build v1169)</span><span class="ansi-dim"> from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1169/chromium-headless-shell-linux.zip</span><span>
+</span><span>101.4 MiB [] 0% 0.0s</span><span>101.4 MiB [] 0% 18.4s</span><span>101.4 MiB [] 0% 18.2s</span><span>101.4 MiB [] 0% 13.9s</span><span>101.4 MiB [] 0% 6.9s</span><span>101.4 MiB [] 1% 4.4s</span><span>101.4 MiB [] 3% 2.6s</span><span>101.4 MiB [] 6% 1.6s</span><span>101.4 MiB [] 8% 1.8s</span><span>101.4 MiB [] 9% 1.9s</span><span>101.4 MiB [] 9% 2.0s</span><span>101.4 MiB [] 10% 2.0s</span><span>101.4 MiB [] 12% 1.7s</span><span>101.4 MiB [] 14% 1.5s</span><span>101.4 MiB [] 16% 1.4s</span><span>101.4 MiB [] 19% 1.2s</span><span>101.4 MiB [] 21% 1.1s</span><span>101.4 MiB [] 23% 1.0s</span><span>101.4 MiB [] 25% 1.0s</span><span>101.4 MiB [] 27% 0.9s</span><span>101.4 MiB [] 29% 0.9s</span><span>101.4 MiB [] 31% 0.8s</span><span>101.4 MiB [] 32% 0.8s</span><span>101.4 MiB [] 33% 0.8s</span><span>101.4 MiB [] 34% 0.8s</span><span>101.4 MiB [] 35% 0.8s</span><span>101.4 MiB [] 39% 0.7s</span><span>101.4 MiB [] 43% 0.6s</span><span>101.4 MiB [] 45% 0.6s</span><span>101.4 MiB [] 48% 0.6s</span><span>101.4 MiB [] 51% 0.5s</span><span>101.4 MiB [] 53% 0.5s</span><span>101.4 MiB [] 55% 0.5s</span><span>101.4 MiB [] 57% 0.5s</span><span>101.4 MiB [] 60% 0.4s</span><span>101.4 MiB [] 61% 0.4s</span><span>101.4 MiB [] 63% 0.4s</span><span>101.4 MiB [] 66% 0.4s</span><span>101.4 MiB [] 68% 0.3s</span><span>101.4 MiB [] 69% 0.3s</span><span>101.4 MiB [] 70% 0.3s</span><span>101.4 MiB [] 71% 0.3s</span><span>101.4 MiB [] 73% 0.3s</span><span>101.4 MiB [] 75% 0.3s</span><span>101.4 MiB [] 77% 0.2s</span><span>101.4 MiB [] 80% 0.2s</span><span>101.4 MiB [] 82% 0.2s</span><span>101.4 MiB [] 85% 0.1s</span><span>101.4 MiB [] 88% 0.1s</span><span>101.4 MiB [] 92% 0.1s</span><span>101.4 MiB [] 94% 0.1s</span><span>101.4 MiB [] 96% 0.0s</span><span>101.4 MiB [] 97% 0.0s</span><span>101.4 MiB [] 98% 0.0s</span><span>101.4 MiB [] 99% 0.0s</span><span>101.4 MiB [] 100% 0.0s</span><span>
+Chromium Headless Shell 136.0.7103.25 (playwright build v1169) downloaded to /root/.cache/ms-playwright/chromium_headless_shell-1169
+++ echo 'source .venv/bin/activate'</span></code></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="text-token-text-tertiary mb-8 flex w-full items-center gap-2.5"><div class="bg-token-border-light h-[1px] flex-1 dark:bg-white/20"></div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-xs"><path d="M4.06189 11C4.43722 7.9901 6.48461 5.49947 9.24521 4.48695C9.13134 4.7517 9.02641 5.03057 8.93 5.31981C8.42177 6.84448 8.09487 8.8263 8.01766 11H4.06189ZM12 2C6.47715 2 2 6.47715 2 12C2 17.148 5.88912 21.3862 10.8901 21.939C11.2795 21.9821 11.6582 21.7938 11.8588 21.4573C12.0595 21.1208 12.0452 20.6982 11.8223 20.376C11.425 19.8019 10.9607 18.6839 10.5975 17.1672C10.3041 15.9422 10.0898 14.5119 10.0224 13H21C21.5523 13 22 12.5523 22 12C22 6.47715 17.5228 2 12 2ZM12 4C11.9999 4 12.0001 4 12 4C12.0012 4.00001 12.0058 4.00018 12.0153 4.00305C12.0264 4.00645 12.0485 4.01483 12.0814 4.03507C12.1506 4.07752 12.2545 4.16408 12.3823 4.32624C12.6425 4.65642 12.9206 5.19616 13.1726 5.95227C13.6027 7.24257 13.9045 9.00275 13.981 11H10.019C10.0955 9.00275 10.3973 7.24257 10.8274 5.95227C11.0794 5.19616 11.3575 4.65642 11.6177 4.32624C11.7455 4.16408 11.8494 4.07752 11.9186 4.03507C11.9515 4.01483 11.9736 4.00645 11.9847 4.00305C11.9951 3.9999 11.9993 4 12 4ZM15.9823 11C15.9051 8.8263 15.5782 6.84448 15.07 5.31981C14.9736 5.03058 14.8687 4.7517 14.7548 4.48695C17.5154 5.49947 19.5628 7.9901 19.9381 11H15.9823ZM8.02058 13C8.0892 14.6754 8.32456 16.2637 8.6525 17.633C8.81194 18.2988 8.99671 18.9272 9.20105 19.4969C6.46303 18.4743 4.43529 15.9937 4.06191 13H8.02058ZM14.2929 16.7071C13.9024 16.3166 13.9024 15.6834 14.2929 15.2929C14.6834 14.9024 15.3166 14.9024 15.7071 15.2929L17.5 17.0858L19.2929 15.2929C19.6834 14.9024 20.3166 14.9024 20.7071 15.2929C21.0976 15.6834 21.0976 16.3166 20.7071 16.7071L18.9142 18.5L20.7071 20.2929C21.0976 20.6834 21.0976 21.3166 20.7071 21.7071C20.3166 22.0976 19.6834 22.0976 19.2929 21.7071L17.5 19.9142L15.7071 21.7071C15.3166 22.0976 14.6834 22.0976 14.2929 21.7071C13.9024 21.3166 13.9024 20.6834 14.2929 20.2929L16.0858 18.5L14.2929 16.7071Z" fill="currentColor"></path></svg><span class="flex" data-state="closed"><span class="text-xs font-medium select-none">Internet turned off</span></span><div class="bg-token-border-light h-[1px] flex-1 dark:bg-white/20"></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="ms-24 flex w-fit min-w-0 flex-col items-end gap-2 justify-self-end"><div class="bg-token-bg-secondary mb-8 w-fit max-w-full min-w-0 justify-self-end rounded-xl px-6 py-4 text-sm break-all whitespace-pre-wrap">The heuristic for selecting a default time column currently lives in loadColumns in index.html. Let's factor it out into a dedicated JavaScript function with a logical input/output signature. It should take something like the names and types of all columns in the table, and then a time column to be selected, or null if no time column was fine and we should use (none).</div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="51" data-is-last-node="" data-is-only-node="">I just checked out AGENTS.md for some instructions.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-c429f2="" data-chunk-id-wrapper-98fd22="" data-chunk-id-wrapper-dde819=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>bash: .venv/bin/activate: No such file or directory
+root@5781539a2ddb:/workspace# ls
+scubaduck</span></code><br data-chunk-id-c429f2=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace# cd scubaduck
+root@5781539a2ddb:/workspace/scubaduck# ls
+AGENTS.md  codex_setup.sh  scubaduck  tests
+README.md  pyproject.toml  stubs      uv.lock</span></code><br data-chunk-id-98fd22=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# cat AGENTS.md
+- Use "source .venv/bin/activate" to activate the virtual environment before
+  running any commands
+- ONLY use non-interactive commands like cat, sed, apply_patch to do edits.
+  Do NOT use interactive editors.
+- Do NOT attempt to install packages.  Only the packages specified in
+  pyproject.toml are available.  You cannot add new packages.  If you
+  desperately want another package, make a note of it in the final PR
+  description.
+- Use conventional commits to format PR title
+- There are no nested AGENTS.md files, this is the only agents file
+- When using Playwright, ONLY use chromium browser.  This browser is already
+  installed.
+- Use "ruff check" to check lint, "ruff format" to autoformat files and
+  "pyright" to typecheck.
+- When writing the PR description, include the original prompt supplied by the
+  user.
+- When you add functionality to the server, add server tests to
+  tests/test_server.py.  When you add features to the frontend, add frontend
+  tests to tests/test_web.py</span></code><br data-chunk-id-dde819=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="97" data-is-last-node="" data-is-only-node="">I'll check the repository structure to keep track of everything while following the instructions.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-be1193="" data-chunk-id-wrapper-588e0b=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# ls -R | head
+.:
+AGENTS.md
+README.md
+codex_setup.sh
+pyproject.toml
+scubaduck
+stubs
+tests
+uv.lock</span></code><br data-chunk-id-be1193=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# cat README.md | head
+I really like Scuba (Meta's internal real-time database system). The distributed
+, real-time database part of Scuba is quite difficult (and expensive) to replica
+te, but I also really like Scuba's UI for doing queries, and I have found myself
+ wishing that I have access to it even for "small" databases, e.g., I have a sql
+ite dataset I want to explore.
+
+Pivotal ideas:
+
+* Time series by default. In the dedicated "time series" view, there are many fe
+atures specifically oriented towards working towards tables that represent event
+s that occurred over time: the start, end, compare, aggregate and granularity fi
+elds all specially privilege the timestamp field. In fact, you can't log events
+to Scuba's backing data store without a timestamp, they always come with one. (S
+cuba also supports other views that don't presuppose a time series, but the time
+ series is the most beloved and well used view.) This is in contrast to typical
+software which tries to generalize to arbitrary data first, with time series bei
+ng added on later.
+
+* It's all about exploration. Scuba is predicated on the idea that you don't kno
+w what you're looking for, that you are going to spend time tweaking queries and
+ changing filters/grouping as part of an investigation to figure out why a syste
+m behaves the way it is. So the filters/comparisons/groupings you want to edit a
+re always visible on the left sidebar, with the expectation that you're going to
+ tweak the query to look at something else. Similarly, all the parameters of you
+r query get saved into your URL, so your browser history can double up as a quer
+y history / you can easily share a query with someone else. This is contrast to
+typical software which is often oriented to making pretty dashboards and reports
+. (This function is important too, but it's not what I want in exploration mode!
+)
+
+* You can fix data problems in the query editor. It's pretty common to have mess
+ed up and ended up with a database that doesn't have exactly the columns you nee
+d, or some columns that are corrupted in some way. Scuba has pretty robust suppo
+rt for defining custom columns with arbitrary SQL functions, grouping over them
+as if they were native functions, and doing so with minimal runtime cost (Scuba
+aims to turn around your query in milliseconds!) Having to go and run a huge dat
+a pipeline to fix your data is a big impediment to exploration; quick and easy c
+ustom columns means you can patch over problems when you're investigating and fi
+x them for real later.</span></code><br data-chunk-id-588e0b=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="59" data-is-last-node="" data-is-only-node="">I’ll open the tests folder to take a look at what’s inside.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-4ae27c=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# ls tests
+conftest.py  test_multi_table_web.py  test_server.py  test_web.py</span></code><br data-chunk-id-4ae27c=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="59" data-is-last-node="" data-is-only-node="">I'll take a look at the tests located in tests/test_web.py.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-963be8="" data-chunk-id-wrapper-e8cb33=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '1,120p' tests/test_web.py
+from __future__ import annotations
+
+from typing import Any
+
+
+def select_value(page: Any, selector: str, value: str) -&gt; None:
+    page.evaluate(
+        "arg =&gt; setSelectValue(arg.sel, arg.val)",
+        {"sel": selector, "val": value},
+    )
+
+
+def run_query(
+    page: Any,
+    url: str,
+    *,
+    start: str | None = None,
+    end: str | None = None,
+    order_by: str | None = None,
+    order_dir: str | None = "ASC",
+    limit: int | None = None,
+    group_by: list[str] | None = None,
+    aggregate: str | None = None,
+) -&gt; dict[str, Any]:
+    page.goto(url)
+    page.wait_for_selector("#order_by option", state="attached")
+    page.wait_for_selector("#order_dir", state="attached")
+    page.wait_for_function("window.lastResults !== undefined")
+    if start is not None:
+        page.fill("#start", start)
+    if end is not None:
+        page.fill("#end", end)
+    if order_by is not None:
+        select_value(page, "#order_by", order_by)
+    if order_dir is not None and order_dir == "DESC":
+        page.click("#order_dir")
+    if limit is not None:
+        page.fill("#limit", str(limit))
+    if group_by is not None:
+        select_value(page, "#graph_type", "table")
+        page.evaluate(
+            "g =&gt; { groupBy.chips = g; groupBy.renderChips(); }",
+            group_by,
+        )
+    if aggregate is not None:
+        select_value(page, "#graph_type", "table")
+        select_value(page, "#aggregate", aggregate)
+    if page.input_value("#graph_type") != "samples":
+        page.click("text=Columns")
+        page.wait_for_selector("#column_groups input", state="attached")
+        if not page.is_checked("#column_groups input[value='value']"):
+            page.check("#column_groups input[value='value']")
+        order_col = order_by or page.input_value("#order_by")
+        if order_col and not page.is_checked(
+            f"#column_groups input[value='{order_col}']"
+        ):
+            if page.query_selector(f"#column_groups input[value='{order_col}']")
+:
+                page.check(f"#column_groups input[value='{order_col}']")
+        page.click("text=View Settings")
+    page.evaluate("window.lastResults = undefined")
+    page.click("text=Dive")
+    page.wait_for_function("window.lastResults !== undefined")
+    return page.evaluate("window.lastResults")
+
+
+def test_range_filters(page: Any, server_url: str) -&gt; None:
+    data = run_query(
+        page,
+        server_url,
+        start="2024-01-02 00:00:00",
+        end="2024-01-02 04:00:00",
+        order_by="user",
+        limit=100,
+    )
+    assert len(data["rows"]) == 2
+    from dateutil import parser
+
+    timestamps = [parser.parse(row[0]).replace(tzinfo=None) for row in data["row
+s"]]
+    assert timestamps == [
+        parser.parse("2024-01-02 00:00:00"),
+        parser.parse("2024-01-02 03:00:00"),
+    ]
+
+
+def test_order_by(page: Any, server_url: str) -&gt; None:
+    data = run_query(
+        page,
+        server_url,
+        start="2024-01-01 00:00:00",
+        end="2024-01-03 00:00:00",
+        order_by="value",
+        order_dir="DESC",
+        limit=100,
+    )
+    values = [row[2] for row in data["rows"]]
+    assert values == sorted(values, reverse=True)
+
+
+def test_limit(page: Any, server_url: str) -&gt; None:
+    data = run_query(
+        page,
+        server_url,
+        start="2024-01-01 00:00:00",
+        end="2024-01-03 00:00:00",
+        order_by="user",
+        limit=2,
+    )
+    assert len(data["rows"]) == 2
+
+
+def test_time_column_dropdown(page: Any, server_url: str) -&gt; None:
+    page.goto(server_url)
+    page.wait_for_selector("#time_column option", state="attached")
+    options = page.locator("#time_column option").all_inner_texts()
+    assert "(none)" in options
+    assert "timestamp" in options
+    assert "value" in options
+    assert page.input_value("#time_column") == "timestamp"</span></code><br data-chunk-id-963be8=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '120,240p' tests/test_web.py
+
+def test_time_column_none_hides_range(page: Any, server_url: str) -&gt; None:
+    page.goto(server_url)
+    page.wait_for_selector("#time_column option", state="attached")
+    select_value(page, "#time_column", "")
+    assert page.is_hidden("#start")
+    assert page.is_hidden("#end")
+    page.evaluate("window.lastResults = undefined")
+    page.click("text=Dive")
+    page.wait_for_function("window.lastResults !== undefined")
+    data = page.evaluate("window.lastResults")
+    assert len(data["rows"]) == 4
+    assert "start" not in data and "end" not in data
+
+
+def test_time_unit_dropdown(page: Any, server_url: str) -&gt; None:
+    page.goto(server_url)
+    page.wait_for_selector("#time_unit", state="attached")
+    opts = page.locator("#time_unit option").all_inner_texts()
+    assert "ms" in opts
+    assert page.input_value("#time_unit") == "s"
+
+
+def test_table_selector_dropdown(page: Any, server_url: str) -&gt; None:
+    page.goto(server_url)
+    page.wait_for_selector("#table option", state="attached")
+    disp = page.query_selector("#table + .dropdown-display")
+    assert disp
+    assert (
+        page.evaluate("getComputedStyle(document.querySelector('#table')).displa
+y")
+        == "none"
+    )
+    assert page.query_selector("#table + .dropdown-display + .dropdown-menu inpu
+t")
+
+
+def test_x_axis_default_entry(page: Any, server_url: str) -&gt; None:
+    page.goto(server_url)
+    page.wait_for_selector("#graph_type", state="attached")
+    select_value(page, "#graph_type", "timeseries")
+    page.wait_for_selector("#x_axis option", state="attached")
+    options = page.locator("#x_axis option").all_inner_texts()
+    assert "(default)" in options
+    assert page.input_value("#x_axis") == ""
+
+
+def test_simple_filter(page: Any, server_url: str) -&gt; None:
+    page.goto(server_url)
+    page.wait_for_selector("#order_by option", state="attached")
+    page.click("text=Add Filter")
+    filter_el = page.query_selector("#filters .filter:last-child")
+    assert filter_el
+    page.evaluate(
+        "arg =&gt; setSelectValue(arg.el.querySelector('.f-col'), arg.val)",
+        {"el": filter_el, "val": "user"},
+    )
+    val_input = filter_el.query_selector(".f-val")
+    val_input.click()
+    page.keyboard.type("alice")
+    page.keyboard.press("Enter")
+    page.click("text=Dive")
+    page.wait_for_function("window.lastResults !== undefined")
+    data = page.evaluate("window.lastResults")
+    assert len(data["rows"]) == 2
+    assert all(row[3] == "alice" for row in data["rows"])
+
+
+def test_default_filter_and_layout(page: Any, server_url: str) -&gt; None:
+    page.goto(server_url)
+    page.wait_for_selector("#order_by option", state="attached")
+    count = page.evaluate("document.querySelectorAll('#filters .filter').length"
+)
+    assert count == 1
+    last_is_button = page.evaluate(
+        "document.querySelector('#filters').lastElementChild.id === 'add_filter'
+"
+    )
+    assert last_is_button
+    position = page.evaluate(
+        "getComputedStyle(document.querySelector('#filters .filter button.remove
+')).position"
+    )
+    assert position == "static"
+
+
+def test_filter_remove_alignment(page: Any, server_url: str) -&gt; None:
+    page.goto(server_url)
+    page.wait_for_selector("#order_by option", state="attached")
+    diff = page.evaluate(
+        "() =&gt; { const r=document.querySelector('#filters .filter-row').getBound
+ingClientRect(); const x=document.querySelector('#filters .filter-row button.rem
+ove').getBoundingClientRect(); return Math.abs(r.right - x.right); }"
+    )
+    assert diff &lt;= 1
+
+
+def test_header_and_tabs(page: Any, server_url: str) -&gt; None:
+    page.goto(server_url)
+    page.wait_for_selector("#order_by option", state="attached")
+
+    header = page.text_content("#header")
+    assert "sample.csv" in header
+    assert "events" in header
+
+    assert page.is_visible("#settings")
+    assert page.is_hidden("#columns")
+    page.click("text=Columns")
+    assert page.is_visible("#columns")
+    cols = [c.strip() for c in page.locator("#column_groups li").all_inner_texts
+()]
+    assert "timestamp" in cols
+    assert "event" in cols
+    page.click("text=View Settings")
+    assert page.is_visible("#settings")
+
+    btn_color = page.evaluate(
+        "getComputedStyle(document.querySelector('#dive')).backgroundColor"
+    )
+    assert "rgb(0, 128, 0)" == btn_color
+
+    sidebar_overflow = page.evaluate(
+        "getComputedStyle(document.querySelector('#sidebar')).overflowY"
+    )
+    view_overflow = page.evaluate(
+        "getComputedStyle(document.querySelector('#view')).overflowY"
+    )
+    assert sidebar_overflow == "auto"
+    assert view_overflow == "auto"</span></code><br data-chunk-id-e8cb33=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="79" data-is-last-node="" data-is-only-node="">I'm checking out tests/test_server.py to see how the front-end is being tested.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-3d3be4="" data-chunk-id-wrapper-c13ce1=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '1,160p' tests/test_server.py
+from __future__ import annotations
+
+import json
+from pathlib import Path
+from typing import Any, cast
+
+import duckdb
+from scubaduck import server
+import pytest
+
+
+def test_basic_query() -&gt; None:
+    app = server.app
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-02 00:00:00",
+        "order_by": "timestamp",
+        "order_dir": "ASC",
+        "limit": 10,
+        "columns": ["timestamp", "event", "value", "user"],
+        "filters": [],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert data
+    rows = data["rows"]
+    # We expect first three rows (until 2024-01-02 00:00:00)
+    assert len(rows) == 3
+    assert rows[0][1] == "login"
+    assert rows[1][1] == "logout"
+
+
+def test_js_served() -&gt; None:
+    app = server.app
+    client = app.test_client()
+    rv = client.get("/js/chip_input.js")
+    assert rv.status_code == 200
+    assert b"initChipInput" in rv.data
+
+
+def test_filter_multi_token() -&gt; None:
+    app = server.app
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-02 03:00:00",
+        "order_by": "timestamp",
+        "limit": 10,
+        "columns": ["timestamp", "event", "value", "user"],
+        "filters": [{"column": "user", "op": "=", "value": ["alice", "charlie"]}
+],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert data
+    rows = data["rows"]
+    # Should only return rows for alice and charlie
+    assert len(rows) == 3
+    assert rows[0][3] == "alice"
+    assert rows[-1][3] == "charlie"
+
+
+def test_empty_filter_is_noop() -&gt; None:
+    app = server.app
+    client = app.test_client()
+    base_payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-03 00:00:00",
+        "limit": 100,
+        "columns": ["timestamp", "event", "value", "user"],
+    }
+    no_filter = {**base_payload, "filters": []}
+    empty_filter = {
+        **base_payload,
+        "filters": [{"column": "user", "op": "=", "value": None}],
+    }
+
+    rv1 = client.post(
+        "/api/query", data=json.dumps(no_filter), content_type="application/json
+"
+    )
+    rv2 = client.post(
+        "/api/query", data=json.dumps(empty_filter), content_type="application/j
+son"
+    )
+    rows1 = rv1.get_json()["rows"]
+    rows2 = rv2.get_json()["rows"]
+    assert rows1 == rows2
+
+
+def test_select_columns() -&gt; None:
+    app = server.app
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-03 00:00:00",
+        "order_by": "timestamp",
+        "limit": 10,
+        "columns": ["timestamp", "user"],
+        "filters": [],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert data
+    rows = data["rows"]
+    assert len(rows[0]) == 2
+    assert rows[0][1] == "alice"
+
+
+def test_string_filter_ops() -&gt; None:
+    app = server.app
+    client = app.test_client()
+    base = {
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-03 00:00:00",
+        "order_by": "timestamp",
+        "limit": 100,
+        "columns": ["timestamp", "event", "value", "user"],
+    }
+
+    contains = {
+        **base,
+        "filters": [{"column": "user", "op": "contains", "value": "ali"}],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(contains), content_type="application/json"
+    )
+    rows = rv.get_json()["rows"]
+    assert all("ali" in r[3] for r in rows)
+
+    regex = {
+        **base,
+        "filters": [{"column": "user", "op": "~", "value": "^a.*"}],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(regex), content_type="application/json"
+    )
+    rows = rv.get_json()["rows"]
+    assert all(r[3].startswith("a") for r in rows)
+    assert len(rows) == 2
+
+    not_empty = {**base, "filters": [{"column": "user", "op": "!empty"}]}
+    rv = client.post(
+        "/api/query", data=json.dumps(not_empty), content_type="application/json
+"
+    )
+    assert len(rv.get_json()["rows"]) == 4
+
+
+def _make_payload() -&gt; dict[str, object]:
+    return {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",</span></code><br data-chunk-id-3d3be4=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '160,320p' tests/test_server.py
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-02 00:00:00",
+        "order_by": "timestamp",
+        "order_dir": "ASC",
+        "limit": 10,
+        "columns": ["timestamp", "event", "value", "user"],
+        "filters": [],
+    }
+
+
+def test_database_types(tmp_path: Path) -&gt; None:
+    csv_file = tmp_path / "events.csv"
+    csv_file.write_text(Path("scubaduck/sample.csv").read_text())
+
+    sqlite_file = tmp_path / "events.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute(
+        "CREATE TABLE events (timestamp TEXT, event TEXT, value INTEGER, user TE
+XT)"
+    )
+    with open(csv_file) as f:
+        next(f)
+        for line in f:
+            ts, ev, val, user = line.strip().split(",")
+            conn.execute(
+                "INSERT INTO events VALUES (?, ?, ?, ?)", (ts, ev, int(val), use
+r)
+            )
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    duckdb_file = tmp_path / "events.duckdb"
+    con = duckdb.connect(duckdb_file)
+    con.execute(
+        f"CREATE TABLE events AS SELECT * FROM read_csv_auto('{csv_file.as_posix
+()}')"
+    )
+    con.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcces
+sIssue]
+
+    for db in (csv_file, sqlite_file, duckdb_file):
+        app = server.create_app(db)
+        client = app.test_client()
+        payload = _make_payload()
+        rv = client.post(
+            "/api/query", data=json.dumps(payload), content_type="application/js
+on"
+        )
+        rows = rv.get_json()["rows"]
+        assert len(rows) == 3
+
+
+def test_sqlite_longvarchar(tmp_path: Path) -&gt; None:
+    sqlite_file = tmp_path / "events.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute(
+        "CREATE TABLE events (timestamp TEXT, url LONGVARCHAR, title VARCHAR(10)
+)"
+    )
+    conn.execute(
+        "INSERT INTO events VALUES ('2024-01-01 00:00:00', 'https://a.com', 'Hom
+e')"
+    )
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    app = server.create_app(sqlite_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-01 01:00:00",
+        "order_by": "timestamp",
+        "columns": ["timestamp", "url", "title"],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    assert data["rows"][0][1] == "https://a.com"
+
+
+def test_sqlite_bigint(tmp_path: Path) -&gt; None:
+    sqlite_file = tmp_path / "big.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute("CREATE TABLE events (timestamp TEXT, value INTEGER)")
+    big_value = 13385262862605259
+    conn.execute(
+        "INSERT INTO events VALUES ('2024-01-01 00:00:00', ?)",
+        (big_value,),
+    )
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    app = server.create_app(sqlite_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "order_by": "timestamp",
+        "columns": ["timestamp", "value"],
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    assert data["rows"][0][1] == big_value
+
+
+def test_sqlite_boolean_aggregation(tmp_path: Path) -&gt; None:
+    sqlite_file = tmp_path / "bool.sqlite"
+    import sqlite3
+
+    conn = sqlite3.connect(sqlite_file)
+    conn.execute("CREATE TABLE events (timestamp TEXT, flag BOOLEAN)")
+    conn.execute("INSERT INTO events VALUES ('2024-01-01 00:00:00', 1)")
+    conn.execute("INSERT INTO events VALUES ('2024-01-01 00:30:00', 0)")
+    conn.commit()
+    conn.close()  # pyright: ignore[reportUnknownMemberType, reportAttributeAcce
+ssIssue]
+
+    app = server.create_app(sqlite_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-02 00:00:00",
+        "graph_type": "table",
+        "aggregate": "Avg",
+        "columns": ["flag"],
+        "show_hits": True,
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    assert data["rows"][0][0] == 2
+    assert data["rows"][0][1] == 0.5
+
+
+def test_integer_time_column(tmp_path: Path) -&gt; None:
+    csv_file = tmp_path / "events.csv"
+    csv_file.write_text("created,event\n1704067200,login\n1704070800,logout\n")
+    app = server.create_app(csv_file)
+    client = app.test_client()
+    payload = {
+        "table": "events",
+        "start": "2024-01-01 00:00:00",
+        "end": "2024-01-01 01:00:00",
+        "order_by": "created",
+        "columns": ["created", "event"],
+        "time_column": "created",
+    }
+    rv = client.post(
+        "/api/query", data=json.dumps(payload), content_type="application/json"
+    )
+    data = rv.get_json()
+    assert rv.status_code == 200
+    assert len(data["rows"]) == 2</span></code><br data-chunk-id-c13ce1=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="95" data-is-last-node="" data-is-only-node="">I’ll check the scubaduck package directory and review tests related to the default time column.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-bb820c=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# ls scubaduck
+__init__.py  sample.csv  server.py  static</span></code><br data-chunk-id-bb820c=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="79" data-is-last-node="" data-is-only-node="">I'm taking a look at server.py to understand its structure and functionalities.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-0aaa3f="" data-chunk-id-wrapper-db6c8d="" data-chunk-id-wrapper-fbe760="" data-chunk-id-wrapper-3284a0="" data-chunk-id-wrapper-6b53f9=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '1,160p' scubaduck/server.py
+from __future__ import annotations
+
+from dataclasses import dataclass, field, replace
+from typing import Any, Dict, List, Tuple, cast
+
+import re
+from datetime import datetime, timedelta, timezone
+
+import time
+from pathlib import Path
+import os
+import traceback
+import math
+
+import duckdb
+from dateutil import parser as dtparser
+from flask import Flask, jsonify, request, send_from_directory
+
+
+def _quote(ident: str) -&gt; str:
+    """Return identifier quoted for SQL."""
+    return f'"{ident.replace('"', '""')}"'
+
+
+@dataclass
+class Filter:
+    column: str
+    op: str
+    value: str | int | float | list[str] | None
+
+
+@dataclass
+class QueryParams:
+    start: str | None = None
+    end: str | None = None
+    order_by: str | None = None
+    order_dir: str = "ASC"
+    limit: int | None = None
+    columns: list[str] = field(default_factory=lambda: [])
+    filters: list[Filter] = field(default_factory=lambda: [])
+    derived_columns: dict[str, str] = field(default_factory=lambda: {})
+    graph_type: str = "samples"
+    group_by: list[str] = field(default_factory=lambda: [])
+    aggregate: str | None = None
+    show_hits: bool = False
+    x_axis: str | None = None
+    granularity: str = "Auto"
+    fill: str = "0"
+    table: str = "events"
+    time_column: str | None = "timestamp"
+    time_unit: str = "s"
+
+
+def _load_database(path: Path) -&gt; duckdb.DuckDBPyConnection:
+    if not path.exists():
+        raise FileNotFoundError(path)
+
+    ext = path.suffix.lower()
+    if ext == ".csv":
+        con = duckdb.connect()
+        con.execute(
+            f"CREATE TABLE events AS SELECT * FROM read_csv_auto('{path.as_posix
+()}')"
+        )
+    elif ext in {".db", ".sqlite"}:
+        con = duckdb.connect()
+        con.execute("LOAD sqlite")
+        con.execute(f"ATTACH '{path.as_posix()}' AS db (TYPE SQLITE)")
+        tables = [
+            r[0]
+            for r in con.execute(
+                "SELECT name FROM sqlite_master WHERE type='table'"
+            ).fetchall()
+        ]
+        for t in tables:
+            con.execute(f'CREATE VIEW "{t}" AS SELECT * FROM db."{t}"')
+    else:
+        con = duckdb.connect(path)
+    return con
+
+
+def _create_test_database() -&gt; duckdb.DuckDBPyConnection:
+    """Return a DuckDB connection with a small multi-table dataset."""
+    con = duckdb.connect()
+    con.execute(
+        "CREATE TABLE events (id INTEGER PRIMARY KEY, ts INTEGER, val REAL, name
+ TEXT, flag BOOLEAN)"
+    )
+    con.execute("INSERT INTO events VALUES (1, 1704067200, 1.5, 'alice', 1)")
+    con.execute("INSERT INTO events VALUES (2, 1704070800, 2.0, 'bob', 0)")
+    con.execute('CREATE TABLE extra (ts INTEGER, "desc" TEXT, num INTEGER)')
+    con.execute("INSERT INTO extra VALUES (1704067200, 'x', 1)")
+    con.execute("INSERT INTO extra VALUES (1704070800, 'y', 2)")
+    return con
+
+
+_REL_RE = re.compile(
+    r"([+-]?\d+(?:\.\d*)?)\s*(hour|hours|day|days|week|weeks|fortnight|fortnight
+s)",
+    re.IGNORECASE,
+)
+
+
+def parse_time(val: str | None) -&gt; str | None:
+    """Parse an absolute or relative time string into ``YYYY-MM-DD HH:MM:SS``.""
+"
+    if val is None or val == "":
+        return None
+    s = val.strip()
+    if s.lower() == "now":
+        dt = datetime.now(timezone.utc)
+        return dt.replace(microsecond=0).strftime("%Y-%m-%d %H:%M:%S")
+
+    m = _REL_RE.fullmatch(s)
+    if m:
+        qty = float(m.group(1))
+        unit = m.group(2).lower()
+        delta: timedelta
+        if unit.startswith("hour"):
+            delta = timedelta(hours=qty)
+        elif unit.startswith("day"):
+            delta = timedelta(days=qty)
+        elif unit.startswith("week"):
+            delta = timedelta(weeks=qty)
+        elif unit.startswith("fortnight"):
+            delta = timedelta(weeks=2 * qty)
+        else:  # pragma: no cover - defensive
+            raise ValueError(f"Unsupported unit: {unit}")
+        dt = datetime.now(timezone.utc) + delta
+        return dt.replace(microsecond=0).strftime("%Y-%m-%d %H:%M:%S")
+
+    dt = dtparser.parse(s)
+    return dt.replace(microsecond=0, tzinfo=None).strftime("%Y-%m-%d %H:%M:%S")
+
+
+def _granularity_seconds(granularity: str, start: str | None, end: str | None) -
+&gt; int:
+    gran = granularity.lower()
+    mapping = {
+        "1 second": 1,
+        "5 seconds": 5,
+        "10 seconds": 10,
+        "30 seconds": 30,
+        "1 minute": 60,
+        "4 minutes": 240,
+        "5 minutes": 300,
+        "10 minutes": 600,
+        "15 minutes": 900,
+        "30 minutes": 1800,
+        "1 hour": 3600,
+        "3 hours": 10800,
+        "6 hours": 21600,
+        "1 day": 86400,
+        "1 week": 604800,
+        "30 days": 2592000,
+    }
+    if gran in mapping:
+        return mapping[gran]
+    if gran in {"auto", "fine"} and start and end:
+        try:
+            s = dtparser.parse(start)
+            e = dtparser.parse(end)
+        except Exception:
+            return 3600
+        total = max((e - s).total_seconds(), 1)</span></code><br data-chunk-id-0aaa3f=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '160,320p' scubaduck/server.py
+        total = max((e - s).total_seconds(), 1)
+        buckets = 100 if gran == "auto" else 500
+        return max(int(total // buckets), 1)
+    return 3600
+
+
+def _time_expr(col: str, column_types: Dict[str, str] | None, unit: str) -&gt; str:
+    """Return SQL expression for column interpreted as timestamp."""
+    qcol = _quote(col)
+    if column_types is None:
+        return qcol
+    ctype = column_types.get(col, "").upper()
+    if not any(t in ctype for t in ["TIMESTAMP", "DATE", "TIME"]):
+        if any(
+            t in ctype
+            for t in [
+                "INT",
+                "DECIMAL",
+                "REAL",
+                "DOUBLE",
+                "FLOAT",
+                "NUMERIC",
+                "HUGEINT",
+            ]
+        ):
+            if unit == "ns":
+                expr = f"CAST({qcol} AS BIGINT)"
+                return f"make_timestamp_ns({expr})"
+
+            multiplier = {
+                "s": 1_000_000,
+                "ms": 1_000,
+                "us": 1,
+            }.get(unit, 1_000_000)
+            expr = (
+                f"CAST({qcol} * {multiplier} AS BIGINT)"
+                if multiplier != 1
+                else f"CAST({qcol} AS BIGINT)"
+            )
+            return f"make_timestamp({expr})"
+    return qcol
+
+
+def build_query(params: QueryParams, column_types: Dict[str, str] | None = None)
+ -&gt; str:
+    select_parts: list[str] = []
+    group_cols = params.group_by[:]
+    if params.graph_type == "timeseries":
+        sec = _granularity_seconds(params.granularity, params.start, params.end)
+        x_axis = params.x_axis or params.time_column
+        if x_axis is None:
+            raise ValueError("x_axis required for timeseries")
+        xexpr = _time_expr(x_axis, column_types, params.time_unit)
+        if params.start:
+            bucket_expr = (
+                f"TIMESTAMP '{params.start}' + INTERVAL '{sec} second' * "
+                f"CAST(floor((epoch({xexpr}) - epoch(TIMESTAMP '{params.start}')
+)/{sec}) AS BIGINT)"
+            )
+        else:
+            bucket_expr = (
+                f"TIMESTAMP 'epoch' + INTERVAL '{sec} second' * "
+                f"CAST(floor(epoch({xexpr})/{sec}) AS BIGINT)"
+            )
+        select_parts.append(f"{bucket_expr} AS bucket")
+        group_cols = ["bucket"] + group_cols
+    has_agg = bool(group_cols) or params.aggregate is not None
+    if has_agg:
+        select_cols = (
+            group_cols[1:] if params.graph_type == "timeseries" else group_cols
+        )
+        select_parts.extend(_quote(c) for c in select_cols)
+        agg = (params.aggregate or "count").lower()
+
+        def agg_expr(col: str) -&gt; str:
+            expr = _quote(col)
+            ctype = column_types.get(col, "").upper() if column_types else ""
+            if "BOOL" in ctype:
+                expr = f"CAST({_quote(col)} AS BIGINT)"
+            if agg.startswith("p"):
+                quant = float(agg[1:]) / 100
+                return f"quantile({expr}, {quant})"
+            if agg == "count distinct":
+                return f"count(DISTINCT {expr})"
+            if agg == "avg" and column_types is not None:
+                if "TIMESTAMP" in ctype or "DATE" in ctype or "TIME" in ctype:
+                    return (
+                        "TIMESTAMP 'epoch' + INTERVAL '1 second' * "
+                        f"CAST(avg(epoch({_quote(col)})) AS BIGINT)"
+                    )
+            return f"{agg}({expr})"
+
+        if agg == "count":
+            select_parts.append("count(*) AS Count")
+        else:
+            for col in params.columns:
+                if col in group_cols:
+                    continue
+                select_parts.append(f"{agg_expr(col)} AS {_quote(col)}")
+        if params.show_hits:
+            select_parts.insert(len(group_cols), "count(*) AS Hits")
+    else:
+        select_parts.extend(_quote(c) for c in params.columns)
+
+    if has_agg and params.derived_columns:
+        inner_params = replace(
+            params,
+            derived_columns={},
+            order_by=None,
+            limit=None,
+        )
+        inner_sql = build_query(inner_params, column_types)
+        outer_select = ["t.*"] + [
+            f"{expr} AS {name}" for name, expr in params.derived_columns.items()
+        ]
+        indented_inner = "\n".join("    " + line for line in inner_sql.splitline
+s())
+        lines = [
+            f"SELECT {', '.join(outer_select)}",
+            "FROM (",
+            indented_inner,
+            ") t",
+        ]
+        if params.order_by:
+            lines.append(f"ORDER BY {_quote(params.order_by)} {params.order_dir}
+")
+        elif params.graph_type == "timeseries":
+            lines.append("ORDER BY bucket")
+        if params.limit is not None:
+            lines.append(f"LIMIT {params.limit}")
+        return "\n".join(lines)
+
+    for name, expr in params.derived_columns.items():
+        select_parts.append(f"{expr} AS {name}")
+    select_clause = ", ".join(select_parts) if select_parts else "*"
+    lines = [f"SELECT {select_clause}", f'FROM "{params.table}"']
+    where_parts: list[str] = []
+    if params.time_column:
+        time_expr = _time_expr(params.time_column, column_types, params.time_uni
+t)
+    else:
+        time_expr = None
+    if time_expr and params.start:
+        where_parts.append(f"{time_expr} &gt;= '{params.start}'")
+    if time_expr and params.end:
+        where_parts.append(f"{time_expr} &lt;= '{params.end}'")
+    for f in params.filters:
+        op = f.op
+        if op in {"empty", "!empty"}:
+            val = "''"
+        else:
+            if f.value is None:
+                continue
+            if isinstance(f.value, list):
+                if not f.value:
+                    continue
+                if op == "=":
+                    qcol = _quote(f.column)
+                    vals = " OR ".join(f"{qcol} = '{v}'" for v in f.value)
+                    where_parts.append(f"({vals})")
+                    continue
+            val = f"'{f.value}'" if isinstance(f.value, str) else str(f.value)
+
+        qcol = _quote(f.column)
+        if op == "contains":
+            where_parts.append(f"{qcol} ILIKE '%' || {val} || '%'")</span></code><br data-chunk-id-db6c8d=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-fbe760=""><code class="whitespace-pre-wrap"><span>where_parts.append(f"{qcol} ILIKE '%' || {val} || '%'")
+        elif op == "!contains":
+            where_parts.append(f"{qcol} NOT ILIKE '%' || {val} || '%'")
+        elif op == "empty":
+            where_parts.append(f"{qcol} = {val}")
+        elif op == "!empty":
+            where_parts.append(f"{qcol} != {val}")
+        else:
+            where_parts.append(f"{qcol} {op} {val}")
+    if where_parts:
+        lines.append("WHERE " + " AND ".join(where_parts))
+    if group_cols:
+        lines.append("GROUP BY " + ", ".join(_quote(c) for c in group_cols))
+    if params.order_by:
+        lines.append(f"ORDER BY {_quote(params.order_by)} {params.order_dir}")
+    elif params.graph_type == "timeseries":
+        lines.append("ORDER BY bucket")
+    if params.limit is not None:
+        lines.append(f"LIMIT {params.limit}")
+    return "\n".join(lines)
+
+
+def create_app(db_file: str | Path | None = None) -&gt; Flask:
+    app = Flask(__name__, static_folder="static")
+    if db_file is None:
+        env_db = os.environ.get("SCUBADUCK_DB")
+        if env_db:
+            db_file = env_db
+    if isinstance(db_file, str) and db_file.upper() == "TEST":
+        con = _create_test_database()
+    else:
+        db_path = Path(db_file or Path(__file__).with_name("sample.csv")).resolv
+e()
+        con = _load_database(db_path)
+    tables = [r[0] for r in con.execute("SHOW TABLES").fetchall()]
+    if not tables:
+        raise ValueError("No tables found in database")
+    default_table = tables[0]
+    columns_cache: Dict[str, Dict[str, str]] = {}
+
+    def get_columns(table: str) -&gt; Dict[str, str]:
+        if table not in columns_cache:
+            rows = con.execute(f'PRAGMA table_info("{table}")').fetchall()
+            if not rows:
+                raise ValueError(f"Unknown table: {table}")
+            columns_cache[table] = {r[1]: r[2] for r in rows}
+        return columns_cache[table]
+
+    sample_cache: Dict[Tuple[str, str, str], Tuple[List[str], float]] = {}
+    CACHE_TTL = 60.0
+    CACHE_LIMIT = 200
+
+    @app.route("/")
+    def index() -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        assert app.static_folder is not None
+        return send_from_directory(app.static_folder, "index.html")
+
+    @app.route("/js/&lt;path:filename&gt;")
+    def js(filename: str) -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        assert app.static_folder is not None
+        folder = Path(app.static_folder) / "js"
+        return send_from_directory(folder, filename)
+
+    @app.route("/api/tables")
+    def tables_endpoint() -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        return jsonify(tables)
+
+    @app.route("/api/columns")
+    def columns() -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        table = request.args.get("table", default_table)
+        rows = con.execute(f'PRAGMA table_info("{table}")').fetchall()
+        return jsonify([{"name": r[1], "type": r[2]} for r in rows])
+
+    def _cache_get(key: Tuple[str, str, str]) -&gt; List[str] | None:
+        item = sample_cache.get(key)
+        if item is None:
+            return None
+        vals, ts = item
+        if time.time() - ts &gt; CACHE_TTL:
+            del sample_cache[key]
+            return None
+        sample_cache[key] = (vals, time.time())
+        return vals
+
+    def _cache_set(key: Tuple[str, str, str], vals: List[str]) -&gt; None:
+        sample_cache[key] = (vals, time.time())
+        if len(sample_cache) &gt; CACHE_LIMIT:
+            oldest = min(sample_cache.items(), key=lambda kv: kv[1][1])[0]
+            del sample_cache[oldest]
+
+    @app.route("/api/samples")
+    def sample_values() -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        table = request.args.get("table", default_table)
+        column = request.args.get("column")
+        substr = request.args.get("q", "")
+        column_types = get_columns(table)
+        if not column or column not in column_types:
+            return jsonify([])
+        ctype = column_types[column].upper()
+        if "CHAR" not in ctype and "STRING" not in ctype and "VARCHAR" not in ct
+ype:
+            return jsonify([])
+        key = (table, column, substr)
+        cached = _cache_get(key)
+        if cached is not None:
+            return jsonify(cached)
+        qcol = _quote(column)
+        rows = con.execute(
+            f"SELECT DISTINCT {qcol} FROM \"{table}\" WHERE CAST({qcol} AS VARCH
+AR) ILIKE '%' || ? || '%' LIMIT 20",
+            [substr],
+        ).fetchall()
+        values = [r[0] for r in rows]
+        _cache_set(key, values)
+        return jsonify(values)
+
+    @app.route("/api/query", methods=["POST"])
+    def query() -&gt; Any:  # pyright: ignore[reportUnusedFunction]
+        payload = request.get_json(force=True)
+        try:
+            start = parse_time(payload.get("start"))
+            end = parse_time(payload.get("end"))
+        except Exception as exc:
+            return jsonify({"error": str(exc)}), 400
+...
+                need_numeric = False
+                allow_time = True
+            else:
+                need_numeric = False
+                allow_time = False
+            if need_numeric or allow_time:
+                for c in params.columns:
+                    if c in params.group_by or c == params.x_axis:
+                        continue
+                    if c not in column_types:
+                        continue
+                    ctype = column_types.get(c, "").upper()
+                    is_numeric = any(
+                        t in ctype
+                        for t in [
+                            "INT",
+                            "DECIMAL",
+                            "REAL",
+                            "DOUBLE",
+                            "FLOAT",
+                            "NUMERIC",
+                            "HUGEINT",
+                        ]
+                    )
+                    is_time = "TIMESTAMP" in ctype or "DATE" in ctype or "TIME"
+in ctype
+                    if need_numeric and not is_numeric:
+                        return (
+                            jsonify(
+                                {
+                                    "error": f"Aggregate {agg} cannot be applied
+ to column {c}",
+                                }
+                            ),
+                            400,
+                        )
+                    if allow_time and not (is_numeric or is_time):
+                        return (
+                            jsonify(
+                                {
+                                    "error": f"Aggregate {agg} cannot be applied
+ to column {c}",
+                                }
+                            ),
+                            400,
+                        )
+        if (params.start is None or params.end is None) and (
+            params.x_axis or params.time_column
+        ):
+            axis = params.x_axis or params.time_column
+            assert axis is not None
+            row = cast(
+                tuple[datetime | None, datetime | None],
+                con.execute(
+                    f'SELECT min({_quote(axis)}), max({_quote(axis)}) FROM "{par
+ams.table}"'
+                ).fetchall()[0],
+            )
+            mn, mx = row
+            divisor = {
+                "s": 1,
+                "ms": 1000,
+                "us": 1_000_000,
+                "ns": 1_000_000_000,
+            }.get(params.time_unit, 1)
+            if isinstance(mn, (int, float)):
+                try:
+                    mn = datetime.fromtimestamp(int(mn) / divisor, tz=timezone.u
+tc)
+                except Exception:
+                    return (
+                        jsonify(
+                            {
+                                "error": (
+                                    f"Invalid time value {mn} for column {axis}"
+                                    f" with time_unit {params.time_unit}"
+                                )
+                            }
+                        ),
+                        400,
+                    )
+            if isinstance(mx, (int, float)):
+                try:
+                    mx = datetime.fromtimestamp(int(mx) / divisor, tz=timezone.u
+tc)
+                except Exception:
+                    return (
+                        jsonify(
+                            {
+                                "error": (
+                                    f"Invalid time value {mx} for column {axis}"
+                                    f" with time_unit {params.time_unit}"
+                                )
+                            }
+                        ),
+                        400,
+                    )
+            if params.start is None and mn is not None:
+                params.start = (
+                    mn.strftime("%Y-%m-%d %H:%M:%S") if not isinstance(mn, str)
+else mn
+                )
+            if params.end is None and mx is not None:
+                params.end = (
+                    mx.strftime("%Y-%m-%d %H:%M:%S") if not isinstance(mx, str)
+else mx
+                )
+
+        bucket_size: int | None = None
+        if params.graph_type == "timeseries":
+            bucket_size = _granularity_seconds(
+                params.granularity,
+                params.start if isinstance(params.start, str) else None,
+                params.end if isinstance(params.end, str) else None,
+            )
+            if (
+                params.limit is not None
+                and params.start is not None
+                and params.end is not None
+            ):
+                try:
+                    start_dt = dtparser.parse(params.start)
+                    end_dt = dtparser.parse(params.end)
+                    buckets = math.ceil(</span></code><br data-chunk-id-3284a0=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '640,960p' scubaduck/server.py
+                    buckets = math.ceil(
+                        (end_dt - start_dt).total_seconds() / bucket_size
+                    )
+                    if buckets &gt; 1:
+                        params.limit *= buckets
+                except Exception:
+                    pass
+
+        sql = build_query(params, column_types)
+        try:
+            rows = con.execute(sql).fetchall()
+        except Exception as exc:
+            tb = traceback.format_exc()
+            print(f"Query failed:\n{sql}\n{tb}")
+            return (
+                jsonify({"sql": sql, "error": str(exc), "traceback": tb}),
+                400,
+            )
+
+        result: Dict[str, Any] = {"sql": sql, "rows": rows}
+        if params.start is not None:
+            result["start"] = str(params.start)
+        if params.end is not None:
+            result["end"] = str(params.end)
+        if bucket_size is not None:
+            result["bucket_size"] = bucket_size
+        return jsonify(result)
+
+    return app
+
+
+app = create_app()
+
+
+if __name__ == "__main__":
+    app.run(debug=True)</span></code><br data-chunk-id-6b53f9=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="62" data-is-last-node="" data-is-only-node="">I'll take a look at the static directory to see what’s inside.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-fb5c97="" data-chunk-id-wrapper-9b7068=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# ls scubaduck/static
+index.html  js</span></code><br data-chunk-id-fb5c97=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# ls scubaduck/static/js
+chip_input.js  sidebar.js  timeseries_chart.js</span></code><br data-chunk-id-9b7068=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="53" data-is-last-node="" data-is-only-node="">I'll open the index.html file to review its contents.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-8a5495=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;title&gt;ScubaDuck&lt;/title&gt;
+  &lt;style&gt;
+    body { margin: 0; font-family: sans-serif; height: 100vh; display: flex; fle
+x-direction: column; }
+    #header { padding: 10px; font-weight: bold; border-bottom: 1px solid #ccc; }
+    #content { flex: 1; display: flex; height: calc(100vh - 42px); overflow: hid
+den; }
+    #sidebar { width: 450px; padding: 10px; border-right: 3px solid #ccc; overfl
+ow-y: auto; display: flex; flex-direction: column; box-sizing: border-box; }
+    #sidebar-resizer { width: 5px; cursor: col-resize; background: #ccc; }
+    #view { flex: 1; padding: 10px; overflow-y: auto; overflow-x: auto; }
+    .field { display: flex; align-items: center; margin-bottom: 10px; }
+    .field label { width: 80px; text-align: right; margin-right: 5px; }
+    .help { margin-left: 4px; cursor: help; }
+    .rel-btn { margin-left: 4px; }
+    #tabs { display: flex; align-items: center; margin-bottom: 10px; }
+    #tabs .tab { margin-right: 5px; background: none; border: 1px solid #ccc; pa
+dding: 4px 8px; cursor: pointer; width: 120px; text-align: center; box-sizing: b
+order-box; }
+    #tabs .tab.active { background: #eee; font-weight: bold; }
+    #dive { margin-left: auto; background: green; color: white; border: none; pa
+dding: 5px 10px; cursor: pointer; }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+    #filter_list { display: flex; flex-direction: column; }
+    #filters .filter {
+      border: 1px solid #ccc;
+      padding: 5px;
+      margin-bottom: 5px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    #derived_columns .derived {
+      border: 1px solid #ccc;
+      padding: 5px;
+      margin-bottom: 5px;
+      display: flex;
+      flex-direction: column;
+    }
+    #derived_columns .derived-row {
+      display: flex;
+      margin-bottom: 5px;
+    }
+    #derived_columns .derived-row input[type="text"] {
+      margin-left: 5px;
+      flex: 1;
+    }
+    #derived_columns .derived-row button.remove {
+      margin-left: 5px;
+      width: 20px;
+      flex: 0 0 auto;
+      padding: 0;
+      text-align: center;
+      line-height: 1;
+    }
+    #derived_columns textarea {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    #filters .filter-row { display: flex; margin-bottom: 5px; }
+    #filters .filter-row .f-col { flex: 1; }
+    #filters .filter-row .f-op {
+      margin-left: 5px;
+      width: fit-content;
+      flex: 0 0 auto;
+    }
+    .chip-input input {
+      border: none;
+      flex: 1;
+      min-width: 60px;
+      margin: 2px;
+      outline: none;
+    }
+    .chip-box { position: relative; }
+    .chip-input { display: flex; flex-wrap: wrap; border: 1px solid #ccc; paddin
+g: 2px; min-height: 24px; }
+    .chip { background: #eee; border: 1px solid #999; padding: 2px 4px; margin:
+2px; border-radius: 3px; display: flex; align-items: center; }
+    .chip .x { margin-left: 4px; cursor: pointer; }
+    .chip-copy { margin-left: 4px; cursor: pointer; background: none; border: no
+ne; }
+    .chip-dropdown { position: absolute; left: 0; right: 0; top: 100%; backgroun
+d: white; border: 1px solid #ccc; max-height: 120px; overflow-y: auto; z-index:
+10; display: none; }
+    .chip-dropdown div { padding: 2px 4px; cursor: pointer; }
+    .chip-dropdown div.highlight { background: #bde4ff; }
+    .rel-box { position: relative; display: flex; }
+    .rel-dropdown { position: absolute; left: 0; right: 0; top: 100%; background
+: white; border: 1px solid #ccc; z-index: 10; display: none; }
+    .rel-dropdown div { padding: 2px 4px; cursor: pointer; }
+    .rel-dropdown div:hover { background: #bde4ff; }
+    .dropdown { position: relative; display: inline-block; }
+    .dropdown-display {
+      border: 1px solid #ccc;
+      padding: 2px 18px 2px 4px;
+      cursor: pointer;
+      min-width: 80px;
+      position: relative;
+    }
+    .dropdown-display::after {
+      content: '\25BC';
+      position: absolute;
+      right: 4px;
+      pointer-events: none;
+    }
+    .dropdown-menu { position: absolute; left: 0; right: 0; top: 100%; backgroun
+d: white; border: 1px solid #ccc; z-index: 10; max-height: 160px; overflow-y: au
+to; display: none; }
+    .dropdown-menu input { width: 100%; box-sizing: border-box; padding: 2px 4px
+; border: none; border-bottom: 1px solid #ccc; }
+    .dropdown-menu div { padding: 2px 4px; cursor: pointer; }
+    .dropdown-menu div.selected { background: #bde4ff; }
+    .dropdown-menu .option:hover { background: #eee; }
+    .dropdown-menu input::placeholder { color: #999; }
+    #filters .filter button.remove {
+      margin-left: 5px;
+      width: 20px;
+      flex: 0 0 auto;
+      padding: 0;
+      text-align: center;
+      line-height: 1;
+    }
+    #filters h4 { margin: 0 0 5px 0; }
+    table { border-collapse: collapse; min-width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 4px; box-sizing: border-box; }
+    td.numeric { white-space: nowrap; }
+    td.date { white-space: nowrap; }
+    th { text-align: left; cursor: pointer; position: relative; }
+    th.sorted { color: blue; }
+    tr:nth-child(even) td { background: #f9f9f9; }
+    tr.selected td { background: #bde4ff !important; }
+    tr:hover:not(.selected) td { background: #eee; }
+    #column_actions {
+      text-align: right;
+      margin-bottom: 5px;
+    }
+    #column_actions a {
+      margin-left: 5px;
+    }
+    .col-group-header {
+      overflow: hidden;
+    }
+    .col-group-header .links {
+      float: right;
+    }
+    .col-group-header .links a {
+      margin-left: 5px;
+    }
+    #ts-container {
+      display: flex;
+    }
+    #legend {
+      width: 150px;
+      flex: 0 0 150px;
+      margin-right: 10px;
+      overflow-y: auto;
+    }
+    .legend-group {
+      margin-bottom: 4px;
+    }
+    .legend-header {
+      font-weight: normal;
+    }
+    .legend-item {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 8px;
+    }
+    .legend-value {
+      margin-left: 4px;
+    }
+    #chart-wrapper {
+      flex: 1;
+    }
+    .legend-item.highlight {
+      background: #ddd;
+    }
+    #legend .drill-links h4 {
+      margin: 10px 0 4px 0;
+    }
+    #legend .drill-links a {
+      display: block;
+      margin-left: 8px;
+    }
+    #chart text.tick-label {
+      font-size: 10px;
+      user-select: none;
+    }
+    #chart text.tick-label.rotated {
+      text-anchor: end;
+    }
+    #chart text.y-tick-label {
+      font-size: 10px;
+      user-select: none;
+    }
+    #chart line.grid {
+      stroke: #ccc;
+    }
+    /* Column resizer removed */
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id="header"&gt;sample.csv - &lt;select id="table"&gt;&lt;/select&gt; &lt;select id="graph_t
+ype"&gt;&lt;option value="samples"&gt;Samples&lt;/option&gt;&lt;option value="table"&gt;Table&lt;/option
+&gt;&lt;option value="timeseries"&gt;Time Series&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
+  &lt;div id="content"&gt;
+    &lt;div id="sidebar"&gt;
+      &lt;div id="tabs"&gt;
+        &lt;button class="tab active" data-tab="settings"&gt;View Settings&lt;/button&gt;
+        &lt;button id="columns_tab" class="tab" data-tab="columns"&gt;Columns&lt;/button&gt;
+        &lt;button id="dive" onclick="dive()"&gt;Dive&lt;/button&gt;
+      &lt;/div&gt;</span></code><br data-chunk-id-8a5495=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="64" data-is-last-node="" data-is-only-node="">I'll keep scrolling to locate loadColumns and related functions.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-be0b49="" data-chunk-id-wrapper-9980f0="" data-chunk-id-wrapper-f88968="" data-chunk-id-wrapper-b31c3c="" data-chunk-id-wrapper-d51fa8="" data-chunk-id-wrapper-e3f63b="" data-chunk-id-wrapper-fb59b6="" data-chunk-id-wrapper-1a81de="" data-chunk-id-wrapper-b62c5b="" data-chunk-id-wrapper-9520d4="" data-chunk-id-wrapper-43abb6=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# grep -n "loadColumns" -n scubaduck/stati
+c/index.html
+549:function loadColumns(table) {
+731:  loadColumns(table).then(() =&gt; {
+738:    loadColumns(tableSel.value).then(() =&gt; {</span></code><br data-chunk-id-be0b49=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '520,580p' scubaduck/static/index
+.html
+  if (showTS) {
+    document.querySelectorAll('#column_groups input').forEach(cb =&gt; {
+      if (isTimeColumn(cb.value) || isStringColumn(cb.value)) {
+        cb.checked = false;
+      }
+    });
+    document.getElementById('order_by').value = '';
+  }
+  updateSelectedColumns(newType);
+  displayType = newType;
+}
+function updateTimeFieldVisibility() {
+  const show = document.getElementById('time_column').value !== '';
+  document.getElementById('start').closest('.field').style.display = show
+    ? 'flex'
+    : 'none';
+  document.getElementById('end').closest('.field').style.display = show
+    ? 'flex'
+    : 'none';
+}
+orderDirBtn.addEventListener('click', () =&gt; {
+  orderDir = orderDir === 'ASC' ? 'DESC' : 'ASC';
+  updateOrderDirButton();
+});
+updateOrderDirButton();
+graphTypeSel.addEventListener('change', updateDisplayTypeUI);
+document.getElementById('time_column').addEventListener('change', updateTimeFiel
+dVisibility);
+updateTimeFieldVisibility();
+
+function loadColumns(table) {
+  return fetch('/api/columns?table=' + encodeURIComponent(table)).then(r =&gt; r.js
+on()).then(cols =&gt; {
+    const orderSelect = document.getElementById('order_by');
+    const xAxisSelect = document.getElementById('x_axis');
+    const groupsEl = document.getElementById('column_groups');
+    const timeColumnSelect = document.getElementById('time_column');
+    orderSelect.innerHTML = '';
+    xAxisSelect.innerHTML = '';
+    const defOpt = document.createElement('option');
+    defOpt.value = '';
+    defOpt.textContent = '(default)';
+    xAxisSelect.appendChild(defOpt);
+    timeColumnSelect.innerHTML = '';
+    const noneOpt = document.createElement('option');
+    noneOpt.value = '';
+    noneOpt.textContent = '(none)';
+    timeColumnSelect.appendChild(noneOpt);
+    groupsEl.innerHTML = '';
+    allColumns.length = 0;
+    stringColumns.length = 0;
+    integerColumns.length = 0;
+    timeColumns.length = 0;
+    timeColumnOptions.length = 0;
+    baseColumns.length = 0;
+    baseStringColumns.length = 0;
+    baseIntegerColumns.length = 0;
+    baseTimeColumns.length = 0;
+    baseTimeColumnOptions.length = 0;
+    for (const k in columnTypes) delete columnTypes[k];
+    const groups = {
+      time: {name: 'Time', cols: [], ul: null},
+      integer: {name: 'Integers', cols: [], ul: null},</span></code><br data-chunk-id-9980f0=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '580,660p' scubaduck/static/index
+.html
+      integer: {name: 'Integers', cols: [], ul: null},
+      string: {name: 'Strings', cols: [], ul: null},
+    };
+    const heur = ['timestamp','created','created_at','event_time','time','date',
+'occurred','happened','logged'];
+    let guess = null;
+    cols.forEach(c =&gt; {
+      const t = c.type.toUpperCase();
+      columnTypes[c.name] = c.type;
+      allColumns.push(c.name);
+      baseColumns.push(c.name);
+      let g = 'string';
+      const isNumeric = t.includes('INT') || t.includes('DECIMAL') || t.includes
+('NUMERIC') || t.includes('REAL') || t.includes('DOUBLE') || t.includes('FLOAT')
+ || t.includes('HUGEINT');
+      const isTimeType = t.includes('TIMESTAMP') || t.includes('DATE') || t.incl
+udes('TIME');
+      if (isNumeric || isTimeType) {
+        timeColumnOptions.push(c.name);
+        baseTimeColumnOptions.push(c.name);
+        if (!guess &amp;&amp; heur.some(h =&gt; c.name.toLowerCase().includes(h))) guess =
+c.name;
+      }
+      if (isTimeType) {
+        g = 'time';
+        timeColumns.push(c.name);
+        baseTimeColumns.push(c.name);
+      } else if (isNumeric) {
+        g = 'integer';
+      }
+      if (g === 'string') {
+        stringColumns.push(c.name);
+        baseStringColumns.push(c.name);
+      } else if (g === 'integer') {
+        integerColumns.push(c.name);
+        baseIntegerColumns.push(c.name);
+      }
+      groups[g].cols.push(c.name);
+      if (g !== 'string') {
+        const o = document.createElement('option');
+        o.value = c.name;
+        o.textContent = c.name;
+        orderSelect.appendChild(o);
+      }
+    });
+    timeColumns.forEach(name =&gt; {
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      xAxisSelect.appendChild(o);
+    });
+    timeColumnOptions.forEach(name =&gt; {
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      timeColumnSelect.appendChild(o);
+    });
+    xAxisSelect.value = '';
+    defaultTimeColumn = guess || timeColumnOptions[0] || '';
+    updateTimeFieldVisibility();
+    Object.keys(groups).forEach(key =&gt; {
+      const g = groups[key];
+      const div = document.createElement('div');
+      div.className = 'col-group';
+      const header = document.createElement('div');
+      header.className = 'col-group-header';
+      header.appendChild(document.createTextNode(g.name + ': '));
+      const links = document.createElement('span');
+      links.className = 'links';
+      const allBtn = document.createElement('a');
+      allBtn.href = '#';
+      allBtn.textContent = 'All';
+      const noneBtn = document.createElement('a');
+      noneBtn.href = '#';
+      noneBtn.textContent = 'None';
+      links.appendChild(allBtn);
+      links.appendChild(noneBtn);
+      header.appendChild(links);
+      div.appendChild(header);
+      const ul = document.createElement('ul');
+      g.ul = ul;
+      g.cols.forEach(name =&gt; {
+        const li = document.createElement('li');
+        const label = document.createElement('label');
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';</span></code><br data-chunk-id-f88968=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '660,740p' scubaduck/static/index
+.html
+        cb.type = 'checkbox';
+        cb.value = name;
+        cb.checked = true;
+        cb.addEventListener('change', updateSelectedColumns);
+        label.appendChild(cb);
+        label.appendChild(document.createTextNode(' ' + name));
+        li.appendChild(label);
+        ul.appendChild(li);
+      });
+      allBtn.addEventListener('click', e =&gt; {
+        e.preventDefault();
+        ul.querySelectorAll('input').forEach(cb =&gt; (cb.checked = true));
+        updateSelectedColumns();
+      });
+      noneBtn.addEventListener('click', e =&gt; {
+        e.preventDefault();
+        ul.querySelectorAll('input').forEach(cb =&gt; (cb.checked = false));
+        updateSelectedColumns();
+      });
+      div.appendChild(ul);
+      groupsEl.appendChild(div);
+    });
+    document.getElementById('columns_all').addEventListener('click', e =&gt; {
+      e.preventDefault();
+      groupsEl.querySelectorAll('input').forEach(cb =&gt; (cb.checked = true));
+      updateSelectedColumns();
+    });
+    document.getElementById('columns_none').addEventListener('click', e =&gt; {
+      e.preventDefault();
+      groupsEl.querySelectorAll('input').forEach(cb =&gt; (cb.checked = false));
+      updateSelectedColumns();
+    });
+    updateSelectedColumns();
+    columnValues.samples = allColumns.slice();
+    columnValues.table = [];
+    columnValues.timeseries = [];
+    groupBy = document.getElementById('group_by').closest('.field');
+    initChipInput(groupBy, typed =&gt;
+      allColumns.filter(c =&gt; c.toLowerCase().includes(typed.toLowerCase()))
+    );
+    initDropdown(orderSelect);
+    initDropdown(document.getElementById('aggregate'));
+  });
+}
+
+let columnsInitialized = false;
+  fetch('/api/tables').then(r =&gt; r.json()).then(tables =&gt; {
+    const tableSel = document.getElementById('table');
+    tables.forEach(t =&gt; {
+      const o = document.createElement('option');
+      o.value = t;
+      o.textContent = t;
+      tableSel.appendChild(o);
+    });
+    initDropdown(tableSel);
+    const measure = document.createElement('span');
+    measure.style.visibility = 'hidden';
+    measure.style.position = 'absolute';
+    document.body.appendChild(measure);
+    let maxWidth = 0;
+    tables.forEach(t =&gt; {
+      measure.textContent = t;
+      const w = measure.getBoundingClientRect().width;
+      if (w &gt; maxWidth) maxWidth = w;
+    });
+    measure.remove();
+    const disp = tableSel.parentElement.querySelector('.dropdown-display');
+    if (disp) disp.style.minWidth = maxWidth + 30 + 'px';
+    const table = parseSearch().table || tables[0];
+    tableSel.value = table;
+    tableSel.dispatchEvent(new Event('change'));
+  loadColumns(table).then(() =&gt; {
+    updateDisplayTypeUI();
+    addFilter();
+    initFromUrl();
+    columnsInitialized = true;
+  });
+  tableSel.addEventListener('change', () =&gt; {
+    loadColumns(tableSel.value).then(() =&gt; {
+      if (columnsInitialized) {
+        // keep the newly selected table when updating from the URL</span></code><br data-chunk-id-b31c3c=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '740,820p' scubaduck/static/index
+.html
+        // keep the newly selected table when updating from the URL
+        const params = parseSearch();
+        params.table = tableSel.value;
+        applyParams(params);
+      }
+    });
+  });
+});
+
+document.querySelectorAll('#tabs .tab').forEach(btn =&gt; {
+  btn.addEventListener('click', () =&gt; {
+    document.querySelectorAll('#tabs .tab').forEach(t =&gt; t.classList.remove('act
+ive'));
+    document.querySelectorAll('.tab-content').forEach(c =&gt; c.classList.remove('a
+ctive'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.tab).classList.add('active');
+  });
+});
+
+document.querySelectorAll('.rel-btn').forEach(btn =&gt; {
+  btn.addEventListener('click', () =&gt; {
+    const dd = document.getElementById(btn.dataset.target);
+    const show = dd.style.display === 'none' || dd.style.display === '';
+    document.querySelectorAll('.rel-dropdown').forEach(d =&gt; (d.style.display = '
+none'));
+    dd.style.display = show ? 'block' : 'none';
+  });
+});
+document.querySelectorAll('.rel-dropdown div').forEach(opt =&gt; {
+  opt.addEventListener('click', () =&gt; {
+    const box = opt.closest('.rel-box');
+    const input = box.querySelector('input');
+    input.value = opt.dataset.value || opt.textContent;
+    opt.parentElement.style.display = 'none';
+  });
+});
+
+document.addEventListener('click', e =&gt; {
+  document.querySelectorAll('.rel-dropdown').forEach(dd =&gt; {
+    if (!dd.parentElement.contains(e.target)) dd.style.display = 'none';
+  });
+});
+
+function updateColumnsTabCount() {
+  const baseCount = document.querySelectorAll('#column_groups input:checked').le
+ngth;
+  const derivedCount = document.querySelectorAll('#derived_list .derived .d-use:
+checked').length;
+  const btn = document.getElementById('columns_tab');
+  if (btn) btn.textContent = `Columns (${baseCount + derivedCount})`;
+}
+
+function updateSelectedColumns(type = graphTypeSel.value) {
+  const base = allColumns.filter(name =&gt; {
+    const cb = document.querySelector(`#column_groups input[value="${name}"]`);
+    if (!cb || !cb.checked) return false;
+    if (type === 'table' &amp;&amp; isStringColumn(name)) return false;
+    return true;
+  });
+  if (type === 'table' || type === 'timeseries') {
+    selectedColumns = groupBy.chips.slice();
+    if (document.getElementById('show_hits').checked) selectedColumns.push('Hits
+');
+    base.forEach(c =&gt; {
+      if (!selectedColumns.includes(c)) selectedColumns.push(c);
+    });
+    derivedColumns.forEach(dc =&gt; {
+      if (dc.include &amp;&amp; !selectedColumns.includes(dc.name)) selectedColumns.push
+(dc.name);
+    });
+  } else {
+    selectedColumns = base.slice();
+    derivedColumns.forEach(dc =&gt; {
+      if (dc.include) selectedColumns.push(dc.name);
+    });
+  }
+  columnValues[type] = selectedColumns.slice();
+  updateColumnsTabCount();
+}
+
+function isStringColumn(name) {
+  const t = (columnTypes[name] || '').toUpperCase();
+  return t.includes('CHAR') || t.includes('STRING') || t.includes('VARCHAR');
+}
+
+function isIntegerColumn(name) {
+  const t = (columnTypes[name] || '').toUpperCase();</span></code><br data-chunk-id-d51fa8=""><code class="whitespace-pre-wrap"><span>.html
+  const t = (columnTypes[name] || '').toUpperCase();
+  return t.includes('INT');
+}
+
+function isTimeColumn(name) {
+  const t = (columnTypes[name] || '').toUpperCase();
+  if (t.includes('TIMESTAMP') || t.includes('DATE') || t.includes('TIME')) retur
+n true;
+  const sel = document.getElementById('time_column').value;
+  const xsel = document.getElementById('x_axis').value;
+  if (name === sel || name === xsel) return true;
+  return false;
+}
+
+function formatNumber(val) {
+  if (typeof val !== 'number') val = Number(val);
+  if (Number.isNaN(val)) return '';
+  if (val === 0) return '0';
+  const abs = Math.abs(val);
+  if (abs &gt; 999.999) {
+    const units = [
+      {n: 1e12, s: 'T'},
+      {n: 1e9, s: 'B'},
+      {n: 1e6, s: 'M'},
+      {n: 1e3, s: 'K'},
+    ];
+    for (const u of units) {
+      if (abs &gt;= u.n) {
+        return (val / u.n).toFixed(2) + ' ' + u.s;
+      }
+    }
+  }
+  if (abs &lt; 0.0005) return '0.000';
+  if (Number.isInteger(val)) return val.toString();
+  return val.toFixed(3);
+}
+
+
+function addFilter() {
+  const container = document.createElement('div');
+  container.className = 'filter';
+  container.innerHTML = `
+    &lt;div class="filter-row"&gt;
+      &lt;select class="f-col"&gt;&lt;/select&gt;
+      &lt;select class="f-op"&gt;&lt;/select&gt;
+      &lt;button type="button" class="remove" onclick="this.closest('.filter').remo
+ve()"&gt;✖&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class="chip-box"&gt;
+      &lt;div class="chip-input"&gt;
+        &lt;input class="f-val" type="text"&gt;
+        &lt;button type="button" class="chip-copy"&gt;&amp;#x2398;&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class="chip-dropdown"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  `;
+  const colSel = container.querySelector('.f-col');
+  colSel.innerHTML = allColumns.map(c =&gt; `&lt;option value="${c}"&gt;${c}&lt;/option&gt;`).j
+oin('');
+  initDropdown(colSel);
+
+  function populateOps() {
+    const opSel = container.querySelector('.f-op');
+    const col = colSel.value;
+    const ops = isStringColumn(col)
+      ? [
+          ['=', '='],
+          ['!=', '!='],
+          ['~', 'matches regex'],
+          ['!~', 'not matches regex'],
+          ['contains', 'contains'],
+          ['!contains', 'not contains'],
+          ['empty', 'empty'],
+          ['!empty', 'not empty'],
+          ['LIKE', 'like'],
+        ]
+      : [
+          ['=', '='],
+          ['!=', '!='],
+          ['&lt;', '&lt;'],
+          ['&gt;', '&gt;'],
+        ];
+    opSel.innerHTML = ops.map(o =&gt; `&lt;option value="${o[0]}"&gt;${o[1]}&lt;/option&gt;`).j
+oin('');
+    updateInputVis();</span></code><br data-chunk-id-e3f63b=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '900,980p' scubaduck/static/index
+.html
+    updateInputVis();
+  }
+
+  function updateInputVis() {
+    const op = container.querySelector('.f-op').value;
+    const box = container.querySelector('.chip-box');
+    box.style.display = op === 'empty' || op === '!empty' ? 'none' : 'block';
+  }
+
+  colSel.addEventListener('change', populateOps);
+  container.querySelector('.f-op').addEventListener('change', updateInputVis);
+  populateOps();
+  document.getElementById('filter_list').appendChild(container);
+  initChipInput(container, (typed, el) =&gt; {
+    const colEl = el.querySelector('.f-col select') || el.querySelector('.f-col'
+);
+    if (!colEl) return [];
+    const col = colEl.value;
+    if (!isStringColumn(col)) return [];
+    return fetch(`/api/samples?column=${encodeURIComponent(col)}&amp;q=${encodeURICo
+mponent(typed)}`)
+      .then(r =&gt; r.json());
+  });
+}
+
+function nextDerivedName() {
+  let n = 1;
+  while (true) {
+    const name = `derived_${n}`;
+    if (!derivedColumns.some(d =&gt; d.name === name) &amp;&amp; !allColumns.includes(name)
+) return name;
+    n++;
+  }
+}
+
+function addDerived(data = {}) {
+  const container = document.createElement('div');
+  container.className = 'derived';
+  container.innerHTML = `
+    &lt;div class="derived-row"&gt;
+      &lt;select class="d-type"&gt;
+        &lt;option value="aggregated"&gt;Aggregated&lt;/option&gt;
+        &lt;option value="string"&gt;String&lt;/option&gt;
+        &lt;option value="numeric"&gt;Numeric&lt;/option&gt;
+      &lt;/select&gt;
+      &lt;input class="d-name" type="text"&gt;
+      &lt;button type="button" class="remove" onclick="removeDerived(this)"&gt;✖&lt;/butt
+on&gt;
+    &lt;/div&gt;
+    &lt;label&gt;&lt;input type="checkbox" class="d-use" checked&gt; Include in Query&lt;/label
+&gt;
+    &lt;textarea class="d-expr" rows="2"&gt;&lt;/textarea&gt;
+  `;
+  document.getElementById('derived_list').appendChild(container);
+  const obj = {
+    type: data.type || 'string',
+    name: data.name || nextDerivedName(),
+    expr: data.expr || '',
+    include: data.include !== undefined ? data.include : true,
+    el: container
+  };
+  container.querySelector('.d-type').value = obj.type;
+  container.querySelector('.d-name').value = obj.name;
+  container.querySelector('.d-expr').value = obj.expr;
+  container.querySelector('.d-use').checked = obj.include;
+  ['change','input'].forEach(evt =&gt; {
+    container.addEventListener(evt, refreshDerivedColumns);
+  });
+  derivedColumns.push(obj);
+  refreshDerivedColumns();
+}
+
+function removeDerived(btn) {
+  const el = btn.closest('.derived');
+  const idx = derivedColumns.findIndex(d =&gt; d.el === el);
+  if (idx !== -1) {
+    derivedColumns.splice(idx, 1);
+  }
+  el.remove();
+  refreshDerivedColumns();
+}
+
+function refreshDerivedColumns() {
+  allColumns.splice(0, allColumns.length, ...baseColumns);
+  stringColumns.splice(0, stringColumns.length, ...baseStringColumns);
+  integerColumns.splice(0, integerColumns.length, ...baseIntegerColumns);</span></code><br data-chunk-id-fb59b6=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '980,1060p' scubaduck/static/inde
+x.html
+  integerColumns.splice(0, integerColumns.length, ...baseIntegerColumns);
+  timeColumns.splice(0, timeColumns.length, ...baseTimeColumns);
+  timeColumnOptions.splice(0, timeColumnOptions.length, ...baseTimeColumnOptions
+);
+  derivedColumns.forEach(d =&gt; {
+    d.type = d.el.querySelector('.d-type').value;
+    d.name = d.el.querySelector('.d-name').value;
+    d.expr = d.el.querySelector('.d-expr').value;
+    d.include = d.el.querySelector('.d-use').checked;
+    allColumns.push(d.name);
+    columnTypes[d.name] = d.type;
+    if (d.type === 'string') {
+      stringColumns.push(d.name);
+    } else {
+      integerColumns.push(d.name);
+      timeColumnOptions.push(d.name);
+    }
+  });
+  updateSelectedColumns();
+}
+
+let lastQueryTime = 0;
+let queryStart = 0;
+
+function dive(push=true) {
+  const params = collectParams();
+  if (push) {
+    history.pushState(params, '', paramsToSearch(params));
+  }
+  const payload = Object.assign({}, params);
+  const dcMap = {};
+  (params.derived_columns || []).forEach(d =&gt; {
+    if (d.include) dcMap[d.name] = d.expr;
+  });
+  payload.derived_columns = dcMap;
+  const view = document.getElementById('view');
+  view.innerHTML = '&lt;p&gt;Loading...&lt;/p&gt;';
+  window.lastResults = undefined;
+  queryStart = performance.now();
+  fetch('/api/query', {method:'POST', headers:{'Content-Type':'application/json'
+}, body:JSON.stringify(payload)})
+    .then(async r =&gt; {
+      const data = await r.json();
+      if (!r.ok) throw data;
+      return data;
+    })
+    .then(data =&gt; {
+      lastQueryTime = Math.round(performance.now() - queryStart);
+      showResults(data);
+    })
+    .catch(err =&gt; {
+      showError(err);
+    });
+}
+
+function collectParams() {
+  updateSelectedColumns();
+  const payload = {
+    table: document.getElementById('table').value,
+    time_column: document.getElementById('time_column').value,
+    time_unit: document.getElementById('time_unit').value,
+    start: document.getElementById('start').value,
+    end: document.getElementById('end').value,
+    order_by: document.getElementById('order_by').value,
+    order_dir: orderDir,
+    limit: parseInt(document.getElementById('limit').value, 10),
+    columns: selectedColumns.filter(c =&gt;
+      c !== 'Hits' &amp;&amp; !derivedColumns.some(dc =&gt; dc.name === c)
+    ),
+    samples_columns: columnValues.samples.slice(),
+    table_columns: columnValues.table.slice(),
+    timeseries_columns: columnValues.timeseries.slice(),
+    graph_type: graphTypeSel.value,
+    filters: Array.from(document.querySelectorAll('#filters .filter')).map(f =&gt;
+{
+      const chips = f.chips || [];
+      const op = f.querySelector('.f-op').value;
+      let value = null;
+      if (op !== 'empty' &amp;&amp; op !== '!empty') {
+        value = chips.length === 0 ? null : (chips.length === 1 ? chips[0] : chi
+ps);
+      }
+      const colSel = f.querySelector('.f-col select') || f.querySelector('.f-col
+');
+      return {column: colSel.value, op, value};
+    }),</span></code><br data-chunk-id-1a81de=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '1060,1140p' scubaduck/static/ind
+ex.html
+    }),
+    derived_columns: Array.from(document.querySelectorAll('#derived_list .derive
+d')).map(d =&gt; ({
+      type: d.querySelector('.d-type').value,
+      name: d.querySelector('.d-name').value,
+      expr: d.querySelector('.d-expr').value,
+      include: d.querySelector('.d-use').checked,
+    }))
+  };
+  if (graphTypeSel.value === 'table' || graphTypeSel.value === 'timeseries') {
+    payload.group_by = groupBy.chips || [];
+    payload.aggregate = document.getElementById('aggregate').value;
+    payload.show_hits = document.getElementById('show_hits').checked;
+  }
+  if (graphTypeSel.value === 'timeseries') {
+    const xval = document.getElementById('x_axis').value;
+    if (xval) payload.x_axis = xval;
+    payload.granularity = document.getElementById('granularity').value;
+    payload.fill = document.getElementById('fill').value;
+  }
+  return payload;
+}
+
+function paramsToSearch(params) {
+  const sp = new URLSearchParams();
+  if (params.table) sp.set('table', params.table);
+  if (params.time_column) sp.set('time_column', params.time_column);
+  if (params.time_unit) sp.set('time_unit', params.time_unit);
+  if (params.start) sp.set('start', params.start);
+  if (params.end) sp.set('end', params.end);
+  if (params.order_by) sp.set('order_by', params.order_by);
+  if (params.order_dir) sp.set('order_dir', params.order_dir);
+  if (params.limit !== null &amp;&amp; params.limit !== undefined) sp.set('limit', param
+s.limit);
+  if (params.samples_columns &amp;&amp; params.samples_columns.length) sp.set('samples_c
+olumns', params.samples_columns.join(','));
+  if (params.table_columns &amp;&amp; params.table_columns.length) sp.set('table_columns
+', params.table_columns.join(','));
+  if (params.timeseries_columns &amp;&amp; params.timeseries_columns.length) sp.set('tim
+eseries_columns', params.timeseries_columns.join(','));
+  if (params.filters &amp;&amp; params.filters.length) sp.set('filters', JSON.stringify(
+params.filters));
+  if (params.derived_columns &amp;&amp; params.derived_columns.length) sp.set('derived_c
+olumns', JSON.stringify(params.derived_columns));
+  if (params.graph_type) sp.set('graph_type', params.graph_type);
+  if (params.graph_type === 'table' || params.graph_type === 'timeseries') {
+    if (params.group_by &amp;&amp; params.group_by.length) sp.set('group_by', params.gro
+up_by.join(','));
+    if (params.aggregate) sp.set('aggregate', params.aggregate);
+    if (params.show_hits) sp.set('show_hits', '1');
+  }
+  if (params.graph_type === 'timeseries') {
+    if (params.x_axis) sp.set('x_axis', params.x_axis);
+    if (params.granularity) sp.set('granularity', params.granularity);
+    if (params.fill) sp.set('fill', params.fill);
+  }
+  const qs = sp.toString();
+  return qs ? '?' + qs : '';
+}
+
+function applyParams(params) {
+  if (params.table) document.getElementById('table').value = params.table;
+  document.getElementById('time_column').value = params.time_column || defaultTi
+meColumn;
+  updateTimeFieldVisibility();
+  if (params.time_unit) document.getElementById('time_unit').value = params.time
+_unit;
+  document.getElementById('start').value = params.start || '';
+  document.getElementById('end').value = params.end || '';
+  if (params.order_by) {
+    document.getElementById('order_by').value = params.order_by;
+  }
+  orderDir = params.order_dir || 'ASC';
+  updateOrderDirButton();
+  if (params.limit !== undefined &amp;&amp; params.limit !== null) {
+    document.getElementById('limit').value = params.limit;
+    limitValues[params.graph_type || 'samples'] = params.limit;
+    limitInput.dataset.setByUser = '1';
+  }
+  graphTypeSel.value = params.graph_type || 'samples';
+  updateDisplayTypeUI();
+  limitInput.value = limitValues[graphTypeSel.value];
+  if (params.x_axis) {
+    document.getElementById('x_axis').value = params.x_axis;
+  } else {
+    document.getElementById('x_axis').value = '';
+  }
+  if (params.granularity) document.getElementById('granularity').value = params.
+granularity;
+  if (params.fill) document.getElementById('fill').value = params.fill;
+  if (params.group_by) {
+    groupBy.chips.splice(0, groupBy.chips.length, ...params.group_by);</span></code><br data-chunk-id-b62c5b=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '1140,1220p' scubaduck/static/ind
+ex.html
+    groupBy.chips.splice(0, groupBy.chips.length, ...params.group_by);
+    groupBy.renderChips();
+  }
+  if (params.aggregate) document.getElementById('aggregate').value = params.aggr
+egate;
+  document.getElementById('show_hits').checked = params.show_hits ?? true;
+  if (params.samples_columns) columnValues.samples = params.samples_columns;
+  if (params.table_columns) columnValues.table = params.table_columns;
+  if (params.timeseries_columns) columnValues.timeseries = params.timeseries_col
+umns;
+  document.querySelectorAll('#column_groups input').forEach(cb =&gt; {
+    cb.checked = columnValues[graphTypeSel.value].includes(cb.value);
+  });
+  updateSelectedColumns(graphTypeSel.value);
+  const dlist = document.getElementById('derived_list');
+  dlist.innerHTML = '';
+  derivedColumns.splice(0, derivedColumns.length);
+  if (params.derived_columns &amp;&amp; params.derived_columns.length) {
+    params.derived_columns.forEach(dc =&gt; addDerived(dc));
+  }
+  refreshDerivedColumns();
+  const list = document.getElementById('filter_list');
+  list.innerHTML = '';
+  if (params.filters &amp;&amp; params.filters.length) {
+    params.filters.forEach(f =&gt; {
+      addFilter();
+      const el = list.lastElementChild;
+      const colSel = el.querySelector('.f-col select') || el.querySelector('.f-c
+ol');
+      colSel.value = f.column;
+      colSel.dispatchEvent(new Event('change'));
+      el.querySelector('.f-op').value = f.op;
+      el.querySelector('.f-op').dispatchEvent(new Event('change'));
+      if (f.value !== null &amp;&amp; f.op !== 'empty' &amp;&amp; f.op !== '!empty') {
+        const values = Array.isArray(f.value) ? f.value : [f.value];
+        values.forEach(v =&gt; el.addChip(v));
+        el.renderChips();
+      }
+    });
+  } else {
+    addFilter();
+  }
+}
+
+function parseSearch() {
+  const sp = new URLSearchParams(window.location.search);
+  const params = {};
+  if (sp.has('table')) params.table = sp.get('table');
+  if (sp.has('time_column')) params.time_column = sp.get('time_column');
+  if (sp.has('time_unit')) params.time_unit = sp.get('time_unit');
+  if (sp.has('start')) params.start = sp.get('start');
+  if (sp.has('end')) params.end = sp.get('end');
+  if (sp.has('order_by')) params.order_by = sp.get('order_by');
+  if (sp.has('order_dir')) params.order_dir = sp.get('order_dir');
+  if (sp.has('limit')) params.limit = parseInt(sp.get('limit'), 10);
+  if (sp.has('samples_columns')) params.samples_columns = sp.get('samples_column
+s').split(',').filter(c =&gt; c);
+  if (sp.has('table_columns')) params.table_columns = sp.get('table_columns').sp
+lit(',').filter(c =&gt; c);
+  if (sp.has('timeseries_columns')) params.timeseries_columns = sp.get('timeseri
+es_columns').split(',').filter(c =&gt; c);
+  if (sp.has('filters')) {
+    try { params.filters = JSON.parse(sp.get('filters')); } catch(e) { params.fi
+lters = []; }
+  }
+  if (sp.has('graph_type')) params.graph_type = sp.get('graph_type');
+  if (sp.has('group_by')) params.group_by = sp.get('group_by').split(',').filter
+(c =&gt; c);
+  if (sp.has('aggregate')) params.aggregate = sp.get('aggregate');
+  if (sp.has('show_hits')) params.show_hits = sp.get('show_hits') === '1';
+  if (sp.has('x_axis')) params.x_axis = sp.get('x_axis');
+  if (sp.has('granularity')) params.granularity = sp.get('granularity');
+  if (sp.has('fill')) params.fill = sp.get('fill');
+  if (sp.has('derived_columns')) {
+    try { params.derived_columns = JSON.parse(sp.get('derived_columns')); } catc
+h(e) { params.derived_columns = []; }
+  }
+  return params;
+}
+
+function initFromUrl() {
+  const params = parseSearch();
+  history.replaceState(params, '', paramsToSearch(params));
+  applyParams(params);
+  dive(false);
+}
+
+window.addEventListener('popstate', e =&gt; {
+  const params = e.state || parseSearch();
+  applyParams(params);</span></code><br data-chunk-id-9520d4=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '1220,1300p' scubaduck/static/ind
+ex.html
+  applyParams(params);
+  dive(false);
+});
+
+let originalRows = [];
+let sortState = {index: null, dir: null};
+
+function renderTable(rows) {
+  const table = document.getElementById('results');
+  table.innerHTML = '';
+  if (rows.length === 0) return;
+  let hitsIndex = selectedColumns.indexOf('Hits');
+  let totalHits = 0;
+  if (hitsIndex !== -1) {
+    totalHits = rows.reduce((s, r) =&gt; s + Number(r[hitsIndex]), 0);
+  }
+  const header = document.createElement('tr');
+  selectedColumns.forEach((col, i) =&gt; {
+    const th = document.createElement('th');
+    let label = col;
+    if (
+      displayType === 'table' &amp;&amp;
+      col !== 'Hits' &amp;&amp;
+      !(groupBy.chips || []).includes(col)
+    ) {
+      const agg = document.getElementById('aggregate').value.toLowerCase();
+      label += ` (${agg})`;
+    }
+    th.textContent = label;
+    th.dataset.index = i;
+    th.addEventListener('click', handleSort);
+    if (sortState.index === i) {
+      th.classList.add('sorted');
+      th.textContent =
+        label + (sortState.dir === 'desc' ? ' \u25BC' : ' \u25B2');
+    }
+    if (!isStringColumn(col)) th.style.textAlign = 'right';
+    header.appendChild(th);
+  });
+  table.appendChild(header);
+  rows.forEach(row =&gt; {
+    const tr = document.createElement('tr');
+    tr.addEventListener('click', () =&gt; {
+      const wasSelected = tr.classList.contains('selected');
+      document
+        .querySelectorAll('#results tr.selected')
+        .forEach(el =&gt; el.classList.remove('selected'));
+      if (!wasSelected) {
+        tr.classList.add('selected');
+      }
+    });
+    row.forEach((v, i) =&gt; {
+      const col = selectedColumns[i];
+      const td = document.createElement('td');
+      if (isTimeColumn(col)) {
+        let d;
+        const t = (columnTypes[col] || '').toUpperCase();
+        if (t.includes('TIMESTAMP') || t.includes('DATE') || t.includes('TIME'))
+ {
+          d = new Date(v);
+        } else {
+          const unit = document.getElementById('time_unit').value;
+          const factors = {s: 1000, ms: 1, us: 0.001, ns: 0.000001};
+          d = new Date(Number(v) * (factors[unit] || 1000));
+        }
+        td.textContent = d.toLocaleString('en-US', {
+          weekday: 'short',
+          month: 'short',
+          day: 'numeric',
+          year: 'numeric',
+          hour: 'numeric',
+          minute: 'numeric',
+          second: 'numeric',
+          hour12: true,
+          timeZoneName: 'short'
+        });
+        td.classList.add('date');
+      } else {
+        if (col === 'Hits') {
+          const pct = totalHits ? ((v / totalHits) * 100).toFixed(1) : '0';
+          td.textContent = `${formatNumber(v)} (${pct}%)`;
+        } else {</span></code><br data-chunk-id-43abb6=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="87" data-is-last-node="" data-is-only-node="">I'm moving the time column heuristic out of loadColumns and into a standalone function.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-a3920a=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# grep -n "function loadColumns" -n scubad
+uck/static/index.html
+549:function loadColumns(table) {</span></code><br data-chunk-id-a3920a=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="66" data-is-last-node="" data-is-only-node="">I'll check around lines 530 to 550 to review the preceding script.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-6f0b8e=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '500,560p' scubaduck/static/index
+.html
+  const showTS = newType === 'timeseries';
+  document.getElementById('group_by_field').style.display = showTable || showTS
+? 'flex' : 'none';
+  document.getElementById('aggregate_field').style.display = showTable || showTS
+ ? 'flex' : 'none';
+  document.getElementById('show_hits_field').style.display = showTable ? 'flex'
+: 'none';
+  document.getElementById('x_axis_field').style.display = showTS ? 'flex' : 'non
+e';
+  document.getElementById('granularity_field').style.display = showTS ? 'flex' :
+ 'none';
+  document.getElementById('fill_field').style.display = showTS ? 'flex' : 'none'
+;
+  document.querySelectorAll('#column_groups .col-group').forEach(g =&gt; {
+    if (g.querySelector('.col-group-header').textContent.startsWith('Strings'))
+{
+      g.style.display = showTable || showTS ? 'none' : '';
+    }
+  });
+  limitValues[prevType] = parseInt(limitInput.value, 10);
+  if (showTS &amp;&amp; limitValues.timeseries === undefined) {
+    limitValues.timeseries = 7;
+  }
+  limitInput.value = limitValues[newType];
+  document.querySelectorAll('#column_groups input').forEach(cb =&gt; {
+    cb.checked = columnValues[newType].includes(cb.value);
+  });
+  if (showTS) {
+    document.querySelectorAll('#column_groups input').forEach(cb =&gt; {
+      if (isTimeColumn(cb.value) || isStringColumn(cb.value)) {
+        cb.checked = false;
+      }
+    });
+    document.getElementById('order_by').value = '';
+  }
+  updateSelectedColumns(newType);
+  displayType = newType;
+}
+function updateTimeFieldVisibility() {
+  const show = document.getElementById('time_column').value !== '';
+  document.getElementById('start').closest('.field').style.display = show
+    ? 'flex'
+    : 'none';
+  document.getElementById('end').closest('.field').style.display = show
+    ? 'flex'
+    : 'none';
+}
+orderDirBtn.addEventListener('click', () =&gt; {
+  orderDir = orderDir === 'ASC' ? 'DESC' : 'ASC';
+  updateOrderDirButton();
+});
+updateOrderDirButton();
+graphTypeSel.addEventListener('change', updateDisplayTypeUI);
+document.getElementById('time_column').addEventListener('change', updateTimeFiel
+dVisibility);
+updateTimeFieldVisibility();
+
+function loadColumns(table) {
+  return fetch('/api/columns?table=' + encodeURIComponent(table)).then(r =&gt; r.js
+on()).then(cols =&gt; {
+    const orderSelect = document.getElementById('order_by');
+    const xAxisSelect = document.getElementById('x_axis');
+    const groupsEl = document.getElementById('column_groups');
+    const timeColumnSelect = document.getElementById('time_column');
+    orderSelect.innerHTML = '';
+    xAxisSelect.innerHTML = '';
+    const defOpt = document.createElement('option');
+    defOpt.value = '';
+    defOpt.textContent = '(default)';
+    xAxisSelect.appendChild(defOpt);</span></code><br data-chunk-id-6f0b8e=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="61" data-is-last-node="" data-is-only-node="">I'll search for the "heur" variable to avoid any repetitions.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-0f5f2a=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# grep -n "heur" -n scubaduck/static/index
+.html
+583:    const heur = ['timestamp','created','created_at','event_time','time','da
+te','occurred','happened','logged'];
+596:        if (!guess &amp;&amp; heur.some(h =&gt; c.name.toLowerCase().includes(h))) gues
+s = c.name;</span></code><br data-chunk-id-0f5f2a=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="88" data-is-last-node="" data-is-only-node="">I need to move the heuristic to a separate function, ideally within an existing JS file.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-ac0964=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '1,60p' scubaduck/static/js/sideb
+ar.js
+// Sidebar resizing logic extracted from index.html
+
+const sidebar = document.getElementById('sidebar');
+const sidebarResizer = document.getElementById('sidebar-resizer');
+let sidebarWidth = parseInt(localStorage.getItem('sidebarWidth') || 450, 10);
+sidebar.style.width = sidebarWidth + 'px';
+let sidebarResize = false;
+
+function startSidebarDrag(e) {
+  e.preventDefault();
+  sidebarResize = true;
+  document.addEventListener('mousemove', onSidebarDrag);
+  document.addEventListener('mouseup', stopSidebarDrag);
+}
+
+function onSidebarDrag(e) {
+  if (!sidebarResize) return;
+  sidebarWidth = Math.max(200, e.clientX - sidebar.getBoundingClientRect().left)
+;
+  sidebar.style.width = sidebarWidth + 'px';
+}
+
+function stopSidebarDrag() {
+  document.removeEventListener('mousemove', onSidebarDrag);
+  document.removeEventListener('mouseup', stopSidebarDrag);
+  sidebarResize = false;
+  localStorage.setItem('sidebarWidth', sidebarWidth);
+}
+
+sidebarResizer.addEventListener('mousedown', startSidebarDrag);</span></code><br data-chunk-id-ac0964=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="75" data-is-last-node="" data-is-only-node="">I'll check the header of index.html to confirm the inclusion of sidebar.js.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-4fc889="" data-chunk-id-wrapper-9c6d43=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# grep -n "sidebar.js" -n scubaduck/static
+/index.html
+355:&lt;script src="/js/sidebar.js"&gt;&lt;/script&gt;</span></code><br data-chunk-id-4fc889=""><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '340,360p' scubaduck/static/index
+.html
+        &lt;div id="column_groups"&gt;&lt;/div&gt;
+        &lt;div id="derived_columns"&gt;
+          &lt;h4&gt;Derived Columns&lt;/h4&gt;
+          &lt;div id="derived_list"&gt;&lt;/div&gt;
+          &lt;button id="add_derived" type="button" onclick="addDerived()"&gt;Add Deri
+ved&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id="sidebar-resizer"&gt;&lt;/div&gt;
+  &lt;div id="view"&gt;
+    &lt;table id="results"&gt;&lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="/js/chip_input.js"&gt;&lt;/script&gt;
+&lt;script src="/js/timeseries_chart.js"&gt;&lt;/script&gt;
+&lt;script src="/js/sidebar.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+const allColumns = [];
+const baseColumns = [];
+const columnTypes = {};
+const stringColumns = [];</span></code><br data-chunk-id-9c6d43=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="107" data-is-last-node="" data-is-only-node="">Looks like index.html embeds the main script after <code data-start="51" data-end="63">sidebar.js</code>. I'll check other files to match the style.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-dd26eb=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '1,60p' scubaduck/static/js/chip_
+input.js
+
+function initChipInput(filter, fetchOptions) {
+  const input = filter.querySelector('.f-val');
+  const chipsEl = filter.querySelector('.chip-input');
+  const dropdown = filter.querySelector('.chip-dropdown');
+  const copyBtn = filter.querySelector('.chip-copy');
+  filter.chips = [];
+  filter.renderChips = renderChips;
+  filter.addChip = addChip;
+  let highlight = 0;
+  let dropdownLocked = false;
+
+  chipsEl.addEventListener('click', () =&gt; {
+    input.focus();
+  });
+
+    function renderChips() {
+      chipsEl.querySelectorAll('.chip').forEach(c =&gt; c.remove());
+      filter.chips.forEach((v, i) =&gt; {
+        const span = document.createElement('span');
+        span.className = 'chip';
+        span.textContent = v;
+        const x = document.createElement('span');
+        x.className = 'x';
+        x.textContent = '✖';
+        x.addEventListener('click', e =&gt; {
+          e.stopPropagation();
+          filter.chips.splice(i, 1);
+          renderChips();
+          input.focus();
+        });
+        span.appendChild(x);
+        chipsEl.insertBefore(span, input);
+      });
+    }
+
+  function hideDropdown() {
+    dropdown.style.display = 'none';
+    dropdownLocked = true;
+  }
+
+  function showDropdown() {
+    if (!dropdownLocked &amp;&amp; document.activeElement === input) {
+      dropdown.style.display = 'block';
+    }
+  }
+
+  function updateHighlight() {
+    Array.from(dropdown.children).forEach((c, i) =&gt; {
+      c.classList.toggle('highlight', i === highlight);
+    });
+  }
+
+  function addChip(val) {
+    if (!val) return;
+    const i = filter.chips.indexOf(val);
+    if (i !== -1) {
+      filter.chips.splice(i, 1);
+    } else {
+      filter.chips.push(val);</span></code><br data-chunk-id-dd26eb=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="80" data-is-last-node="" data-is-only-node="">I'll create a new guess_time_column.js file and check tests to avoid references.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-ebb133=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# grep -R "guessTimeColumn" -n</span></code><br data-chunk-id-ebb133=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="95">I’m creating guess_time_column.js to replicate the time column guessing logic using heuristics.</p>
+<p data-start="97" data-end="195">I’ll adjust the function to match previous behavior, using heuristics only for numeric/time types.</p>
+<p data-start="197" data-end="304" data-is-last-node="" data-is-only-node="">I’ll create time_column.js, call guessTimeColumn() from loadColumns, and adjust index.html for integration.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-3a9b19=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# grep -n "defaultTimeColumn" -n scubaduck
+/static/index.html
+372:let defaultTimeColumn = '';
+633:    defaultTimeColumn = guess || timeColumnOptions[0] || '';
+1114:  document.getElementById('time_column').value = params.time_column || defa
+ultTimeColumn;</span></code><br data-chunk-id-3a9b19=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="90" data-is-last-node="" data-is-only-node="">I see that <code data-start="11" data-end="30">defaultTimeColumn</code> is set from <code data-start="43" data-end="60">guessTimeColumn</code>. Let's check around line 367.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-311dc9=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '360,380p' scubaduck/static/index
+.html
+const stringColumns = [];
+const baseStringColumns = [];
+const integerColumns = [];
+const baseIntegerColumns = [];
+const timeColumns = [];
+const baseTimeColumns = [];
+const timeColumnOptions = [];
+const baseTimeColumnOptions = [];
+const derivedColumns = [];
+let selectedColumns = [];
+let displayType = 'samples';
+let groupBy = {chips: [], addChip: () =&gt; {}, renderChips: () =&gt; {}};
+let defaultTimeColumn = '';
+const limitInput = document.getElementById('limit');
+const limitValues = {
+  samples: parseInt(limitInput.value, 10),
+  table: parseInt(limitInput.value, 10),
+  timeseries: 7
+};
+const columnValues = {
+  samples: [],</span></code><br data-chunk-id-311dc9=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="90" data-is-last-node="" data-is-only-node="">I'm reviewing the tests to ensure they cover the new function, especially UI interactions.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-1bfaa0=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '1,20p' scubaduck/static/js/times
+eries_chart.js
+let resizeObserver = null;
+let currentChart = null;
+
+function showTimeSeries(data) {
+  function parseTs(s) {
+    if (s.match(/GMT/) || s.endsWith('Z') || /\+\d{2}:?\d{2}$/.test(s)) {
+      return new Date(s).getTime();
+    }
+    return new Date(s + 'Z').getTime();
+  }
+  const view = document.getElementById('view');
+  if (data.rows.length === 0) {
+    view.innerHTML = '&lt;p id="empty-message"&gt;Empty data provided to table&lt;/p&gt;';
+    return;
+  }
+  const height = 600;
+  view.innerHTML =
+    '&lt;div id="ts-container"&gt;&lt;div id="legend"&gt;&lt;/div&gt;&lt;div id="chart-wrapper"&gt;&lt;svg
+id="chart" height="' +
+    height +
+    '"&gt;&lt;/svg&gt;&lt;/div&gt;&lt;/div&gt;';</span></code><br data-chunk-id-1bfaa0=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="92" data-is-last-node="" data-is-only-node="">I'll create the <code data-start="16" data-end="36">guessTimeColumn.js</code> function based on the provided algorithm and deploy it.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-f96f79=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# cat &gt; scubaduck/static/js/time_column.js
+ &lt;&lt;'EOF'
+&gt; // Helper for choosing a default time column based on column names/types
+&gt; function guessTimeColumn(columns) {
+&gt;   const heur = ['timestamp','created','created_at','event_time','time','date',
+'occurred','happened','logged'];
+&gt;   let guess = null;
+&gt;   let first = null;
+&gt;   columns.forEach(c =&gt; {
+&gt;     const t = (c.type || '').toUpperCase();
+&gt;     const isNumeric = t.includes('INT') || t.includes('DECIMAL') || t.includes
+('NUMERIC') ||
+&gt;                       t.includes('REAL') || t.includes('DOUBLE') || t.includes
+('FLOAT') || t.includes('HUGEINT');
+&gt;     const isTimeType = t.includes('TIMESTAMP') || t.includes('DATE') || t.incl
+udes('TIME');
+&gt;     if (isNumeric || isTimeType) {
+&gt;       if (!first) first = c.name;
+&gt;       if (!guess &amp;&amp; heur.some(h =&gt; c.name.toLowerCase().includes(h))) {
+&gt;         guess = c.name;
+&gt;       }
+&gt;     }
+&gt;   });
+&gt;   return guess || first || null;
+&gt; }
+&gt; EOF</span></code><br data-chunk-id-f96f79=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="75" data-is-last-node="" data-is-only-node="">I'll insert the new script tag after chip_input.js, probably near line 350.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-bbcd04=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '340,360p' scubaduck/static/index
+.html
+        &lt;div id="column_groups"&gt;&lt;/div&gt;
+        &lt;div id="derived_columns"&gt;
+          &lt;h4&gt;Derived Columns&lt;/h4&gt;
+          &lt;div id="derived_list"&gt;&lt;/div&gt;
+          &lt;button id="add_derived" type="button" onclick="addDerived()"&gt;Add Deri
+ved&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id="sidebar-resizer"&gt;&lt;/div&gt;
+  &lt;div id="view"&gt;
+    &lt;table id="results"&gt;&lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="/js/chip_input.js"&gt;&lt;/script&gt;
+&lt;script src="/js/timeseries_chart.js"&gt;&lt;/script&gt;
+&lt;script src="/js/sidebar.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+const allColumns = [];
+const baseColumns = [];
+const columnTypes = {};
+const stringColumns = [];</span></code><br data-chunk-id-bbcd04=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="79" data-is-last-node="" data-is-only-node="">I'll add &lt;script src="/js/time_column.js"&gt;&lt;/script&gt; before the main script tag.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-6b3093=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '350,360p' scubaduck/static/index
+.html
+    &lt;table id="results"&gt;&lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="/js/chip_input.js"&gt;&lt;/script&gt;
+&lt;script src="/js/timeseries_chart.js"&gt;&lt;/script&gt;
+&lt;script src="/js/sidebar.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+const allColumns = [];
+const baseColumns = [];
+const columnTypes = {};
+const stringColumns = [];</span></code><br data-chunk-id-6b3093=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="52" data-is-last-node="" data-is-only-node="">I’ll add the &lt;script&gt; tag to include time_column.js.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-033798=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# apply_patch&lt;&lt;'PATCH'
+&gt; *** Begin Patch
+&gt; *** Update File: scubaduck/static/index.html
+&gt; @@
+&gt;  &lt;script src="/js/chip_input.js"&gt;&lt;/script&gt;
+&gt;  &lt;script src="/js/timeseries_chart.js"&gt;&lt;/script&gt;
+&gt; +&lt;script src="/js/time_column.js"&gt;&lt;/script&gt;
+&gt;  &lt;script src="/js/sidebar.js"&gt;&lt;/script&gt;
+&gt;  &lt;script&gt;
+&gt; *** End Patch
+&gt; PATCH
+Success. Updated the following files:
+M scubaduck/static/index.html</span></code><br data-chunk-id-033798=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="65" data-is-last-node="" data-is-only-node="">Opening the code from lines 574 to 640 to make necessary updates.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-3d402e=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '560,640p' scubaduck/static/index
+.html
+    defOpt.textContent = '(default)';
+    xAxisSelect.appendChild(defOpt);
+    timeColumnSelect.innerHTML = '';
+    const noneOpt = document.createElement('option');
+    noneOpt.value = '';
+    noneOpt.textContent = '(none)';
+    timeColumnSelect.appendChild(noneOpt);
+    groupsEl.innerHTML = '';
+    allColumns.length = 0;
+    stringColumns.length = 0;
+    integerColumns.length = 0;
+    timeColumns.length = 0;
+    timeColumnOptions.length = 0;
+    baseColumns.length = 0;
+    baseStringColumns.length = 0;
+    baseIntegerColumns.length = 0;
+    baseTimeColumns.length = 0;
+    baseTimeColumnOptions.length = 0;
+    for (const k in columnTypes) delete columnTypes[k];
+    const groups = {
+      time: {name: 'Time', cols: [], ul: null},
+      integer: {name: 'Integers', cols: [], ul: null},
+      string: {name: 'Strings', cols: [], ul: null},
+    };
+    const heur = ['timestamp','created','created_at','event_time','time','date',
+'occurred','happened','logged'];
+    let guess = null;
+    cols.forEach(c =&gt; {
+      const t = c.type.toUpperCase();
+      columnTypes[c.name] = c.type;
+      allColumns.push(c.name);
+      baseColumns.push(c.name);
+      let g = 'string';
+      const isNumeric = t.includes('INT') || t.includes('DECIMAL') || t.includes
+('NUMERIC') || t.includes('REAL') || t.includes('DOUBLE') || t.includes('FLOAT')
+ || t.includes('HUGEINT');
+      const isTimeType = t.includes('TIMESTAMP') || t.includes('DATE') || t.incl
+udes('TIME');
+      if (isNumeric || isTimeType) {
+        timeColumnOptions.push(c.name);
+        baseTimeColumnOptions.push(c.name);
+        if (!guess &amp;&amp; heur.some(h =&gt; c.name.toLowerCase().includes(h))) guess =
+c.name;
+      }
+      if (isTimeType) {
+        g = 'time';
+        timeColumns.push(c.name);
+        baseTimeColumns.push(c.name);
+      } else if (isNumeric) {
+        g = 'integer';
+      }
+      if (g === 'string') {
+        stringColumns.push(c.name);
+        baseStringColumns.push(c.name);
+      } else if (g === 'integer') {
+        integerColumns.push(c.name);
+        baseIntegerColumns.push(c.name);
+      }
+      groups[g].cols.push(c.name);
+      if (g !== 'string') {
+        const o = document.createElement('option');
+        o.value = c.name;
+        o.textContent = c.name;
+        orderSelect.appendChild(o);
+      }
+    });
+    timeColumns.forEach(name =&gt; {
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      xAxisSelect.appendChild(o);
+    });
+    timeColumnOptions.forEach(name =&gt; {
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      timeColumnSelect.appendChild(o);
+    });
+    xAxisSelect.value = '';
+    defaultTimeColumn = guess || timeColumnOptions[0] || '';
+    updateTimeFieldVisibility();
+    Object.keys(groups).forEach(key =&gt; {
+      const g = groups[key];
+      const div = document.createElement('div');
+      div.className = 'col-group';
+      const header = document.createElement('div');</span></code><br data-chunk-id-3d402e=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="275">I'm planning to remove the <code data-start="27" data-end="33">heur</code> and <code data-start="38" data-end="45">guess</code> variables and simplify the flow. The <code data-start="83" data-end="100">guessTimeColumn</code> function will now return the candidate or null. I need to compute <code data-start="167" data-end="186">defaultTimeColumn</code> after the loops, relying on the result from <code data-start="231" data-end="248">guessTimeColumn</code> or <code data-start="252" data-end="274">timeColumnOptions[0]</code>.</p>
+<p data-start="277" data-end="376" data-is-last-node="" data-is-only-node="">I'll remove fallback computation and set <code data-start="318" data-end="337">defaultTimeColumn</code> directly from <code data-start="352" data-end="375">guessTimeColumn(cols)</code>.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-ed7aab=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# apply_patch&lt;&lt;'PATCH'
+&gt; *** Begin Patch
+&gt; *** Update File: scubaduck/static/index.html
+&gt; @@
+&gt; -    const heur = ['timestamp','created','created_at','event_time','time','dat
+e','occurred','happened','logged'];
+&gt; -    let guess = null;
+&gt; *** End Patch
+&gt; PATCH
+Success. Updated the following files:
+M scubaduck/static/index.html</span></code><br data-chunk-id-ed7aab=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="79" data-is-last-node="" data-is-only-node="">I'll patch the loops and remove the unused guess variable. Time to update them!</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-e1d4cc=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '586,632p' scubaduck/static/index
+.html
+      columnTypes[c.name] = c.type;
+      allColumns.push(c.name);
+      baseColumns.push(c.name);
+      let g = 'string';
+      const isNumeric = t.includes('INT') || t.includes('DECIMAL') || t.includes
+('NUMERIC') || t.includes('REAL') || t.includes('DOUBLE') || t.includes('FLOAT')
+ || t.includes('HUGEINT');
+      const isTimeType = t.includes('TIMESTAMP') || t.includes('DATE') || t.incl
+udes('TIME');
+      if (isNumeric || isTimeType) {
+        timeColumnOptions.push(c.name);
+        baseTimeColumnOptions.push(c.name);
+        if (!guess &amp;&amp; heur.some(h =&gt; c.name.toLowerCase().includes(h))) guess =
+c.name;
+      }
+      if (isTimeType) {
+        g = 'time';
+        timeColumns.push(c.name);
+        baseTimeColumns.push(c.name);
+      } else if (isNumeric) {
+        g = 'integer';
+      }
+      if (g === 'string') {
+        stringColumns.push(c.name);
+        baseStringColumns.push(c.name);
+      } else if (g === 'integer') {
+        integerColumns.push(c.name);
+        baseIntegerColumns.push(c.name);
+      }
+      groups[g].cols.push(c.name);
+      if (g !== 'string') {
+        const o = document.createElement('option');
+        o.value = c.name;
+        o.textContent = c.name;
+        orderSelect.appendChild(o);
+      }
+    });
+    timeColumns.forEach(name =&gt; {
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      xAxisSelect.appendChild(o);
+    });
+    timeColumnOptions.forEach(name =&gt; {
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      timeColumnSelect.appendChild(o);
+    });
+    xAxisSelect.value = '';
+    defaultTimeColumn = guess || timeColumnOptions[0] || '';</span></code><br data-chunk-id-e1d4cc=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="82" data-is-last-node="" data-is-only-node="">The loops still reference the guess variable. I’ll update or remove the reference.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-0f310c=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# apply_patch&lt;&lt;'PATCH'
+&gt; *** Begin Patch
+&gt; *** Update File: scubaduck/static/index.html
+&gt; @@
+&gt; -    cols.forEach(c =&gt; {
+&gt; +    cols.forEach(c =&gt; {
+&gt;        const t = c.type.toUpperCase();
+&gt;        columnTypes[c.name] = c.type;
+&gt;        allColumns.push(c.name);
+&gt;        baseColumns.push(c.name);
+&gt;        let g = 'string';
+&gt; @@
+&gt; -      if (isNumeric || isTimeType) {
+&gt; -        timeColumnOptions.push(c.name);
+&gt; -        baseTimeColumnOptions.push(c.name);
+&gt; -        if (!guess &amp;&amp; heur.some(h =&gt; c.name.toLowerCase().includes(h))) guess
+ = c.name;
+&gt; -      }
+&gt; +      if (isNumeric || isTimeType) {
+&gt; +        timeColumnOptions.push(c.name);
+&gt; +        baseTimeColumnOptions.push(c.name);
+&gt; +      }
+&gt; *** End Patch
+&gt; PATCH
+Success. Updated the following files:
+M scubaduck/static/index.html</span></code><br data-chunk-id-0f310c=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="89" data-is-last-node="" data-is-only-node="">I'll replace the guess variable with <code data-start="37" data-end="60">guessTimeColumn(cols)</code> and patch the related logic.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-ec5d12=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '620,640p' scubaduck/static/index
+.html
+      o.value = name;
+      o.textContent = name;
+      xAxisSelect.appendChild(o);
+    });
+    timeColumnOptions.forEach(name =&gt; {
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      timeColumnSelect.appendChild(o);
+    });
+    xAxisSelect.value = '';
+    defaultTimeColumn = guess || timeColumnOptions[0] || '';
+    updateTimeFieldVisibility();
+    Object.keys(groups).forEach(key =&gt; {
+      const g = groups[key];
+      const div = document.createElement('div');
+      div.className = 'col-group';
+      const header = document.createElement('div');
+      header.className = 'col-group-header';
+      header.appendChild(document.createTextNode(g.name + ': '));
+      const links = document.createElement('span');</span></code><br data-chunk-id-ec5d12=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="37" data-is-last-node="" data-is-only-node="">Time to go ahead and apply the patch!</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-c6710c=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# apply_patch&lt;&lt;'PATCH'
+&gt; *** Begin Patch
+&gt; *** Update File: scubaduck/static/index.html
+&gt; @@
+&gt; -    xAxisSelect.value = '';
+&gt; -    defaultTimeColumn = guess || timeColumnOptions[0] || '';
+&gt; +    xAxisSelect.value = '';
+&gt; +    defaultTimeColumn = guessTimeColumn(cols) || '';
+&gt; *** End Patch
+&gt; PATCH
+Success. Updated the following files:
+M scubaduck/static/index.html</span></code><br data-chunk-id-c6710c=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="92" data-is-last-node="" data-is-only-node="">It seems I missed removing the guess variable from the initialization. I'll check the lines.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-a65f99=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# grep -n "guess" -n scubaduck/static/inde
+x.html | head
+631:    defaultTimeColumn = guessTimeColumn(cols) || '';</span></code><br data-chunk-id-a65f99=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="76" data-is-last-node="" data-is-only-node="">I removed the patch earlier, now I'll check for any remaining heur variable.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-caf61d=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# grep -n "heur" scubaduck/static/index.ht
+ml</span></code><br data-chunk-id-caf61d=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="95" data-is-last-node="" data-is-only-node="">I’ve confirmed there's no heur variable remaining. I'll check if there’s a guess variable left.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-eafbcf=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# grep -n "guess" -n scubaduck/static/inde
+x.html
+631:    defaultTimeColumn = guessTimeColumn(cols) || '';</span></code><br data-chunk-id-eafbcf=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="77" data-is-last-node="" data-is-only-node="">I adjusted the loops, but I’ll verify if the 'g' variable is still necessary.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-d42ed3=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# sed -n '584,636p' scubaduck/static/index
+.html
+    cols.forEach(c =&gt; {
+      const t = c.type.toUpperCase();
+      columnTypes[c.name] = c.type;
+      allColumns.push(c.name);
+      baseColumns.push(c.name);
+      let g = 'string';
+      const isNumeric = t.includes('INT') || t.includes('DECIMAL') || t.includes
+('NUMERIC') || t.includes('REAL') || t.includes('DOUBLE') || t.includes('FLOAT')
+ || t.includes('HUGEINT');
+      const isTimeType = t.includes('TIMESTAMP') || t.includes('DATE') || t.incl
+udes('TIME');
+      if (isNumeric || isTimeType) {
+        timeColumnOptions.push(c.name);
+        baseTimeColumnOptions.push(c.name);
+      }
+      if (isTimeType) {
+        g = 'time';
+        timeColumns.push(c.name);
+        baseTimeColumns.push(c.name);
+      } else if (isNumeric) {
+        g = 'integer';
+      }
+      if (g === 'string') {
+        stringColumns.push(c.name);
+        baseStringColumns.push(c.name);
+      } else if (g === 'integer') {
+        integerColumns.push(c.name);
+        baseIntegerColumns.push(c.name);
+      }
+      groups[g].cols.push(c.name);
+      if (g !== 'string') {
+        const o = document.createElement('option');
+        o.value = c.name;
+        o.textContent = c.name;
+        orderSelect.appendChild(o);
+      }
+    });
+    timeColumns.forEach(name =&gt; {
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      xAxisSelect.appendChild(o);
+    });
+    timeColumnOptions.forEach(name =&gt; {
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      timeColumnSelect.appendChild(o);
+    });
+    xAxisSelect.value = '';
+    defaultTimeColumn = guessTimeColumn(cols) || '';
+    updateTimeFieldVisibility();
+    Object.keys(groups).forEach(key =&gt; {
+      const g = groups[key];
+      const div = document.createElement('div');
+      div.className = 'col-group';</span></code><br data-chunk-id-d42ed3=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="90" data-is-last-node="" data-is-only-node="">I'll check for any extra spaces or issues in time_column.js after adding it to the script.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-694818=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# cat scubaduck/static/js/time_column.js
+// Helper for choosing a default time column based on column names/types
+function guessTimeColumn(columns) {
+  const heur = ['timestamp','created','created_at','event_time','time','date','o
+ccurred','happened','logged'];
+  let guess = null;
+  let first = null;
+  columns.forEach(c =&gt; {
+    const t = (c.type || '').toUpperCase();
+    const isNumeric = t.includes('INT') || t.includes('DECIMAL') || t.includes('
+NUMERIC') ||
+                      t.includes('REAL') || t.includes('DOUBLE') || t.includes('
+FLOAT') || t.includes('HUGEINT');
+    const isTimeType = t.includes('TIMESTAMP') || t.includes('DATE') || t.includ
+es('TIME');
+    if (isNumeric || isTimeType) {
+      if (!first) first = c.name;
+      if (!guess &amp;&amp; heur.some(h =&gt; c.name.toLowerCase().includes(h))) {
+        guess = c.name;
+      }
+    }
+  });
+  return guess || first || null;
+}</span></code><br data-chunk-id-694818=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="77" data-is-last-node="" data-is-only-node="">I’ll update the call to ‘guessTimeColumn(cols)’ and review the final changes.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-307965=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# grep -n "guessTimeColumn" -n scubaduck/s
+tatic/index.html
+631:    defaultTimeColumn = guessTimeColumn(cols) || '';</span></code><br data-chunk-id-307965=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="99" data-is-last-node="" data-is-only-node="">I need to check if the server serves /js/time_column.js, but updating tests might not be necessary.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-063a46="" data-chunk-id-wrapper-492e56=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>root@5781539a2ddb:/workspace/scubaduck# source .venv/bin/activate</span></code><br data-chunk-id-063a46=""><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# ruff format scubaduck/static
+/js/time_column.js scubaduck/static/index.html &gt;/tmp/ruff_format.log &amp;&amp; cat /tmp
+/ruff_format.log
+error: Failed to parse scubaduck/static/index.html:1:1: Expected a statement
+error: Failed to parse scubaduck/static/js/time_column.js:1:1: Expected a statem
+ent
+(scubaduck) root@5781539a2ddb:/workspace/scubaduck#</span></code><br data-chunk-id-492e56=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="75" data-is-last-node="" data-is-only-node="">I'll run ruff format on all files to format Python and ensure code quality.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-810dea="" data-chunk-id-wrapper-1ad9e5="" data-chunk-id-wrapper-1d7566="" data-chunk-id-wrapper-f14e1c="" data-chunk-id-wrapper-260f35="" data-chunk-id-wrapper-73c7f9="" data-chunk-id-wrapper-aafa9e="" data-chunk-id-wrapper-243d93="" data-chunk-id-wrapper-c73dc6="" data-chunk-id-wrapper-4e7eeb="" data-chunk-id-wrapper-b78f27="" data-chunk-id-wrapper-1f2cb3="" data-chunk-id-wrapper-881137="" data-chunk-id-wrapper-4664e4="" data-chunk-id-wrapper-b648bf="" data-chunk-id-wrapper-21739f=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# ruff format &gt;/tmp/ruff_forma
+t.log &amp;&amp; tail -n 20 /tmp/ruff_format.log
+7 files left unchanged</span></code><br data-chunk-id-810dea=""><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# ruff check &gt;/tmp/ruff_check.
+log &amp;&amp; tail -n 20 /tmp/ruff_check.log
+All checks passed!</span></code><br data-chunk-id-1ad9e5=""><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# pyright &gt;/tmp/pyright.log &amp;&amp;
+ tail -n 20 /tmp/pyright.log</span></code><br data-chunk-id-1d7566=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-f14e1c=""><code class="whitespace-pre-wrap"><span>0 errors, 0 warnings, 0 informations</span></code><br data-chunk-id-260f35=""><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# cat /tmp/pyright.log
+0 errors, 0 warnings, 0 informations</span></code><br data-chunk-id-73c7f9=""><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# pytest -q &gt;/tmp/pytest.log &amp;
+&amp; tail -n 20 /tmp/pytest.log</span></code><br data-chunk-id-aafa9e=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-243d93=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-c73dc6=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-4e7eeb=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-b78f27=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-1f2cb3=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-881137=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-4664e4=""><code class="whitespace-pre-wrap"></code><br data-chunk-id-b648bf=""><code class="whitespace-pre-wrap"><span>bringing up nodes...
+bringing up nodes...
+
+........................................................................ [ 66%]
+....................................                                     [100%]
+108 passed in 14.10s
+(scubaduck) root@5781539a2ddb:/workspace/scubaduck#</span></code><br data-chunk-id-21739f=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="70" data-is-last-node="" data-is-only-node="">All tests passed, but I'll verify by opening the /tmp/pytest.log file.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-42b172=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# cat /tmp/pytest.log
+bringing up nodes...
+bringing up nodes...
+
+........................................................................ [ 66%]
+....................................                                     [100%]
+108 passed in 14.10s
+(scubaduck) root@5781539a2ddb:/workspace/scubaduck#</span></code><br data-chunk-id-42b172=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="33" data-is-last-node="" data-is-only-node="">Time to commit my latest updates!</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-bcd219=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# git status --short
+ M scubaduck/static/index.html
+?? scubaduck/static/js/time_column.js
+(scubaduck) root@5781539a2ddb:/workspace/scubaduck#</span></code><br data-chunk-id-bcd219=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="46" data-is-last-node="" data-is-only-node="">Time to add the file and commit these updates!</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-cee65a="" data-chunk-id-wrapper-601cdf="" data-chunk-id-wrapper-c8f5aa=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# git add scubaduck/static/ind
+ex.html scubaduck/static/js/time_column.js</span></code><br data-chunk-id-cee65a=""><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# git commit -m "feat(web): fa
+ctor time column heuristic" &amp;&amp; git status --short
+[work 71b3755] feat(web): factor time column heuristic
+ 2 files changed, 21 insertions(+), 4 deletions(-)
+ create mode 100644 scubaduck/static/js/time_column.js</span></code><br data-chunk-id-601cdf=""><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# git status --short
+(scubaduck) root@5781539a2ddb:/workspace/scubaduck#</span></code><br data-chunk-id-c8f5aa=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="79" data-is-last-node="" data-is-only-node="">I’ll gather and highlight lines from the modified sections and new script file.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-935a76=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>1  // Helper for choosing a default time column based on column names/types
+     2  function guessTimeColumn(columns) {
+     3    const heur = ['timestamp','created','created_at','event_time','time','
+date','occurred','happened','logged'];
+     4    let guess = null;
+     5    let first = null;
+     6    columns.forEach(c =&gt; {
+     7      const t = (c.type || '').toUpperCase();
+     8      const isNumeric = t.includes('INT') || t.includes('DECIMAL') || t.in
+cludes('NUMERIC') ||
+     9                        t.includes('REAL') || t.includes('DOUBLE') || t.in
+cludes('FLOAT') || t.includes('HUGEINT');
+    10      const isTimeType = t.includes('TIMESTAMP') || t.includes('DATE') ||
+t.includes('TIME');
+    11      if (isNumeric || isTimeType) {
+    12        if (!first) first = c.name;
+    13        if (!guess &amp;&amp; heur.some(h =&gt; c.name.toLowerCase().includes(h))) {
+    14          guess = c.name;
+    15        }
+    16      }
+    17    });
+    18    return guess || first || null;
+    19  }
+(scubaduck) root@5781539a2ddb:/workspace/scubaduck#</span></code><br data-chunk-id-935a76=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="80" data-is-last-node="" data-is-only-node="">I'll grab the part of index.html with the script tag and defaultTimeColumn line.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-c6db85=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# nl -ba scubaduck/static/inde
+x.html | sed -n '350,360p'
+   350      &lt;table id="results"&gt;&lt;/table&gt;
+   351    &lt;/div&gt;
+   352  &lt;/div&gt;
+   353  &lt;script src="/js/chip_input.js"&gt;&lt;/script&gt;
+   354  &lt;script src="/js/timeseries_chart.js"&gt;&lt;/script&gt;
+   355  &lt;script src="/js/time_column.js"&gt;&lt;/script&gt;
+   356  &lt;script src="/js/sidebar.js"&gt;&lt;/script&gt;
+   357  &lt;script&gt;
+   358  const allColumns = [];
+   359  const baseColumns = [];
+   360  const columnTypes = {};
+(scubaduck) root@5781539a2ddb:/workspace/scubaduck#</span></code><br data-chunk-id-c6db85=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="80" data-is-last-node="" data-is-only-node="">I'll pinpoint the lines around defaultTimeColumn after the guessTimeColumn call.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-3c6a55=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# grep -n "defaultTimeColumn"
+-n scubaduck/static/index.html
+373:let defaultTimeColumn = '';
+631:    defaultTimeColumn = guessTimeColumn(cols) || '';
+1112:  document.getElementById('time_column').value = params.time_column || defa
+ultTimeColumn;
+(scubaduck) root@5781539a2ddb:/workspace/scubaduck#</span></code><br data-chunk-id-3c6a55=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="52" data-is-last-node="" data-is-only-node="">I’ll display the snippet where the changes happened.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div data-chunk-id-wrapper-7004a9=""><div class="border-token-border-heavy bg-token-sidebar-surface-primary dark relative mb-8 overflow-clip rounded-xl border-[0.5px] text-xs text-white shadow-sm contain-inline-size"><div class="text-token-text-secondary bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary flex h-9 items-center justify-between gap-2 rounded-t-[5px] px-4 py-2.5 font-sans text-sm font-semibold select-none"><div class="flex items-center gap-2">shell</div></div><div class="h-full"><div class="react-scroll-to-bottom--css-nkfzn-79elbk h-full"><div class="react-scroll-to-bottom--css-nkfzn-1n7m0yu max-h-[400px] p-4"><code class="whitespace-pre-wrap"><span>(scubaduck) root@5781539a2ddb:/workspace/scubaduck# nl -ba scubaduck/static/inde
+x.html | sed -n '620,634p'
+   620        o.value = name;
+   621        o.textContent = name;
+   622        xAxisSelect.appendChild(o);
+   623      });
+   624      timeColumnOptions.forEach(name =&gt; {
+   625        const o = document.createElement('option');
+   626        o.value = name;
+   627        o.textContent = name;
+   628        timeColumnSelect.appendChild(o);
+   629      });
+   630      xAxisSelect.value = '';
+   631      defaultTimeColumn = guessTimeColumn(cols) || '';
+   632      updateTimeFieldVisibility();
+   633      Object.keys(groups).forEach(key =&gt; {
+   634        const g = groups[key];
+(scubaduck) root@5781539a2ddb:/workspace/scubaduck#</span></code><br data-chunk-id-7004a9=""></div></div></div></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><div class="mb-8 px-4"><div class="text-sm markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="85" data-is-last-node="" data-is-only-node="">I've gathered the test output from /tmp/pytest.log earlier; now I'll finalize the PR.</p></div></div><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><span class="h-min w-min"></span></div><div class="grid w-full grid-cols-[1fr_auto] gap-1 align-top"><span class="h-min w-min"></span></div></div></div></div>
+    </div>
+</body>
+</html>
